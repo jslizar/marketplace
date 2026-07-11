@@ -1,0 +1,13 @@
+{
+  "name": "jacob-abm-marketplace",
+  "owner": {
+    "name": "Jacob Lizarraga"
+  },
+  "plugins": [
+    {
+      "name": "abm-engine",
+      "source": "./plugins/abm-engine",
+      "description": "ABM content engine: drafts LinkedIn posts from a curated library of 15 viral ABM formats (refreshed biweekly), researches the client and market, proposes angles, and drafts posts. Requires the Virio MCP connector."
+    }
+  ]
+}
