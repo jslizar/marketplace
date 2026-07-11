@@ -4,7 +4,7 @@ Claude plugin marketplace for the ABM content engine.
 
 ## Install (coworkers)
 
-1. In Claude Code / Cowork: `/plugin marketplace add <github-owner>/abm-marketplace`
+1. In Claude Code / Cowork: `/plugin marketplace add jslizar/abm-marketplace`
 2. Install the `abm-engine` plugin.
 3. Make sure the Virio MCP connector is enabled (you already have it).
 4. Run `/abm` — that's it. The 15 viral-format specs ship with the plugin and update automatically when this repo updates.
