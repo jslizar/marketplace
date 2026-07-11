@@ -1,7 +1,7 @@
 {
   "name": "abm-engine",
-  "version": "0.4.7",
-  "description": "ABM content engine: drafts from your local viral-format swipe library (kept fresh by your scheduled refresh task, with Apify + web scouting for new formats), researches the client and market, proposes angles, and drafts posts. ABM-only by design.",
+  "version": "0.5.0",
+  "description": "ABM content engine: drafts from a curated library of 15 viral ABM formats fetched live from the jslizar/marketplace repo (bundled copies as offline fallback), researches the client and market, proposes angles, and drafts posts. ABM-only by design.",
   "author": {
     "name": "Jake"
   },
