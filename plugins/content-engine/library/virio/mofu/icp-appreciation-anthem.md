@@ -6,7 +6,7 @@
 - **Platform**: LinkedIn
 - **Source examples**: exactly 2, refreshed by the scheduled library-refresh task from the viral_posts_all corpus.
   - https://www.linkedin.com/posts/johnnyctaylorjr_shrm-hr-humanresources-activity-7330582530175213571-OvXA — Johnny C. Taylor, Jr. (SHRM), 2,416 reactions / 57 comments, 2025-05-20
-  - (second example: to be filled by the scheduled refresh)
+  - https://www.linkedin.com/posts/iamjulieturney_hi-hr-i-wanted-to-give-you-a-gentle-reminder-activity-7299786436554162176-KsPj — Julie Turney (HRforHR), 1,256 reactions / 95 comments, 2025-02-24
 - **Hook pattern**: "To the {ICP} who:"
 - **Skeleton** (block sequence):
   1. "To the {ICP} who:" hook

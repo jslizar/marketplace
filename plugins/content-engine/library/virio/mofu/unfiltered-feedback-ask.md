@@ -5,8 +5,8 @@
 - **Stage mechanic**: Asking "what do you HATE about {thing}?" turns the ICP's frustrations into a comment goldmine — market research, engagement, and "they actually listen" credibility in one post. Every comment is a pain point the client can build content (or product) against.
 - **Platform**: LinkedIn
 - **Source examples**: exactly 2, refreshed by the scheduled library-refresh task from the viral_posts_all corpus.
-  - https://www.linkedin.com/posts/sugju-choi_hey-linkedin-im-linkedins-one-of-the-first — Sugi Choi, 1,627 reactions / 960 comments, 2026-01-19
-  - (second example: to be filled by the scheduled refresh)
+  - https://www.linkedin.com/posts/sugju-choi_hey-linkedin-im-linkedins-one-of-the-first-activity-7419070510862319616-tSUL — Sugi Choi, 1,627 reactions / 960 comments, 2026-01-19
+  - https://www.linkedin.com/posts/laurensurman_as-a-candidate-can-you-help-me-out-last-activity-7269695949705252864-n-lB — Lauren Surman, 336 reactions / 574 comments, 2024-12-03
 - **Hook pattern**: "Hey {audience}! I'm {insider credential} — and I want your UNFILTERED feedback. What do you HATE the most about {the thing}?"
 - **Skeleton** (block sequence):
   1. Direct-address hook: credential + permission-to-vent question

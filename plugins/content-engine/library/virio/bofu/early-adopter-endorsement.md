@@ -6,7 +6,7 @@
 - **Platform**: LinkedIn
 - **Source examples**: exactly 2, refreshed by the scheduled library-refresh task from the viral_posts_all corpus.
   - https://www.linkedin.com/posts/paolo-pio_preventivehealth-longevity-elevatehealth-activity-7316076145274159104-Uap7 — Paolo Pio (Elevate Health), 304 reactions / 30 comments, 2025-04-10
-  - (second example: to be filled by the scheduled refresh)
+  - https://www.linkedin.com/posts/caleb-ulffers_i-just-discovered-one-of-the-most-revolutionary-activity-7338944064882470912-S6rf — Caleb Ulffers (ex-Haven), 257 reactions / 453 comments, 2025-06-12
 - **Hook pattern**: "Thrilled to be an early adopter of {product} – a company redefining what {category} should look like."
 - **Skeleton** (block sequence):
   1. Early-adopter hook + category reframe
@@ -20,21 +20,32 @@
 - **Adaptation notes**: Recruit the client's genuinely enthusiastic credentialed users. Disclose any investment relationship plainly. The usage list must be verifiable and specific to that person.
 - **Watch-outs**: Undisclosed investor endorsements blow up on discovery. Products with no real usage ritual (nothing to list) can't run this format — don't force it.
 
-## Top example — full post text (excerpt)
+## Top example — full post text
 
 🧬 Thrilled to be an early adopter of Elevate Health – a company redefining what mainstream preventive health should look like.
 
-As a VC, I'm constantly on the lookout for founders building impactful, scalable solutions. As a human, I want to live a long, strong, healthy and happy life. With Elevate Health, I get to do both.
+As a VC, I’m constantly on the lookout for founders building impactful, scalable solutions. As a human, I want to live a long, strong, healthy and happy life. With Elevate Health, I get to do both.
 
-Over the past few weeks, I've undergone:
+Over the past few weeks, I’ve undergone:
 - A full-body MRI
 - A complete medical check-up and blood panel
 - Wearing a continuous glucose monitor (on my arm 🦾)
 - And a chest ECG Holter (basically a super powerful heart activity monitor)
 
 Why?
-Because feeling good doesn't always equal being in the clear. Prevention only works if you actually look under the hood before the engine light turns on.
+Because feeling good doesn’t always equal being in the clear. Prevention only works if you actually look under the hood before the engine light turns on.
 
-What Elevate Health is building is the future of health — data-driven, accessible, beautifully designed, and empowering. Their app puts your whole-body health in your pocket.
+What Elevate Health is building is the future of health — data-driven, accessible, beautifully designed, and empowering. Their app puts your whole-body health in your pocket. It’s sleek, smart, and makes managing your health feel less clinical and more personal.
 
-We believe the best founders of this decade will build solutions that help people stay healthy — not just get treated when they're not.
+We believe the best founders of this decade will build solutions that help people stay healthy — not just get treated when they’re not.
+
+👟 I train hard, I work in a high-performance environment, and I care deeply about my long-term health. But without tools like Elevate Health, even the most disciplined routines can miss what’s hiding underneath.
+
+Massive thanks to Adil Mohammed, Elevate’s founder, for the vision, hustle, and heart he’s poured into this product. It’s rare to see this level of thoughtfulness in both tech and care delivery.
+
+Can’t wait to get the results, dive into the data, and stay at the top of my game.
+Let’s make preventive health mainstream 💪.
+
+#PreventiveHealth #Longevity #ElevateHealth #FutureOfWellness #VC #StartupLife #Healthspan #VentureCapital #ExceptionalVentures #LongevityInvesting #Joyspan®️ #Health #HealthAndWellness 
+
+Matt Cooper, Anna Fortuny-Gomez, PhD, Michella Botto Andrade, Katharina Soell, Alexander Söderman, ACCA

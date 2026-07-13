@@ -6,7 +6,7 @@
 - **Platform**: LinkedIn
 - **Source examples**: exactly 2, refreshed by the scheduled library-refresh task from the viral_posts_all corpus.
   - https://www.linkedin.com/posts/tayloramelia_nationaluniversity-levelupnu-nationaluniversitypartner-activity-7305210934581473280-1eut — Amelia Taylor (National University), 1,479 reactions / 31 comments, 2025-03-11
-  - (second example: to be filled by the scheduled refresh)
+  - https://www.linkedin.com/posts/marcelsantilli_1b-in-arr-profitable-no-funding-5-years-activity-7346174642446848000-T4X0 — Marcel Santilli (GrowthX AI × Surge AI), 613 reactions / 71 comments, 2025-07-02
 - **Hook pattern**: "We tell ourselves we'll start when things 'settle down'..."
 - **Skeleton** (block sequence):
   1. Universal self-deception hook (the excuse everyone recognizes)
@@ -21,22 +21,26 @@
 - **Adaptation notes**: For client partnership/ambassador programs. The philosophy must be one the creator already visibly holds — retrofitted worldviews read as scripts. Product attribute must genuinely resolve the tension named.
 - **Watch-outs**: Disclosure is non-negotiable (legally and for trust) — bury it and the comments will find it. Too much philosophy with too little product specificity converts nobody.
 
-## Top example — full post text (excerpt)
+## Top example — full post text
 
-We tell ourselves we'll start when things "settle down"...
+We tell ourselves we’ll start when things “settle down”...
+
 
 When the timing is perfect. When life finally slows its relentless pace.
 
-But what if it never does? What if waiting is the very thing keeping you from where you're meant to be?
+But what if it never does? What if waiting is the very thing keeping you from where you’re meant to be?
 
-Growth doesn't happen when life clears a path for you. It happens when you decide to make space for it. That's why I'm happy to partner with National University.
+Growth doesn’t happen when life clears a path for you. It happens when you decide to make space for it. That’s why I’m happy to partner with National University. 
 
 Between career moves, parenting moments, late night thinking, and early morning ambition. The people who grow - who truly level up - are the ones who make a commitment to themselves even when life is full.
 
-This is the exact reason as to why National University resonates so deeply with me. Their flexible, accredited online graduate programs - perfect for those who refuse to put their future on hold because real life doesn't come with perfect timing as we all know.
+This is the exact reason as to why National University resonates so deeply with me. Their flexible, accredited online graduate programs - perfect for those who refuse to put their future on hold because real life doesn’t come with perfect timing as we all know. 
 
-If you're waiting for the right moment, consider this: the right moment is whenever you decide to start.
+If you’re waiting for the right moment, consider this: the right moment is whenever you decide to start.
 
 → Ready to move on your terms? This is for you: https://tag.gs/rAIz
+
+…NU meets you exactly where you are, which is exactly what we all need, most. 
+
 
 #NationalUniversity #LevelUpNU #NationalUniversityPartner

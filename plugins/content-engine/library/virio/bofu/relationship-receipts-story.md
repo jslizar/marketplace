@@ -6,7 +6,7 @@
 - **Platform**: LinkedIn
 - **Source examples**: exactly 2, refreshed by the scheduled library-refresh task from the viral_posts_all corpus.
   - https://www.linkedin.com/posts/crystal-lim-lange_leadership-activity-7245301455186788352-gKam — Crystal Lim-Lange, 1,930 reactions / 103 comments, 2024-09-27
-  - (second example: to be filled by the scheduled refresh)
+  - https://www.linkedin.com/posts/josephdesena_one-minute-i-was-in-the-back-of-a-taxi-in-activity-7341068070196527105-8KyS — Joe De Sena (Spartan), 769 reactions / 94 comments, 2025-06-18
 - **Hook pattern**: "In {year} I was {low moment}. {One vivid sentence of the scene.}"
 - **Skeleton** (block sequence):
   1. Dated low-moment hook, told plainly

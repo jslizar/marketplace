@@ -6,7 +6,7 @@
 - **Platform**: LinkedIn
 - **Source examples**: exactly 2, refreshed by the scheduled library-refresh task from the viral_posts_all corpus.
   - https://www.linkedin.com/posts/john-pagano_theredsea-amaala-saudiusforum2025-activity-7328359375956267008-N4mZ — John Pagano (Red Sea Global), 16,844 reactions / 449 comments, 2025-05-14
-  - (second example: to be filled by the scheduled refresh)
+  - https://www.linkedin.com/posts/franck-greverie_gtcparis-agenticai-sovereignai-activity-7339301414952660992-suM6 — Franck Greverie (Capgemini, hosting NVIDIA's Jensen Huang), 2,255 reactions / 36 comments, 2025-06-13
 - **Hook pattern**: "Truly honored to welcome {highest-status visitor}, {next}, and {next} at {our venue} during {event} yesterday."
 - **Skeleton** (block sequence):
   1. Honor hook, every visitor named with full title, venue and occasion anchored

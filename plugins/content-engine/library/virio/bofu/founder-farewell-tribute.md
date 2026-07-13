@@ -19,10 +19,12 @@
 - **Adaptation notes**: For client leadership transitions, retirements, founder exits. The itemization must name durable artifacts, not virtues. The author should be the successor or a senior peer — the person buyers will now bet on.
 - **Watch-outs**: Grief-toned tributes spook the market — the register is gratitude + momentum. Skipping the continuity close leaves the anxiety unanswered, which defeats the BOFU purpose.
 
-## Top example — full post text (excerpt)
+## Top example — full post text
 
-This week marked a very unique milestone in SAP's history. More than half a century after co-founding SAP, we honored Hasso Plattner as he retired from the role of Chairman of the SAP Supervisory Board.
+This week marked a very unique milestone in SAP’s history. More than half a century after co-founding SAP, we honored Hasso Plattner as he retired from the role of Chairman of the SAP Supervisory Board. 
 
-Hasso, your vision and understanding of how technology should work to meet customer needs in a business context is unmatched! You have built an incredible legacy at SAP and beyond and have inspired so many of us with your vision, courage and passion. Thank you, for paving the way for software engineering in Germany. I consider myself extremely fortunate for the opportunity to join your journey about 17 years ago as a PhD student at the Hasso Plattner Institute in Potsdam. Until today, I continue to be impressed with how you combine engineering precision and decades of experience with an unparalleled curiosity about new developments and opportunities.
+Hasso, your vision and understanding of how technology should work to meet customer needs in a business context is unmatched! You have built an incredible legacy at SAP and beyond and have inspired so many of us with your vision, courage and passion. Thank you, for paving the way for software engineering in Germany. I consider myself extremely fortunate for the opportunity to join your journey about 17 years ago as a PhD student at the Hasso Plattner Institute in Potsdam. Until today, I continue to be impressed with how you combine engineering precision and decades of experience with an unparalleled curiosity about new developments and opportunities.  
 
-You never shied away from any discipline, thereby revolutionizing how enterprise software is built, introducing design thinking in Europe and re-thinking data management with SAP HANA – to name just a few of the many impressive accomplishments.
+You never shied away from any discipline, thereby revolutionizing how enterprise software is built, introducing design thinking in Europe and re-thinking data management with SAP HANA – to name just a few of the many impressive accomplishments. Besides inspiring myself, it’s no secret that your lessons, leadership, knowledge, foresight and not to forget your charisma, have laid the foundations of technology at SAP and thereby transformed how businesses across the world operate. 
+
+We will continue carrying your pioneering spirit forward for our customers and partners in this new chapter and I’m filled with excitement about the innovations yet to come!

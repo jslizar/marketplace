@@ -6,7 +6,7 @@
 - **Platform**: LinkedIn
 - **Source examples**: exactly 2, refreshed by the scheduled library-refresh task from the viral_posts_all corpus.
   - https://www.linkedin.com/posts/joerg-burzer_mercedesbenz-mo-artificialintelligence-activity-7174328548340473856-c6U5 — Joerg Burzer (Mercedes-Benz × Apptronik), 1,580 reactions / 66 comments, 2024-03-15
-  - (second example: to be filled by the scheduled refresh)
+  - https://www.linkedin.com/posts/philipjohnst0n_we-just-trained-the-first-llm-in-space-using-activity-7404538879334326272-IljT — Philip Johnston (Starcloud × NVIDIA), 3,020 reactions / 227 comments, 2025-12-10
 - **Hook pattern**: "Get a sneak peek of our collaboration with {partner} and their {frontier thing}, which visited us at {our site}."
 - **Skeleton** (block sequence):
   1. Sneak-peek hook naming the partner and the artifact

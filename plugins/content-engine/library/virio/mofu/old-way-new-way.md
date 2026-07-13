@@ -6,7 +6,7 @@
 - **Platform**: LinkedIn
 - **Source examples**: exactly 2, refreshed by the scheduled library-refresh task from the viral_posts_all corpus.
   - https://www.linkedin.com/posts/tylersellars_never-struggle-with-underwriting-deadlines-activity-7340727923437387778-Gvx4 — Tyler Sellars, 138 reactions / 535 comments, 2025-06-17
-  - (second example: to be filled by the scheduled refresh)
+  - https://www.linkedin.com/posts/adam-higgins-b1a286267_stop-paying-3000month-to-an-ai-automation-activity-7334669058006519808-N8mv — Adam Higgins (Perspective), 343 reactions / 2,200 comments, 2025-05-31
 - **Hook pattern**: "Never {struggle with the ICP's chronic pain} again"
 - **Skeleton** (block sequence):
   1. Promise hook naming the chronic pain

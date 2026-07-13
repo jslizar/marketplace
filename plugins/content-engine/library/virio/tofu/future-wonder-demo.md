@@ -6,7 +6,7 @@
 - **Platform**: LinkedIn
 - **Source examples**: exactly 2, refreshed by the scheduled library-refresh task from the viral_posts_all corpus.
   - https://www.linkedin.com/posts/philipp-kozin_smartglass-futureofliving-interiordesign-activity-7325600040566013953-wkKA — Philipp Kozin (smart glass), 4,778 reactions / 294 comments, 2025-05-06
-  - (second example: to be filled by the scheduled refresh)
+  - https://www.linkedin.com/posts/harbech_disney-just-released-this-demo-they-activity-7154755444320743424-a2bi — Martin Harbech (Disney HoloTile), 17,178 reactions / 558 comments, 2024-01-21
 - **Hook pattern**: "{Evocative rename of the tech}: {three-adjective promise}. What if {everyday object} could {magic behavior} at the touch of a button?"
 - **Skeleton** (block sequence):
   1. Coined-name title line + what-if question

@@ -21,12 +21,24 @@
 - **Adaptation notes**: Requires a real turnaround with a real low point the market remembers. The admission must be specific, not vague humility. Works for products, services, whole companies.
 - **Watch-outs**: If the market doesn't remember the low point, the admission just plants doubt. Skipping the caveat block tips it into victory lap. This format flirts with ABM (it names the client's own product/team — that's fine); it becomes ABM only when the subject is a DIFFERENT company's turnaround — send that to the abm lane.
 
-## Top example — full post text (excerpt)
+## Top example — full post text
 
-Every once in a while in my job, you get to witness products that feel like they are past their prime. At one point, they were the talk of the town and then innovation gradually slowed down and competition took the lead. These are moments where we fail our customers.
+Every once in a while in my job, you get to witness products that feel like they are past their prime. At one point, they were the talk of the town and then innovation gradually slowed down and competition took the lead. These are moments where we fail our customers. 
 
-But then, a resurgence of innovation occurs, and the team does the impossible to innovate and bring the product back to its glory days. This is when the market is skeptical at first, but loyal customers give the team another chance to prove themselves. And the team takes on the challenge.
+But then, a resurgence of innovation occurs, and the team does the impossible to innovate and bring the product back to its glory days. This is when the market is skeptical at first, but loyal customers give the team another chance to prove themselves. And the team takes on the challenge. 
 
-One such example at Cisco was our Firewall business. For the longest time, we had let the product be ignored. Quality had dropped and so had innovation. But a few years ago, credit to one of our Board members and a highly motivated team, we decided that the Firewall is the core foundation of our Security offering. The team knew this wouldn't be easy. Not only did the quality of the product need massive improvement but we would have to innovate non-linearly. The team not only delivered but did so in a way that made it one of the most remarkable turnarounds I have witnessed. There was no longer the pressing issue from customers about quality, but the team also decided to innovate in a way that leapfrogged the market.
+One such example at Cisco was our Firewall business. For the longest time, we had let the product be ignored. Quality had dropped and so had innovation. But a few years ago, credit to one of our Board members and a highly motivated team, we decided that the Firewall is the core foundation of our Security offering. The team knew this wouldn’t be easy. Not only did the quality of the product need massive improvement but we would have to innovate non-linearly. The team not only delivered but did so in a way that made it one of the most remarkable turnarounds I have witnessed. There was no longer the pressing issue from customers about quality, but the team also decided to innovate in a way that leapfrogged the market.
 
-I am so proud to recognize a team of absolute rock stars that took Cisco's firewall business back to a state where we are extremely proud of the product. There is still much more to innovate, but the momentum and tail-wind are certainly behind us.
+I am so proud to recognize a team of absolute rock stars that took Cisco‘s firewall business back to a state where we are extremely proud of the product. There is still much more to innovate, but the momentum and tail-wind are certainly behind us. 
+
+Packed with AI capabilities, solving problems that the industry has not been able to solve for the past 30 years, while still maintaining the ability to serve the current use cases elegantly. After several years of hard work, they have gotten this product back as a leader in the market. 
+
+Thanks to the entire Security leadership team at Cisco as well as the firewall team for innovating fearlessly and not only delivering a world-class market-leading Firewall but reimagining the category for the market. 
+
+Furthermore, the Microsegmentation team performed a similar feat innovating and solving unsolved problems for decades. 
+
+Forrester recently announced the results of the Firewall Wave and the Microsegmentation Wave where Cisco was the only company named a prominent leader in both categories. 
+
+It’s a privilege to have watched this team in action. Thanks for your leadership Tom Gillis, Rajneesh C., Shailaja K. Shankar, Rick Miles, Craig Connors, Anil Nair, Nicholas Carrieri, Pramod C., Jana Radhakrishnan, Andrew Ossipov, Murali Rathinasamy, Brijesh Kumar, Amandeep Singh, Namit Kumar Agarwal, Ted Bedwell and so many more. What you have accomplished is truly extraordinary. You thought boldly, sweated the details, and got us to the top. What you all have done has made the company proud and the world more secure.
+
+And the best part is that this team is just getting started and the best innovations are yet to come.

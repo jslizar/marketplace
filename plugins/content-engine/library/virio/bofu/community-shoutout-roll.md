@@ -20,40 +20,74 @@
 - **Adaptation notes**: Curate names the client's ICP genuinely rates — the list is a taste test. Own a recurring slot rather than one-offs. Resource block should include one client-owned asset at most, clearly not the headline.
 - **Watch-outs**: Padding the list with big names who'll never engage dilutes the reciprocity. Weakest-BOFU spec in the library — it converts through relationship volume, not proof; classify honestly and don't lean on it for direct pipeline. Dead links in the resource block kill the save value.
 
-## Top example — full post text (excerpt)
+## Top example — full post text
 
 SHOUTOUT SATURDAY!
 
-If you're going to spend time on LinkedIn, make it time well spent.
+If you’re going to spend time on LinkedIn, make it time well spent.
 
 These creators make my feed smarter, sharper, and way more inspiring.
 
-A little weekend appreciation for the people who've turned my scroll into a masterclass.
+A little weekend appreciation for the people who’ve turned my scroll into a masterclass.
 
-If they're not already on your follow list, you might want to fix that 👇
+If they’re not already on your follow list, you might want to fix that 👇
 
 𝐌𝐋/𝐀𝐈, 𝐃𝐚𝐭𝐚, 𝐒𝐨𝐟𝐭𝐰𝐚𝐫𝐞 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐦𝐞𝐧𝐭/𝐒𝐲𝐬𝐭𝐞𝐦 𝐃𝐞𝐬𝐢𝐠𝐧 𝐓𝐨𝐩𝐢𝐜𝐬
 
 ◾ Timur Bikmukhametov, PhD
 ◾ Victoria Slocum
+◾ Femke Plantinga
 ◾ Sebastian Raschka, PhD
 ◾ Krish Naik
+◾ Mayank A.
+◾ Miguel Otero Pedrido
+◾ Paul Iusztin
+◾ Akshay Pachaar
+◾ Alex Razvant
+◾ Tony Kipkemboi
+◾ Abby Morgan
+◾ Claire Longo
+◾ Pavan Belagatti
+◾ Dawn Choo
+◾ Raul Junco
+◾ Shivani Virdi
 ◾ Avi Chawla
+◾ Maria Vechtomova
 ◾ Aurimas Griciūnas
+◾ Shirin Khosravi Jam
+◾ Louis-François Bouchard
+◾ Sumanth P
+◾ Sairam Sundaresan
+◾ Shantanu Ladhwe
+◾ Khizer Abbas
+◾ Banias Baabe
+◾ Eevamaija Virtanen
+◾ Aishwarya Naresh Reganti
+◾ Venkata Naga Sai Kumar Bysani
+◾ Alex Cinovoj
+◾ Aakriti Aggarwal
+◾ Anas Riad
 ◾ Andreas Horn
+◾ Kamran Ali
 ◾ Paolo Perrone
-[…30+ names in the original…]
+◾ Eric Roby
+◾ Shalini Goyal
+◾ Pallavi
 
 ---------
 
-Some valuable resources -
+Some valuable resources - 
 
 1./ Best tool for creating content/slides - https://lnkd.in/efbTKQwe
 
 2./ Resources on RAG -
 Vanilla RAG: https://lnkd.in/eZEXwaZU
 Advanced RAG: https://lnkd.in/eC5Y_pCU
+Multimodal RAG: https://lnkd.in/e68XEE9p
+Agentic RAG: https://lnkd.in/eDku9pR5
+
 
 Image credits - Weaviate
+The image is a cheat sheet of 7 of the most popular RAG architectures.
 
 #softwaredevelopment #systemdesign #ai #ml #data

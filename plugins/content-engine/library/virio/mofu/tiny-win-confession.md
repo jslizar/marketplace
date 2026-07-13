@@ -6,7 +6,7 @@
 - **Platform**: LinkedIn
 - **Source examples**: exactly 2, refreshed by the scheduled library-refresh task from the viral_posts_all corpus.
   - https://www.linkedin.com/posts/cas-feijen-66634426b_mom-i-did-it-i-made-a-ugc-creator-hold-activity-7269735561567899649-NwEI — Cas Feijen, 876 reactions / 3,047 comments, 2024-12-03
-  - (second example: to be filled by the scheduled refresh)
+  - https://www.linkedin.com/posts/matt-vinall_i-just-bought-a-brand-new-laptop-and-i-did-activity-7356012178224656385-5yxk — Matt Vinall (DMAND), 345 reactions / 1,142 comments, 2025-07-29
 - **Hook pattern**: "{Playful exclamation}… I {tiny specific act} for {small cost} (it made me {larger return})"
 - **Skeleton** (block sequence):
   1. Playful confession hook with cost-vs-return parenthetical

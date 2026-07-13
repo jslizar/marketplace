@@ -6,7 +6,7 @@
 - **Platform**: LinkedIn
 - **Source examples**: exactly 2, refreshed by the scheduled library-refresh task from the viral_posts_all corpus.
   - https://www.linkedin.com/posts/karts_advertising-marketing-creativity-ugcPost-6988740103095406592--1o8 — Karthik Srinivasan (Sabhyata Diwali ad), 33,561 reactions / 1,431 comments, 2022-10-21
-  - (second example: to be filled by the scheduled refresh)
+  - https://www.linkedin.com/posts/shelleyzalis_olympics-paris2024-ugcPost-7214151092132098048-8522 — Shelley Zalis (2020 Nike ad), 13,214 reactions / 387 comments, 2024-07-13
 - **Hook pattern**: "Totally loved {work}! {First specific reason it works}."
 - **Skeleton** (block sequence):
   1. Unguarded enthusiasm + the work, named

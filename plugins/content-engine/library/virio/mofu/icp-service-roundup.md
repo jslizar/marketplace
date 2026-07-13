@@ -6,7 +6,7 @@
 - **Platform**: LinkedIn
 - **Source examples**: exactly 2, refreshed by the scheduled library-refresh task from the viral_posts_all corpus.
   - https://www.linkedin.com/posts/michellejager_remoteopportunity-hiring-remotework-activity-7145784721476579328-fTcb — Michelle Jager, 2,355 reactions / 249 comments, 2023-12-27
-  - (second example: to be filled by the scheduled refresh)
+  - https://www.linkedin.com/posts/kianakazemi2025_climatejobs-techforgood-sustainabilitycareers-activity-7352012910472163328-8Bn2 — Kiana Kazemi, 948 reactions / 30 comments, 2025-07-18
 - **Hook pattern**: "Looking for {the thing the ICP is hunting}? Check out these {n} opportunities:"
 - **Skeleton** (block sequence):
   1. Direct-address question hook naming the hunt

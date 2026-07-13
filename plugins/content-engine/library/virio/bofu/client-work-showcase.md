@@ -6,7 +6,7 @@
 - **Platform**: LinkedIn
 - **Source examples**: exactly 2, refreshed by the scheduled library-refresh task from the viral_posts_all corpus.
   - https://www.linkedin.com/posts/benfromthewirral_we-worked-with-beijing-based-design-agency-activity-7300118119442784258-_JHv — Ben Marsh (Yatta), 2,573 reactions / 70 comments, 2025-02-25
-  - (second example: to be filled by the scheduled refresh)
+  - https://www.linkedin.com/posts/jonathan-parker-0b688167_every-brief-is-an-opportunity-to-build-a-activity-7290078152071000064-agGN — Jonathan Parker (VCCP × Cadbury), 1,615 reactions / 99 comments, 2025-01-28
 - **Hook pattern**: "We worked with {client}, to produce {deliverable} for {occasion/campaign}."
 - **Skeleton** (block sequence):
   1. Plain statement of client + deliverable + purpose (no adjectives yet)

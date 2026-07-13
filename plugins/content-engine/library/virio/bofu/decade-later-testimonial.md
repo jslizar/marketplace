@@ -6,7 +6,7 @@
 - **Platform**: LinkedIn
 - **Source examples**: exactly 2, refreshed by the scheduled library-refresh task from the viral_posts_all corpus.
   - https://www.linkedin.com/posts/michael-g-levine-b82a524_when-i-met-amir-goldman-over-a-decade-ago-activity-7293080798520328193-LDNt — Michael G. Levine (Fireblocks CFO), 353 reactions / 5 comments, 2025-02-05
-  - (second example: to be filled by the scheduled refresh)
+  - https://www.linkedin.com/posts/matiii_andreessen-horowitz-has-supported-us-at-elevenlabs-activity-7382455199350673409-GR7m — Mati Staniszewski (ElevenLabs, on a16z), 1,481 reactions / 40 comments, 2025-10-10
 - **Hook pattern**: "When I met {person} over a decade ago when {original context}, he told me that {the promise/differentiator}."
 - **Skeleton** (block sequence):
   1. Origin-story hook: the meeting + the promise made back then

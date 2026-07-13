@@ -6,7 +6,7 @@
 - **Platform**: LinkedIn
 - **Source examples**: exactly 2, refreshed by the scheduled library-refresh task from the viral_posts_all corpus.
   - https://www.linkedin.com/posts/lindale20_dont-choose-a-job-choose-a-manager-a-activity-7263235531411501056-_JV6 — Linda Le, 62,028 reactions / 2,253 comments, 2024-11-15
-  - (second example: to be filled by the scheduled refresh)
+  - https://www.linkedin.com/posts/jgirdhar_stop-chasing-a-dream-job-start-demanding-activity-7350019958627524609-VXSf — Jitender Girdhar, 15,339 reactions / 387 comments, 2025-07-12
 - **Hook pattern**: "Don't choose {the obvious thing}. Choose {the overlooked thing}."
 - **Skeleton** (block sequence):
   1. Two-beat flip hook

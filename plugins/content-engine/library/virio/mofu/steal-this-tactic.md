@@ -6,7 +6,7 @@
 - **Platform**: LinkedIn
 - **Source examples**: exactly 2, refreshed by the scheduled library-refresh task from the viral_posts_all corpus.
   - https://www.linkedin.com/posts/will-falkenborg-%F0%9F%8C%AD-73617910a_if-you-get-hung-up-on-when-you-cold-call-activity-7265056267373600768-XxLA — Will Falkenborg, 1,574 reactions / 251 comments, 2024-11-20
-  - (second example: to be filled by the scheduled refresh)
+  - https://www.linkedin.com/posts/colin-gallagher-growlancer_i-just-analyzed-2000000-linkedin-dms-sent-activity-7351524109182197760-jhz6 — Colin Gallagher, 353 reactions / 1,196 comments, 2025-07-17
 - **Hook pattern**: "If you {suffer the micro-moment} — Stop."
 - **Skeleton** (block sequence):
   1. Conditional hook + one-word imperative

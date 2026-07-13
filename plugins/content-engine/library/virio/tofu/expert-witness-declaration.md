@@ -6,7 +6,7 @@
 - **Platform**: LinkedIn
 - **Source examples**: exactly 2, refreshed by the scheduled library-refresh task from the viral_posts_all corpus.
   - https://www.linkedin.com/posts/drjimfan_these-are-not-cgi-reinforcement-learning-activity-7277013250565709826-uqyV — Jim Fan, 16,032 reactions / 522 comments, 2024-12-23
-  - (second example: to be filled by the scheduled refresh)
+  - https://www.linkedin.com/posts/yann-lecun_to-people-who-see-the-performance-of-deepseek-activity-7288591087751884800-I3sN — Yann LeCun, 45,229 reactions / 1,066 comments, 2025-01-25
 - **Hook pattern**: "These are not {the dismissal everyone reaches for}. {The real explanation} is so back."
 - **Skeleton** (block sequence):
   1. Preemptive debunk hook ("These are not CGI")

@@ -6,7 +6,7 @@
 - **Platform**: LinkedIn
 - **Source examples**: exactly 2, refreshed by the scheduled library-refresh task from the viral_posts_all corpus.
   - https://www.linkedin.com/posts/mattlakajev_after-3-years-i-just-finished-the-linkedin-activity-7341020247585411073-KIpm — Matt Lakajev, 1,726 reactions / 9,995 comments, 2025-06-18
-  - (second example: to be filled by the scheduled refresh)
+  - https://www.linkedin.com/posts/jessievanbreugel_i-should-be-selling-this-but-im-handing-activity-7358108240204779523-yYUZ — Jessie van Breugel, 848 reactions / 3,096 comments, 2025-08-04
 - **Hook pattern**: "After {timespan}, I just finished — {artifact name}. {size stat}. You can have it for FREE."
 - **Skeleton** (block sequence):
   1. Completion hook: timespan + artifact + FREE

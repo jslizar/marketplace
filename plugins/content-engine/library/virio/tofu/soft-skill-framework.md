@@ -6,7 +6,7 @@
 - **Platform**: LinkedIn
 - **Source examples**: exactly 2, refreshed by the scheduled library-refresh task from the viral_posts_all corpus.
   - https://www.linkedin.com/posts/elfriedsamba_absolute-facts-this-ones-for-the-leaders-activity-7321161689452732416-WYS4 — Elfried Samba, 19,134 reactions / 432 comments, 2025-04-24
-  - (second example: to be filled by the scheduled refresh)
+  - https://www.linkedin.com/posts/drmirobada_27m-employees-prove-one-act-skyrockets-your-activity-7330272188601630720-XIeQ — Dr. Miro Bada, 12,252 reactions / 620 comments, 2025-05-19
 - **Hook pattern**: "{Emphatic agreement} 🔥 This one's for the {audience} who {do the undervalued thing} — not as a tactic, but as a way of being."
 - **Skeleton** (block sequence):
   1. Emphatic hook + dedication to the audience segment
@@ -20,24 +20,43 @@
 - **Adaptation notes**: Pick the undervalued trait of the client's ICP (patience in support, skepticism in security, slowness in underwriting). The named moves must be doable Monday morning.
 - **Watch-outs**: Framework-izing something with no real tension ("teamwork is good") produces slop. Riffing without crediting reads as theft.
 
-## Top example — full post text (excerpt)
+## Top example — full post text
 
 ABSOLUTE FACTS 🔥
 
-This one's for the leaders who don't use kindness as a tactic - but embody it as a way of being.
-The ones who know leadership isn't about showing off strength - it's about lending it.
-Saw Eric Partaker drop his POV and had to share mine too.
-In a world obsessed with outcomes, it's easy to forget: people do their best work when they feel supported, not scrutinised.
-Real leaders don't highlight weakness to prove a point - they use their influence to uplift, empower, and energise.
 
-Why Kindness = Real Strength:
-1. It Builds Confidence — Leaders who loan their strength say, "I've got you" - not "You're not there yet."
-2. It Creates Safe Spaces — Kind leaders make it okay to fail, learn, and grow. That's how innovation takes root.
-3. It's Contagious — Kindness at the top sets the tone for the culture. Respect flows, collaboration thrives.
+This one’s for the leaders who don’t use kindness as a tactic - but embody it as a way of being. 
+ The ones who know leadership isn’t about showing off strength - it’s about lending it. 
+ Saw Eric Partaker drop his POV and had to share mine too. 
+ In a world obsessed with outcomes, it’s easy to forget: people do their best work when they feel supported, not scrutinised. 
+ Real leaders don’t highlight weakness to prove a point - they use their influence to uplift, empower, and energise.
 
+
+Why Kindness = Real Strength: 
+ 1. It Builds Confidence  Leaders who loan their strength say, “I’ve got you” - not “You’re not there yet.” 
+ 2. It Creates Safe Spaces  Kind leaders make it okay to fail, learn, and grow. That’s how innovation takes root. 
+ 3. It’s Contagious Kindness at the top sets the tone for the culture. Respect flows, collaboration thrives.  
 How to Loan Your Strength:
-- Lead with Encouragement — Ask, "What's working?" before "What went wrong?"
-- Model Grace Under Pressure — Show your team how to face challenges—with poise, patience, and purpose.
-- Celebrate Progress Loudly — Don't just fixate on mistakes—amplify the wins, big or small.
 
-The Ripple Effect: Kindness isn't soft - it's transformative. It builds trust, sparks momentum, and raises the bar
+
+- Lead with Encouragement  Ask, “What’s working?” before “What went wrong?”
+
+
+- Model Grace Under Pressure  Show your team how to face challenges—with poise, patience, and purpose.
+
+
+- Celebrate Progress Loudly  Don’t just fixate on mistakes—amplify the wins, big or small.
+
+
+
+
+The Ripple Effect: Kindness isn’t soft - it’s transformative. It builds trust, sparks momentum, and raises the bar for what your team believes is possible.
+
+
+The best leaders aren’t chasing credit. They’re building people. That’s the real legacy. 
+ So here’s to the ones who lift others not to feel strong - but to make others strong. 
+ You’re not just leading a team - you’re shaping lives. 
+ That’s the kind of leadership that changes everything.
+
+
+🔥Dora Vanourek

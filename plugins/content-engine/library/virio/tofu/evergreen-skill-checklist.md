@@ -6,7 +6,7 @@
 - **Platform**: LinkedIn
 - **Source examples**: exactly 2, refreshed by the scheduled library-refresh task from the viral_posts_all corpus.
   - https://www.linkedin.com/posts/sanjivberi_cpr-emergencyresponse-lifesavingskills-activity-7155894257382301696-USSK — Sanjiv Beri, 26,207 reactions / 614 comments, 2024-01-24
-  - (second example: to be filled by the scheduled refresh)
+  - https://www.linkedin.com/posts/colby-kultgen_how-to-stop-overthinking-everything-5-techniques-activity-7328026026716860417-ALvq — Colby Kultgen, 14,076 reactions / 822 comments, 2025-05-13
 - **Hook pattern**: "Do you know how to {skill everyone should have but most don't}?"
 - **Skeleton** (block sequence):
   1. Question hook naming the skill

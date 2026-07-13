@@ -6,7 +6,7 @@
 - **Platform**: LinkedIn
 - **Source examples**: exactly 2, refreshed by the scheduled library-refresh task from the viral_posts_all corpus.
   - https://www.linkedin.com/posts/george-stock-17a9101b0_we-replaced-a-300kyear-marketing-team-with-activity-7345816838510944256-pB1d — George Stock, 889 reactions / 4,952 comments, 2025-07-01
-  - (second example: to be filled by the scheduled refresh)
+  - https://www.linkedin.com/posts/cas-feijen-66634426b_these-7-ai-marketing-agents-made-us-256983-activity-7345442234810458112-0Kzj — Cas Feijen (MakeUGC), 794 reactions / 2,415 comments, 2025-06-30
 - **Hook pattern**: "We replaced a {$X/year cost center} with {n} {new-tech units}"
 - **Skeleton** (block sequence):
   1. Replacement-claim hook with the dollar figure

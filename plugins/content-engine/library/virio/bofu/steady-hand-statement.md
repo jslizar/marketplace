@@ -6,7 +6,7 @@
 - **Platform**: LinkedIn
 - **Source examples**: exactly 2, refreshed by the scheduled library-refresh task from the viral_posts_all corpus.
   - https://www.linkedin.com/posts/satyanadella_we-remain-committed-to-our-partnership-with-activity-7132274707701059585-cKA3 — Satya Nadella (Microsoft, during the OpenAI board crisis), 72,232 reactions / 2,365 comments, 2023-11-20
-  - (second example: to be filled by the scheduled refresh)
+  - https://www.linkedin.com/posts/ugcPost-7350650246009401345-xizz — Zach Diamond (Windsurf → Cognition, during the Windsurf split), 484 reactions / 20 comments, 2025-07-15
 - **Hook pattern**: "We remain committed to {the relationship/promise} and have confidence in {roadmap/ability to deliver}."
 - **Skeleton** (block sequence):
   1. Commitment + confidence line, naming what customers actually care about (roadmap, support, continuity)

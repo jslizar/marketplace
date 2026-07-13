@@ -6,7 +6,7 @@
 - **Platform**: LinkedIn
 - **Source examples**: exactly 2, refreshed by the scheduled library-refresh task from the viral_posts_all corpus.
   - https://www.linkedin.com/posts/nicoaferr_cyrus-shirazi-texted-me-a-few-months-ago-activity-7312878138370240515-IYuM — Nico F. (Haven / Default), 211 reactions / 20 comments, 2025-04-01
-  - (second example: to be filled by the scheduled refresh)
+  - https://www.linkedin.com/posts/robertreffkin_thank-you-andy-florance-ceo-costar-group-activity-7352789119678251009-URoE — Robert Reffkin (Compass, on Homes.com), 480 reactions / 41 comments, 2025-07-20
 - **Hook pattern**: "{Name} texted me a few months ago saying {vendor} could get {company} {specific promise}. They ended up getting us {bigger number} in {shorter time}…"
 - **Skeleton** (block sequence):
   1. Promise hook, with names and the original claim

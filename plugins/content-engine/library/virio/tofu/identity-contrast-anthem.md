@@ -6,7 +6,7 @@
 - **Platform**: LinkedIn
 - **Source examples**: exactly 2, refreshed by the scheduled library-refresh task from the viral_posts_all corpus.
   - https://www.linkedin.com/posts/jwmba_power-doesnt-make-you-a-leader-what-you-activity-7362456863872806912-v4RS — Justin Wright, 13,067 reactions / 1,031 comments, 2025-08-16
-  - (second example: to be filled by the scheduled refresh)
+  - https://www.linkedin.com/posts/jasonaosborn_when-you-leave-the-room-do-they-breathe-activity-7328735977760264192-2Mdz — Jason Osborn, 11,333 reactions / 561 comments, 2025-05-15
 - **Hook pattern**: "{X} doesn't make you {Y}. (What you do with it does.)"
 - **Skeleton** (block sequence):
   1. Two-beat hook with parenthetical twist
@@ -21,9 +21,9 @@
 - **Adaptation notes**: Choose a binary alive in the ICP's world (founder vs operator, seller vs advisor, tool vs platform). The mirrored pairs must map one-to-one or the music breaks.
 - **Watch-outs**: Strawmanning the bad column too hard reads as bitter. The repost/follow block is register-sensitive — cut it for conservative ICPs.
 
-## Top example — full post text (excerpt)
+## Top example — full post text
 
-Power doesn't make you a leader.
+Power doesn’t make you a leader.
 (What you do with it does.)
 
 The truth hits hard:
@@ -32,7 +32,7 @@ A boss takes what they need.
 A leader creates what everyone needs.
 
 Look closely at any thriving team.
-You'll spot the difference instantly.
+You’ll spot the difference instantly.
 
 Bosses:
 ➟ Command through position
@@ -48,16 +48,22 @@ True leaders:
 ➟ Stand alongside their team
 ➟ Earn trust through words & actions
 
-It's never about power.
-It's about empowerment.
+It’s never about power.
+It’s about empowerment.
 
-Not about being first in line,
-but making sure no one's left behind.
+Not about being first in line, 
+but making sure no one’s left behind.
+
+Not about drinking alone,
+but making the well bigger for everyone.
 
 Because when you lead with service,
 people follow with passion.
 
-Your example doesn't just influence.
+When you clear the path for others,
+they’ll give their best for you.
+
+Your example doesn’t just influence.
 It multiplies.
 
 Choose wisely.
@@ -68,3 +74,5 @@ Be the leader you'd want to follow.
 Follow Justin Wright for more leadership insights.
 
 P.S. Have you seen the difference between a boss and a leader in your workplace?
+
+Video credit: Millionaire Mentor

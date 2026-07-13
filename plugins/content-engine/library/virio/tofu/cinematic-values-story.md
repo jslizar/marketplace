@@ -6,7 +6,7 @@
 - **Platform**: LinkedIn
 - **Source examples**: exactly 2, refreshed by the scheduled library-refresh task from the viral_posts_all corpus.
   - https://www.linkedin.com/posts/sohailzindani_integrityinaction-leadership-everydayheroes-ugcPost-7312093941728735232-pjLd — Sohail Zindani, 269,920 reactions / 7,523 comments, 2025-03-31
-  - (second example: to be filled by the scheduled refresh)
+  - https://www.linkedin.com/posts/zen-sammich_the-kings-guard-guides-his-horse-closer-activity-7227143221699616769-6SKX — Mark Reid, 67,227 reactions / 1,554 comments, 2024-08-08
 - **Hook pattern**: "In the middle of {crisis}, {ordinary people} chose not to {expected self-preserving act}."
 - **Skeleton** (block sequence):
   1. One-line scene: crisis + the surprising choice

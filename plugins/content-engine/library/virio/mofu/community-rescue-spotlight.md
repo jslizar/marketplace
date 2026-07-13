@@ -6,7 +6,7 @@
 - **Platform**: LinkedIn
 - **Source examples**: exactly 2, refreshed by the scheduled library-refresh task from the viral_posts_all corpus.
   - https://www.linkedin.com/posts/joeemerywrites-forbondfansonly_shes-56-bankrupt-back-in-her-parents-activity-7405290346076631040-FMUp — Joe Emery (Karen Workman), 3,852 reactions / 340 comments, 2025-12-13
-  - (second example: to be filled by the scheduled refresh)
+  - https://www.linkedin.com/posts/ramjijaiswal01_from-leading-it-projects-to-driving-an-auto-activity-7345639488183795712-mjT0 — Ramji Jaiswal, 1,575 reactions / 45 comments, 2025-07-01
 - **Hook pattern**: "{Age/status}. {Devastating one-word situation}. {Second devastating line}. Not because {they failed}, but because {the systemic problem}."
 - **Skeleton** (block sequence):
   1. Staccato devastation hook (3 fragment lines)
@@ -23,7 +23,7 @@
 - **Adaptation notes**: For clients whose ICP is suffering something systemic (laid-off recruiters, squeezed agency owners). Requires the person's enthusiastic consent and real details. The client's product stays out of the post entirely — the standing IS the return.
 - **Watch-outs**: Exploiting someone's hardship for engagement is the obvious failure — consent, dignity framing, and follow-through (actually helping) are non-negotiable. One per quarter at most.
 
-## Top example — full post text (excerpt)
+## Top example — full post text
 
 She's 56.
 Bankrupt.

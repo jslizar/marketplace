@@ -6,7 +6,7 @@
 - **Platform**: LinkedIn
 - **Source examples**: exactly 2, refreshed by the scheduled library-refresh task from the viral_posts_all corpus.
   - https://www.linkedin.com/posts/amithe-gamage_srilanka-1990suwaseriya-publicprivatepartnership-activity-7336225258124791808-kE9w — Amithe Gamage (WSO2 / Suwa Seriya), 1,840 reactions / 31 comments, 2025-06-05
-  - (second example: to be filled by the scheduled refresh)
+  - https://www.linkedin.com/posts/erinnordbywest_whatifwecould-activity-7338265142100471809-g6DK — Erin West (Operation Shamrock), 825 reactions / 51 comments, 2025-06-10
 - **Hook pattern**: "Thank you, {company}, and all who care. I recently saw {the concrete artifact} and it reminded me of the real impact {kind of support} can make."
 - **Skeleton** (block sequence):
   1. Gratitude hook naming the company and the encounter

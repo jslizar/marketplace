@@ -6,7 +6,7 @@
 - **Platform**: LinkedIn
 - **Source examples**: exactly 2, refreshed by the scheduled library-refresh task from the viral_posts_all corpus.
   - https://www.linkedin.com/posts/klaudia-slosarova-marriage-mechanic_he-said-it-casually-like-it-was-nothing-activity-7329104332614737920-S5Mg — Klaudia Slosarova, 607 reactions / 42 comments, 2025-05-16
-  - (second example: to be filled by the scheduled refresh)
+  - https://www.linkedin.com/posts/marjolainesavoie_can-my-free-sales-masterclass-really-be-more-activity-7339236208411140096-J2xW — Marjolaine Savoie, 338 reactions / 55 comments, 2025-06-13
 - **Hook pattern**: "He said it casually like it was nothing. (But damn, it said everything.)"
 - **Skeleton** (block sequence):
   1. Understated hook + parenthetical
@@ -20,22 +20,22 @@
 - **Adaptation notes**: Use a real client quote with permission, kept verbatim including filler words. The mechanism decode must match the client's actual method. B2B version: the Slack message a customer sent after the metric moved.
 - **Watch-outs**: Polished quotes read as fabricated — resist editing. Anonymize consistently or get named consent. The stakes fork tips manipulative if the costs are inflated.
 
-## Top example — full post text (excerpt)
+## Top example — full post text
 
 He said it casually like it was nothing
 (But damn, it said everything)
 
-"Klaudia… my daughter hugs me now.
+“Klaudia… my daughter hugs me now.
 A month ago, she wanted nothing to do with me.
 Now I get daily hugs. She even asked me for advice yesterday. I had to play it cool, but damn, that hit.
 
-And it's not just her. My wife looks at me differently now. One of my friends even asked: "What the hell are you doing lately?"
+And it’s not just her. My wife looks at me differently now. One of my friends even asked: "What the hell are you doing lately?"
 
-At work, conversations just flow. People who used to stay quiet are actually speaking up around me."
+At work, conversations just flow. People who used to stay quiet are actually speaking up around me.”
 
-He didn't get those results by talking more.
+He didn’t get those results by talking more.
 
-Or by becoming someone he's not.
+Or by becoming someone he’s not.
 
 He got there by shifting how he showed up without losing himself.
 
@@ -47,12 +47,30 @@ Everywhere.
 
 Because people respond to your energy not your explanations.
 
-Don't get this right and:
+And his energy now invites respect, not tension.
+
+That’s what happens when you stop overexplaining and start moving like the man they haven’t seen in years.
+
+Don’t get this right and:
 -Your kids keep their distance
 -She stops looking at you like a man
 -At work, no one brings you the real problems
+-Conversations stay polite but nothing moves
 
 But when you do?
 -Her guard drops without warning
 -Your daughter hugs you first
 -Your friends ask what changed
+-Your team speaks up because leadership finally showed up
+
+You stop performing. You start leading
+
+“Maybe it’ll fix itself.”?, I hear you say
+
+Sure. Just like eating 2 salads a month turns your gut into a six-pack.
+
+Let me know how that works out.
+
+P.S. Want to keep reading posts like this? Join my Marriage Mechanic newsletter and get a free 🎁 today (link in my bio/comments below)
+
+P.P.S. Sick of feeling like a failure at home? DM me "RESET" and I'll show you what you can do today
