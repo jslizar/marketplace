@@ -19,7 +19,7 @@
 - **Rhythm & formatting**: Full paragraphs — this is one of the few long-prose formats that works. 350–500 words. Executive register, first person.
 - **Why it works**: Costly honesty ("we had let the product be ignored") buys the right to brag. The arc gives evaluators the exact narrative they need to defend the purchase internally: "yes, it was bad; here's why it's different now."
 - **Adaptation notes**: Requires a real turnaround with a real low point the market remembers. The admission must be specific, not vague humility. Works for products, services, whole companies.
-- **Watch-outs**: If the market doesn't remember the low point, the admission just plants doubt. Skipping the caveat block tips it into victory lap. This format flirts with ABM (it names the client's own product/team — that's fine); it becomes ABM only when the subject is a DIFFERENT company's turnaround — send that to the ABM engine.
+- **Watch-outs**: If the market doesn't remember the low point, the admission just plants doubt. Skipping the caveat block tips it into victory lap. This format flirts with ABM (it names the client's own product/team — that's fine); it becomes ABM only when the subject is a DIFFERENT company's turnaround — send that to the abm lane.
 
 ## Top example — full post text (excerpt)
 

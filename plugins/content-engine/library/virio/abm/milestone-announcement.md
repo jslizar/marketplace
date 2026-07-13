@@ -2,7 +2,7 @@
 
 - **Archetype**: proud first-person announcement of a company milestone (research published, launch, record) with findings/details and named team credit
 - **Funnel stage**: BOFU
-- **ABM mechanic**: the canonical founder-voice ABM post — glorifies the author's company and names the people who did it (each name amplifies). For client work, works ABOUT a target account's milestone as a congratulation-with-depth.
+- **Stage mechanic**: the canonical founder-voice ABM post — glorifies the author's company and names the people who did it (each name amplifies). For client work, works ABOUT a target account's milestone as a congratulation-with-depth.
 - **Platform**: LinkedIn
 - **Source examples**: (refreshed by the scheduled library-refresh task; pinned entries never auto-replaced)
   - https://www.linkedin.com/posts/willahmed_new-whoop-research-on-exercise-sleep-i-activity-7318035991280181248-pmw7 — Will Ahmed, 4,430 reactions / 191 comments, Apr 2025 (WHOOP study in Nature Communications; SVP credited by name)
@@ -17,6 +17,7 @@
   6. Named congratulations to the people behind it, titles included
 - **Rhythm & formatting**: 150–300 words; dash bullets for findings; the scale line early; credit block last.
 - **Why it works**: pride + proof; the scale line preempts skepticism; named credit turns employees into distributors.
+- **ABM payoff**: each credited teammate reshares their own mention, and in the about-others version the target account's execs reply to the congratulation, turning the milestone into a warm thread with the account.
 - **Adaptation notes**: for ABM-about-others, keep the same skeleton but third-person, and the credit block becomes the point. Milestone must be verifiable.
 - **Watch-outs**: findings must match the source exactly; credit the right names with the right titles or the correction happens in your comments.
 

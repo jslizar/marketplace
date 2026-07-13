@@ -16,7 +16,7 @@
 - **Rhythm & formatting**: One dense paragraph or two short ones. 80–130 words. Zero exclamation, zero spin words. Every sentence load-bearing.
 - **Why it works**: In turbulence, the calmest specific voice wins the room. Naming the uncomfortable thing without flinching signals control; the concrete action turns reassurance into news.
 - **Adaptation notes**: Only run when there IS live turbulence the client's buyers can see (vendor drama, layoffs in the category, an outage, a rival's collapse). The concrete action is mandatory — reassurance without action is noise.
-- **Watch-outs**: Premature calm before facts settle can age terribly within hours. Never comment on another company's crisis you're not party to — that's ambulance chasing (and if the aim is engaging that named company, it's the ABM engine's news-clapback lane).
+- **Watch-outs**: Premature calm before facts settle can age terribly within hours. Never comment on another company's crisis you're not party to — that's ambulance chasing (and if the aim is engaging that named company, it's the abm lane's news-clapback format).
 
 ## Top example — full post text
 

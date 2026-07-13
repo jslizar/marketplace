@@ -6,7 +6,7 @@
 - **Platform**: LinkedIn
 - **Source examples**: curated from Millie's bank; refreshed only when the bank updates.
   - https://www.linkedin.com/posts/sugju-choi_gen-z-is-taking-over-linkedin-theyre-ditching-activity-7404577917948866561-uOXa — Sugi Choi (Virio), 773 reactions / 194 comments, 2026-01-10
-  - https://www.linkedin.com/feed/update/urn:li:activity:7421967518896009216 — Anjali Dhaliwal ("TikTokers are taking over LinkedIn"), 128 reactions / 29 comments, 2026-02-01 (compressed variant: 3 creators + mechanism take)
+  - https://www.linkedin.com/feed/update/urn:li:activity:7421967518896009216 — Anjali Dhaliwal ("TikTokers are taking over LinkedIn"), 128 reactions / 29 comments, 2026-02-01 (compressed variant: 3 creators + mechanism take. Millie's bank files this post under "List ABM"; it's specced here because it's a generic creator roundup with no named-account target — it passes the TOFU admission test, not the abm one.)
 - **Hook pattern**: "{Group} is taking over {platform}." + one-line why ("They're ditching the corporate fluff, saying what they actually think").
 - **Skeleton** (block sequence):
   1. Trend claim hook + the behavioral why

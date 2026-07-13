@@ -2,7 +2,7 @@
 
 - **Archetype**: work-anniversary reflection at a named company, packaged as advice to the people trying to get in
 - **Funnel stage**: BOFU
-- **ABM mechanic**: glorifies the author's employer (or a target account the author has history with) — the company's people amplify their own; the advice frame pulls in every aspirant to that org.
+- **Stage mechanic**: glorifies the author's employer (or a target account the author has history with) — the company's people amplify their own; the advice frame pulls in every aspirant to that org.
 - **Platform**: LinkedIn
 - **Source examples**: (refreshed by the scheduled library-refresh task; pinned entries never auto-replaced)
   - https://www.linkedin.com/posts/neilhoyne_google-lifeatgoogle-careers-activity-7321153672011214848-t5_Y — Neil Hoyne, 6,398 reactions / 365 comments, Apr 2025 (14 years at Google)
@@ -16,6 +16,7 @@
   5. Warm close to the aspirants — invitation, not lecture
 - **Rhythm & formatting**: 250–400 words; arrow-prefixed sections; conversational asides; light emoji tolerated in this format if voice allows.
 - **Why it works**: tenure = authority; the advice frame converts nostalgia into utility; the employer's brand does the reach.
+- **ABM payoff**: the named company's employees amplify the tribute to their own org, and aspirants fill the comments, earning the author warm visibility with (and often a reply from) the account's people.
 - **Adaptation notes**: works at anniversaries, departures, promotions — or ABOUT someone at a target account hitting a milestone (then it converges with the rise deep-dive).
 - **Watch-outs**: without specifics it's a greeting card; advice must cost something to say or it reads as humble-brag.
 

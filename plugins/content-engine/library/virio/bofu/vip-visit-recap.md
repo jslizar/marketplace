@@ -16,7 +16,7 @@
 - **Rhythm & formatting**: 90–140 words. Formal register. Photo of the visit is mandatory — the text captions the proof. Titles exactly right.
 - **Why it works**: Borrowed gravity at maximum voltage. The buyer's internal question ("is this real / will this still exist in five years?") gets answered by who showed up.
 - **Adaptation notes**: Scale the VIPs to the client's world — a Fortune 500 CTO at a startup's booth, the mayor at a construction firm's site, a category king at the client's conference. The "underscores" line must connect the visit to the buyer's decision.
-- **Watch-outs**: Political figures cut both ways — check the client's buyer base before celebrating any. Name-dropping without the photo is a claim, not proof. If the goal is courting the VIP's organization itself, that's the ABM engine's lane.
+- **Watch-outs**: Political figures cut both ways — check the client's buyer base before celebrating any. Name-dropping without the photo is a claim, not proof. If the goal is courting the VIP's organization itself, that's the abm lane.
 
 ## Top example — full post text
 

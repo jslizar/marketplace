@@ -2,7 +2,7 @@
 
 - **Archetype**: a named exec/company makes a public claim; the author counters it with their own company's data
 - **Funnel stage**: BOFU
-- **ABM mechanic**: picks a respectful public fight with a named account — their org, your org, and everyone with an opinion piles in. The counter-data glorifies your own company while keeping the named account in every reshare.
+- **Stage mechanic**: picks a respectful public fight with a named account — their org, your org, and everyone with an opinion piles in. The counter-data glorifies your own company while keeping the named account in every reshare.
 - **Platform**: LinkedIn
 - **Source examples**: (refreshed by the scheduled library-refresh task; pinned entries never auto-replaced)
   - https://www.linkedin.com/posts/anniedeanzaitzeff_this-past-weekend-nikes-ceo-shared-that-activity-7186039378182295553-cXaS — Annie Dean, 8,063 reactions / 281 comments, Apr 2024 (Atlassian data vs Nike CEO)
@@ -16,6 +16,7 @@
   5. Principle close ("this moment demands more") — no gloating
 - **Rhythm & formatting**: 150–300 words; asterisk or italic emphasis on the pivot word; measured, senior tone; zero snark.
 - **Why it works**: conflict is the algorithm's favorite food; the named claim supplies reach, the data supplies credibility, the restraint supplies seniority.
+- **ABM payoff**: people at the named account (and everyone watching the debate) engage with the thread, and the restraint earns the client a peer-level reply channel into the very org it just countered.
 - **Adaptation notes**: the claim must be public, recent, and from an org your ICP watches. Counter-data must be YOUR real data (context Proof section only).
 - **Watch-outs**: HIGH RISK — punch up only (bigger company, public statement); never name-call the exec; if your data is thin the whole post collapses; run within days of the claim.
 

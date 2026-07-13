@@ -18,7 +18,7 @@
 - **Rhythm & formatting**: 150–220 words. Testimony register — scenes, not adjectives. The hiring P.S. stays lowercase-casual.
 - **Why it works**: Employees vouching upward, unprompted, is the strongest culture signal on the feed. The witnessed specifics do what "great leadership" never can; buyers and candidates both read it as "this place is real."
 - **Adaptation notes**: Works when a client's team members genuinely admire leadership — the author is the employee, not the company account. The detail must be firsthand-witnessed, never briefed.
-- **Watch-outs**: If it reads as assigned homework, it damages both parties — voice must be the employee's own. This is about the author's OWN org; praising another company's exec to court them is the ABM engine's lane.
+- **Watch-outs**: If it reads as assigned homework, it damages both parties — voice must be the employee's own. This is about the author's OWN org; praising another company's exec to court them is the abm lane.
 
 ## Top example — full post text (excerpt)
 

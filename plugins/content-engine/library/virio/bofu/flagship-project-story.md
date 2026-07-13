@@ -18,7 +18,7 @@
 - **Rhythm & formatting**: 180–250 words. Client's brand vocabulary woven in (gold-and-barrel universe). Strong photos mandatory. Tag roll extends reach through both orgs.
 - **Why it works**: The marquee client's trust is the headline; the method paragraph converts one project into a repeatable promise; the physical invitation ("step in and experience it") is proof no deck can match.
 - **Adaptation notes**: For any services client's flagship delivery. The superlative must be true and specific ("largest-ever shop-in-shop at CSMIA Arrivals"). Client approval on framing and tags first.
-- **Watch-outs**: ABM boundary: this converts the NEXT buyer using a past client as proof — if the aim is winning MORE work from the named client, run the ABM engine's credit-roll instead. Overclaiming your role when partners shared the work gets corrected publicly.
+- **Watch-outs**: ABM boundary: this converts the NEXT buyer using a past client as proof — if the aim is winning MORE work from the named client, run the abm lane's credit-roll instead. Overclaiming your role when partners shared the work gets corrected publicly.
 
 ## Top example — full post text (excerpt)
 

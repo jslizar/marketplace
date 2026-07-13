@@ -15,7 +15,7 @@ Source: `Viral_Content_Bank.xlsx` tabs "Top of Funnel", "Announcement", "Hiring"
 | anti-process-hiring-manifesto | "we killed {ritual}" job ad | Sugi Choi (Virio) | 1,995 r / 292 c | 2026-07-13 |
 | hiring-list-roundup | trait-screened company list | Ben Lang | 469 r / 41 c | 2026-07-13 |
 | new-joiner-announcement | "I've joined" path story | Grace Lee (Virio) | 309 r / 85 c | 2026-07-13 |
-| open-feedback-bounty | insider invites the pile-on | Sugi Choi (LinkedIn) | 1,627 r / 960 c | 2026-07-13 |
+| open-feedback-bounty | insider invites the pile-on | Sugi Choi (Virio) | 1,627 r / 960 c | 2026-07-13 |
 | curated-people-roundup | trend claim + named roster | Sugi Choi (Virio) | 773 r / 194 c | 2026-07-13 |
 
 ## Unread candidates (in the bank, not yet deconstructed)
@@ -37,5 +37,8 @@ Deconstruct on request; likely fits noted.
 - tankots "We'll pay top dollar for engineers" / "I'm looking for a hungry, smart, high EQ" — comp-forward role-post candidates
 - antonosika "2025 has been an awesome year for Lovable" — milestone-momentum candidate
 - benmlang "NEW UNICORNS ($1B+) HIRING LIST" — hiring-list-roundup example
+- benmlang "COMPANIES THAT RAISED $5-10M RECENTLY (HIRING LIST)" — hiring-list-roundup example (also noted in that spec)
 - jake-cronin "Hiring a Chief of Staff" — role-post candidate
 - elenaverna Lovable Series B reaction (4,548 r) — milestone-momentum, employee-voice variant
+- deenifatiha "We're betting big on Gamma ecosystem, and I'm looking for an experienced PM" (248 r) — comp/mission-forward role-post candidate
+- sugju-choi "My superpower is finding the top 1% talent" — hiring-genre candidate (curated-people-roundup or new spec)

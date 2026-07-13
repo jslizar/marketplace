@@ -2,7 +2,7 @@
 
 - **Archetype**: teach a principle by showing how a named company made something "boring" spectacular
 - **Funnel stage**: BOFU
-- **ABM mechanic**: turns a named company into the hero case study of a teachable principle — their team reshares the flattery, prospects in similar businesses see themselves in it.
+- **Stage mechanic**: turns a named company into the hero case study of a teachable principle — their team reshares the flattery, prospects in similar businesses see themselves in it.
 - **Platform**: LinkedIn
 - **Source examples**: (refreshed by the scheduled library-refresh task; pinned entries never auto-replaced)
   - https://www.linkedin.com/posts/moshe-pesach_wow-your-audeince-activity-7334232770568671233-xKer — Moshe Pesach, 7,861 reactions / 135 comments, May 2025 (Snowflake made data warehousing exciting)
@@ -17,6 +17,7 @@
   6. Challenge close: tell the reader to try it on their most boring feature
 - **Rhythm & formatting**: 200–350 words; very short lines; numbered steps with sub-bullets; the named-company block carries the density.
 - **Why it works**: the analog earns attention, the how-to earns saves, the named company earns credibility — three share triggers in one post.
+- **ABM payoff**: the hero company's team reshares the flattering case study, earning the client the target's attention plus a proof asset to reference in the meeting.
 - **Adaptation notes**: pick a hero company your ICP admires (or a target account with a genuinely great motion). Keep: reframe hook, analog, bridge, steps, named proof, challenge.
 - **Watch-outs**: the hero company's numbers must be verifiable; without the analog this is a generic listicle.
 

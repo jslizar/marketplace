@@ -36,4 +36,4 @@ Strip: em-dashes, "not X, it's Y" contrasts, rule-of-three padding, "dive in", t
 
 ## Output
 
-Present candidates with a one-line note each (hook variant + any tradeoff). Save chosen drafts to `clients/<slug>/drafts/<lane>/YYYY-MM-DD-<slug>.md`.
+Present candidates with a one-line note each (hook variant + any tradeoff). Save chosen drafts to `clients/<slug>/drafts/<lane>/YYYY-MM-DD-<slug>.md` with frontmatter recording `format: <format-name>` and `library: <virio|millies>` — the pipeline's rotation check reads these.

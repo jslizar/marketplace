@@ -2,7 +2,7 @@
 
 - **Archetype**: declares a named category/industry dying on a deadline, evidenced by named companies' moves, then prescribes survival plays
 - **Funnel stage**: BOFU
-- **ABM mechanic**: names the companies making the shift (they amplify as validation) and speaks directly to the accounts in the dying category — who must respond. Fear + named receipts = reach into exactly the orgs being warned.
+- **Stage mechanic**: names the companies making the shift (they amplify as validation) and speaks directly to the accounts in the dying category — who must respond. Fear + named receipts = reach into exactly the orgs being warned.
 - **Platform**: LinkedIn
 - **Source examples**: (refreshed by the scheduled library-refresh task; pinned entries never auto-replaced)
   - https://www.linkedin.com/posts/tom-head-ai_the-agency-world-has-18-months-left-maybe-activity-7327656328481447936-pAET — Tom Head, 3,244 reactions / 646 comments, May 2025 (agencies vs AI; S4 Capital, Duolingo, Shopify, Klarna)
@@ -17,6 +17,7 @@
   6. Numbered survival plays (3–4, each with a one-line how)
 - **Rhythm & formatting**: 250–400 words; staccato one-liners between blocks; bullets for the reality-check; numbered plays.
 - **Why it works**: deadline urgency, named receipts (not vibes), and the survival plays turn doom into utility — which is what gets saved and shared.
+- **ABM payoff**: leaders at the warned accounts comment to push back or agree, opening a direct thread, while the named companies making the shift reshare it as validation.
 - **Adaptation notes**: category must be one the client sells into or against; receipts must be dated and real. Keep: deadline hook, canary stat, named receipts, survival plays.
 - **Watch-outs**: predictions age publicly — anchor claims to the named companies' moves, not your own certainty; expect (and want) angry comments from the category.
 

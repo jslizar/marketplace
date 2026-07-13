@@ -16,7 +16,7 @@
 - **Rhythm & formatting**: Under 80 words. Video/photos of the pilot ARE the post. Workforce-positive framing throughout.
 - **Why it works**: Concrete frontier proof beats innovation-theater decks. The "help our team members" frame pre-empts the automation-fear reading, and the named partner lends startup energy to an incumbent (and scale credibility back to the startup).
 - **Adaptation notes**: Either side of a pilot can run it. Needs real footage and partner sign-off. Keep claims at pilot level — "exploring potential," never "deployed."
-- **Watch-outs**: Overclaiming maturity invites "so is it in production?" questions the client can't answer well. If the real goal is winning the named partner's business, that's the ABM engine's lane.
+- **Watch-outs**: Overclaiming maturity invites "so is it in production?" questions the client can't answer well. If the real goal is winning the named partner's business, that's the abm lane.
 
 ## Top example — full post text
 

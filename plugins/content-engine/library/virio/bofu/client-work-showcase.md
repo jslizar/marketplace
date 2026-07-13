@@ -16,7 +16,7 @@
 - **Rhythm & formatting**: Under 80 words. The attached media is the post; text stays out of its way. Credits formatted `Role - Name, Name`.
 - **Why it works**: Show-don't-tell in its purest feed form. Brevity signals confidence; the credit roll gets every named person and the client resharing, which puts the work in front of adjacent buyers.
 - **Adaptation notes**: Needs finished work the client has approved sharing, and strong media. Works for any services business (design, dev, marketing, consulting). The warm line should carry one specific detail, not generic gratitude.
-- **Watch-outs**: Without striking media there is no post. ABM boundary: if the goal is to win MORE work from the named client (courting the account), that's the ABM engine's credit-roll play; here the named client is proof aimed at the NEXT buyer.
+- **Watch-outs**: Without striking media there is no post. ABM boundary: if the goal is to win MORE work from the named client (courting the account), that's the abm lane's credit-roll play; here the named client is proof aimed at the NEXT buyer.
 
 ## Top example — full post text
 

@@ -16,7 +16,7 @@
 - **Rhythm & formatting**: 80–140 words. Warm, specific, zero snark. The work itself (video/image/link) attached.
 - **Why it works**: Specificity is the credential — anyone can say "great ad"; naming the unhurried pace and the casting proves the author sees more. Praise travels further than critique and makes allies instead of enemies.
 - **Adaptation notes**: The client's expert admires work in their domain (a CFO admiring a beautifully clear S-1; a devtools founder admiring an elegant API). The named craft choices must teach the reader something.
-- **Watch-outs**: Vague praise is invisible. Praising a direct competitor's work is a choice — sometimes brilliant, sometimes off-limits; check the client first (and if the goal is courting the praised company, that's the ABM engine's lane).
+- **Watch-outs**: Vague praise is invisible. Praising a direct competitor's work is a choice — sometimes brilliant, sometimes off-limits; check the client first (and if the goal is courting the praised company, that's the abm lane).
 
 ## Top example — full post text
 

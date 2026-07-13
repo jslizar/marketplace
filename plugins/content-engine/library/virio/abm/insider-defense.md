@@ -2,7 +2,7 @@
 
 - **Archetype**: credentialed first-person defense or breakdown of a named company's criticized/misunderstood move, in numbered points
 - **Funnel stage**: BOFU
-- **ABM mechanic**: the defended company owes you one — their comms team, execs, and fans amplify; the credentials line makes the author the authority in the room.
+- **Stage mechanic**: the defended company owes you one — their comms team, execs, and fans amplify; the credentials line makes the author the authority in the room.
 - **Platform**: LinkedIn
 - **Source examples**: (refreshed by the scheduled library-refresh task; pinned entries never auto-replaced)
   - https://www.linkedin.com/posts/aishabowe_space-opinion-blueorigin-activity-7318276712113319937-B68U — Aisha Bowe, 7,444 reactions / 549 comments, Apr 2025 (Blue Origin mission defense)
@@ -16,6 +16,7 @@
   5. Close that reframes the story without demanding agreement
 - **Rhythm & formatting**: 250–450 words; numbered points with bolded first lines; specifics over adjectives; no defensiveness in tone.
 - **Why it works**: credentials + controversy = comment magnet; the insider details give fans ammunition to defend the company themselves.
+- **ABM payoff**: the defended company's comms team and execs amplify the post and often thank the author directly, converting the favor into a warm reply and ready-made meeting context with that account.
 - **Adaptation notes**: works when a target account is taking public heat the author can credibly rebut. Credentials must be real and relevant.
 - **Watch-outs**: without real credentials this is just a fan post; never defend the indefensible — pick the misunderstood, not the guilty.
 

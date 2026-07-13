@@ -19,7 +19,7 @@
 - **Rhythm & formatting**: 200–260 words, warm narrative prose, one emoji tolerated at emotional peaks. Names tagged in full.
 - **Why it works**: The oddly specific detail is the truth signal; the time jump is the proof structure. Readers tag their own "Vineet", which spreads it — and the named person's org gets a halo no ad buys.
 - **Adaptation notes**: Must be true and the named person must consent. For client use: founders telling the story of a long-standing advisor, investor, or first customer. The specific detail cannot be manufactured — find the real one in the interview.
-- **Watch-outs**: Sentimentality without the credential reveal is TOFU inspiration, not BOFU proof — the reveal is what makes it a buying signal. If the story's engine becomes glorifying the named person's COMPANY to win their business, that's the ABM engine's lane.
+- **Watch-outs**: Sentimentality without the credential reveal is TOFU inspiration, not BOFU proof — the reveal is what makes it a buying signal. If the story's engine becomes glorifying the named person's COMPANY to win their business, that's the abm lane.
 
 ## Top example — full post text
 

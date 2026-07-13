@@ -2,7 +2,7 @@
 
 - **Archetype**: "we're #{n} on {authority}'s list" — placement announcement that credits the list-maker and tags the co-listed companies
 - **Lane**: ABM — a single-account glorification running in three directions: the authority (a16z), the co-listed companies (Lovable, micro1, Cluely, 11x), and the poster's own mission.
-- **ABM mechanic**: The authority's brand does the credibility work; naming co-listed companies invites their amplification (and positions the poster as their peer). The mission retelling converts a badge into a story; the hiring close converts attention into candidates.
+- **Stage mechanic**: The authority's brand does the credibility work; naming co-listed companies invites their amplification (and positions the poster as their peer). The mission retelling converts a badge into a story; the hiring close converts attention into candidates.
 - **Platform**: LinkedIn
 - **Source examples**: curated from Millie's bank; refreshed only when the bank updates.
   - https://www.linkedin.com/posts/selin-kocalar_delve-is-11-on-a16zs-list-of-the-top-50-activity-7379550643004305408-xGCH — Selin Kocalar (Delve), 1,635 reactions / 110 comments, 2025-10-16

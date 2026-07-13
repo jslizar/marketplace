@@ -2,7 +2,7 @@
 
 - **Archetype**: alumni-network funding map — "the {company} Mafia has raised ${total}" with the full founder-by-founder ledger
 - **Lane**: ABM — glorifies one anchor company AND every alumni-founded company in a single post.
-- **ABM mechanic**: The anchor company amplifies (their culture made the mafia); every listed founder amplifies (they're canonized); the data provider gets a named credit (Crustdata) — three concentric rings of targets served at once. The ledger's completeness makes it a reference document that gets cited for months.
+- **Stage mechanic**: The anchor company amplifies (their culture made the mafia); every listed founder amplifies (they're canonized); the data provider gets a named credit (Crustdata) — three concentric rings of targets served at once. The ledger's completeness makes it a reference document that gets cited for months.
 - **Platform**: LinkedIn
 - **Source examples**: curated from Millie's bank; refreshed only when the bank updates.
   - https://www.linkedin.com/feed/update/urn:li:activity:7409946902818967552 — Chris Pisarski (Crustdata), 986 reactions / 33 comments, 2025-12-29

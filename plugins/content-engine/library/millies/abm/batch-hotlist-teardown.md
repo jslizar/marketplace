@@ -2,7 +2,7 @@
 
 - **Archetype**: ranked spotlight of a cohort's hottest companies, with insider color on the founders behind each
 - **Lane**: ABM — targets a whole accelerator batch / cohort of accounts, founder by founder.
-- **ABM mechanic**: Ranking ("one of YC's most popular in-batch startups, 2.7M monthly visitors") plus human detail ("wore a pirate eyepatch as a kid", "performed a 25-min Rachmaninov concerto") makes every featured founder feel SEEN, not scraped. They engage, their batchmates engage, and the author becomes the chronicler of the cohort they sell into.
+- **Stage mechanic**: Ranking ("one of YC's most popular in-batch startups, 2.7M monthly visitors") plus human detail ("wore a pirate eyepatch as a kid", "performed a 25-min Rachmaninov concerto") makes every featured founder feel SEEN, not scraped. They engage, their batchmates engage, and the author becomes the chronicler of the cohort they sell into.
 - **Platform**: LinkedIn
 - **Source examples**: curated from Millie's bank; refreshed only when the bank updates.
   - https://www.linkedin.com/posts/jeremyro_you-ever-wonder-whos-behind-y-combinators-activity-7424551753334808577-5gU_ — Jeremy Ro (Virio), 447 reactions / 87 comments, 2026-02-03

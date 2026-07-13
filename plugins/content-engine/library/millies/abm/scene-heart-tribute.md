@@ -2,7 +2,7 @@
 
 - **Archetype**: love letter to a city/scene that name-checks every company in it ("List ABM")
 - **Lane**: ABM — targets an entire ecosystem of accounts at once; every named company is a warm-open.
-- **ABM mechanic**: Declaring a place "the beating heart of {industry}" and rostering its companies flatters dozens of targets simultaneously. Each named brokerage/carrier engages, follows, or DMs — and the author announced they're physically visiting, converting engagement into meetings that week. The "(Who did I miss?!)" line farms comments from unlisted accounts begging in.
+- **Stage mechanic**: Declaring a place "the beating heart of {industry}" and rostering its companies flatters dozens of targets simultaneously. Each named brokerage/carrier engages, follows, or DMs — and the author announced they're physically visiting, converting engagement into meetings that week. The "(Who did I miss?!)" line farms comments from unlisted accounts begging in.
 - **Platform**: LinkedIn
 - **Source examples**: curated from Millie's bank; refreshed only when the bank updates.
   - https://www.linkedin.com/posts/jesse-buckingham-79649a26_chattanooga-is-the-beating-heart-of-freight-activity-7401983816355282944-zC8Q — Jesse Buckingham (Vooma), 180 reactions / 11 comments, 2025-12-03

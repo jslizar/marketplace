@@ -2,7 +2,7 @@
 
 - **Archetype**: a named rival/copycat moment turned into an unexpected collab or win, told as a beat-by-beat story
 - **Funnel stage**: BOFU
-- **ABM mechanic**: both named companies come out heroes — the story flatters the rival's wit and the author's class. Prime reshare material for both orgs and business media.
+- **Stage mechanic**: both named companies come out heroes — the story flatters the rival's wit and the author's class. Prime reshare material for both orgs and business media.
 - **Platform**: LinkedIn
 - **Source examples**: (refreshed by the scheduled library-refresh task; pinned entries never auto-replaced)
   - https://www.linkedin.com/posts/jameswatt-investor-entrepreuner-punk_in-2020-aldi-infamously-copied-our-flagship-activity-7299734312311025664-XmXn — James Watt, 6,303 reactions / 450 comments, Feb 2025 (BrewDog × ALDI "YALDI IPA")
@@ -17,6 +17,7 @@
   6. Principle close ("partners are always more valuable than rivals")
 - **Rhythm & formatting**: 200–350 words; one beat per line; real quoted exchanges; the principle stated once, not preached.
 - **Why it works**: genuine narrative tension (rare on LinkedIn), both-sides flattery, and a quotable moral. Story does the selling.
+- **ABM payoff**: both named companies reshare a story that makes them look good, and business media picks it up, earning the client warm engagement from either org's brand team.
 - **Adaptation notes**: needs a real documented exchange — DMs, tweets, public replies. Works for copycat moments, poaching attempts, competitive dunks turned friendly.
 - **Watch-outs**: never invent or embellish quotes; if the rival came out looking bad, this is a different (riskier) format — the flip must be real.
 

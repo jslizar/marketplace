@@ -5,7 +5,7 @@
 - **Stage mechanic**: Inverts the usual flow — instead of broadcasting, the insider invites the pile-on everyone's been saving up. Comment counts explode (960 comments on 1,627 reactions), which the algorithm rewards. The bounty legitimizes spicy answers.
 - **Platform**: LinkedIn
 - **Source examples**: curated from Millie's bank; refreshed only when the bank updates.
-  - https://www.linkedin.com/posts/sugju-choi_hey-linkedin-im-linkedins-one-of-the-first-activity-7419070510862319616-tSUL — Sugi Choi (LinkedIn), 1,627 reactions / 960 comments, 2026-01-19
+  - https://www.linkedin.com/posts/sugju-choi_hey-linkedin-im-linkedins-one-of-the-first-activity-7419070510862319616-tSUL — Sugi Choi (Virio; the post role-plays a LinkedIn insider — the bank titles it "Joined LinkedIn"), 1,627 reactions / 960 comments, 2026-01-19
   - (Single-example spec — pin a second example when one appears in Millie's bank.)
 - **Hook pattern**: "Hey {audience}! I'm {insider credential} — and I want your UNFILTERED feedback. What do you HATE the most about {thing}?"
 - **Skeleton** (block sequence):

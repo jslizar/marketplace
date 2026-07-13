@@ -1,6 +1,6 @@
 # BOFU format library — index
 
-Stage job: convert existing intent — de-risk the decision with verifiable proof. See `config.md` for the full directive and admission test. Note the ABM boundary: named-account glorification belongs to the ABM engine; each spec carries its own boundary note.
+Stage job: convert existing intent — de-risk the decision with verifiable proof. See `config.md` for the full directive and admission test. Note the ABM boundary: named-account glorification belongs to the abm lane; each spec carries its own boundary note.
 
 Repo target: 15 specs (at target; the labeled BOFU corpus is thin at ~676 rows — this is the one stage where the refresh may scout via Apify and write finds back to `viral_posts_all`).
 

@@ -2,7 +2,7 @@
 
 - **Archetype**: repackage a named org's framework/architecture into a layered breakdown the reader can act on
 - **Funnel stage**: BOFU
-- **ABM mechanic**: rides a prestige org's brand (McKinsey, a16z, a target account's engineering blog) — their people amplify, and the author becomes the translator between the prestige org and the ICP.
+- **Stage mechanic**: rides a prestige org's brand (McKinsey, a16z, a target account's engineering blog) — their people amplify, and the author becomes the translator between the prestige org and the ICP.
 - **Platform**: LinkedIn
 - **Source examples**: (refreshed by the scheduled library-refresh task; pinned entries never auto-replaced)
   - https://www.linkedin.com/posts/andreashorn1_mckinsey-company-%F0%9D%97%AF%F0%9D%97%B9%F0%9D%98%82%F0%9D%97%B2%F0%9D%97%BD%F0%9D%97%BF%F0%9D%97%B6%F0%9D%97%BB%F0%9D%98%81-%F0%9D%97%B3%F0%9D%97%BC%F0%9D%97%BF-activity-7346163584348884994-5XOS — Andreas Horn, 5,828 reactions / 208 comments, Jul 2025 (McKinsey AI-bank blueprint)
@@ -16,6 +16,7 @@
   5. Synthesis close: what the whole stack means for the reader's org
 - **Rhythm & formatting**: 250–450 words; numbered layers with arrows; bold layer names; a diagram/carousel attachment lifts it further.
 - **Why it works**: prestige-brand halo, save-worthy structure, and the translation work (jargon → action) is the value the author gets credit for.
+- **ABM payoff**: the prestige org's team (and the target account, when the source is their own framework) reshares the translation, earning the author a warm reply channel as the person who made their work actionable.
 - **Adaptation notes**: source must be public and attributable; works with a target account's own published framework as the prestige source — that's the warmest version.
 - **Watch-outs**: pure summary without synthesis reads as content theft — always add the "so what" layer; credit explicitly.
 

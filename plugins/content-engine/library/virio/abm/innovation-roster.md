@@ -2,7 +2,7 @@
 
 - **Archetype**: a jaw-drop artifact (product, demo, practice) plus a roster of named companies doing it, ending in a market take
 - **Funnel stage**: BOFU
-- **ABM mechanic**: every company on the roster is a tag node; being "listed among the ones pushing the boundary" is exactly the flattery ops and founders reshare.
+- **Stage mechanic**: every company on the roster is a tag node; being "listed among the ones pushing the boundary" is exactly the flattery ops and founders reshare.
 - **Platform**: LinkedIn
 - **Source examples**: (refreshed by the scheduled library-refresh task; pinned entries never auto-replaced)
   - https://www.linkedin.com/posts/arnold-ma_china-innovation-technology-activity-7346479954806665217-Lqpg — Arnold Ma, 8,841 reactions / 398 comments, Jul 2025 (exoskeleton + named robotics companies)
@@ -17,6 +17,7 @@
   6. Question or soft close inviting takes
 - **Rhythm & formatting**: 150–300 words; arrow bullets for capabilities; roster one name per line; media attachment (video/image) strongly preferred.
 - **Why it works**: the artifact earns the stop-scroll, the roster earns the reshares, the personal beat earns trust.
+- **ABM payoff**: founders and ops leads at each rostered company reshare being named among the boundary-pushers, and the target account's reshare hands the client a natural follow-up opener.
 - **Adaptation notes**: roster should be 3–6 names including at least one target account. Keep: jaw-drop hook, plain-terms breakdown, named roster, personal beat.
 - **Watch-outs**: roster names must genuinely do the thing (their teams will check); without media the hook underperforms badly.
 

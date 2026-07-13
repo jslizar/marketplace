@@ -17,4 +17,4 @@ Does this reframe or sharpen a problem the ICP has, in a way that builds the aut
 - Freshness window: 14 days.
 - Source: `viral_posts_all` where `funnel_stage = 'MOFU'` (~5.4K rows). Note the pool skews promotional (`promotional_post` and `announcement` dominate by count) — filter hard on the admission test, and prefer `is_lead_magnet = true` rows for gated-resource formats.
 - Example turnover: owned by the scheduled refresh task. Each spec carries exactly 2 source examples; pinned examples are never auto-replaced.
-- ABM deconfliction: named-account posts go to the ABM engine, not here.
+- ABM deconfliction: named-account posts go to the abm lane, not here.

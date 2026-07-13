@@ -2,7 +2,7 @@
 
 - **Archetype**: delighted reaction to a surprising partnership between named brands, zoomed out into a market observation
 - **Funnel stage**: BOFU
-- **ABM mechanic**: celebrates two named companies at once — both brand teams, their agencies, and both audiences amplify. Positions the author as a generous market observer to every account named.
+- **Stage mechanic**: celebrates two named companies at once — both brand teams, their agencies, and both audiences amplify. Positions the author as a generous market observer to every account named.
 - **Platform**: LinkedIn
 - **Source examples**: (refreshed by the scheduled library-refresh task; pinned entries never auto-replaced)
   - https://www.linkedin.com/posts/anupammittal007_taking-a-moment-to-appreciate-this-cute-collab-activity-7267056882744258560-iyUM — Anupam Mittal, 41,913 reactions / 1,063 comments, Nov 2024 (Zepto × Shaadi.com)
@@ -16,6 +16,7 @@
   5. Forward-looking close tied to the trend
 - **Rhythm & formatting**: 150–300 words; short paragraphs; one emoji max in hook if the client's voice allows; no hashtags.
 - **Why it works**: dual tag-bait, borrowed delight (celebrating others reads generous), and the zoom-out gives a shareable market take beyond the news itself.
+- **ABM payoff**: both brand teams and their agencies see the tag and reshare the praise, earning the client a warm reply from either side and generous-observer standing with every account named.
 - **Adaptation notes**: works for any partnership, integration, or co-launch between a target account and anyone else. Keep: both names in hook, surprise framing, zoom-out. The take must be about the MARKET, not the author.
 - **Watch-outs**: dies if posted more than ~1 week after the collab news; reads as pandering if the "why it matters" is thin.
 

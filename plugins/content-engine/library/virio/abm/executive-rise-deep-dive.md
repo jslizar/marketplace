@@ -2,7 +2,7 @@
 
 - **Archetype**: rise story — how one person went from humble role to impressive role, told as a studied playbook
 - **Funnel stage**: BOFU
-- **ABM mechanic**: glorifies a named exec at a target (or aspirational) account. The subject, their company, and everyone who admires them amplifies it. Earns a warm reply channel to the subject's org.
+- **Stage mechanic**: glorifies a named exec at a target (or aspirational) account. The subject, their company, and everyone who admires them amplifies it. Earns a warm reply channel to the subject's org.
 - **Platform**: LinkedIn
 - **Source examples**: (refreshed by the scheduled library-refresh task; pinned entries never auto-replaced)
   - https://www.linkedin.com/posts/nishitasnani_how-did-max-freeman-go-from-ramps-first-activity-7473030471388532736-l67F — Nishit Asnani, 1,126 reactions / 65 comments, Jun 2026 (Max Freeman, Ramp) (pinned)
@@ -17,6 +17,7 @@
   6. P.S. — hiring note, link, or personal aside
 - **Rhythm & formatting**: 350–500 words; single-sentence paragraphs; arrow bullets for stats; numbered plays; one quote in-line per play where possible; no hashtags.
 - **Why it works**: borrowed status (the author absorbs credibility by studying a winner), tag-bait (subject + their company + admirers), and detail density — the insider specifics ("demoted himself back to SDR", "40–45 meetings by month three") make it feel researched, not generated.
+- **ABM payoff**: the profiled exec sees the tribute and typically replies or reshares, and their company amplifies it, giving the client a warm intro path into the subject's org.
 - **Adaptation notes**: change subject, stats, plays, quote. Keep: question hook shape, arrow stats, numbered-plays body, respect closer, P.S. The play count can flex 5–9. The subject must map to the client's ICP or a named target account.
 - **Watch-outs**: fails when plays are generic ("work hard") instead of insider-specific; fails when the subject isn't someone the ICP aspires to be; verify every stat — one wrong number and the subject's own team corrects you publicly.
 

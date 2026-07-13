@@ -15,11 +15,11 @@ Funnel-lane (tofu/mofu/bofu) corpus discovery reads Supabase project `jacob-cont
 
 ## Source order — try each, fall through on failure
 
-1. **The local library** (preferred — `content-library/<library>/<lane>/` in the user's working folder). On first run, seed by copying `${CLAUDE_PLUGIN_ROOT}/library/` into `content-library/`. Treat the library as authoritative: do not query any external source during a pipeline run.
-   - Virio lanes: if specs look stale (older than the lane config's freshness window), flag it — the scheduled refresh has likely failed — and offer sources 2–4.
+1. **The local library** (preferred — `content-library/<library>/<lane>/` in the user's working folder). On first run, seed by copying `${CLAUDE_PLUGIN_ROOT}/library/` into `content-library/` (including `library/VERSION`); on later runs, if the bundled `VERSION` is newer than the seeded one, offer the non-destructive merge described in the post skill. Treat the library as authoritative: do not query any external source during a pipeline run unless the user explicitly asks for new formats.
+   - Virio lanes: refreshed on the maintainer's machine and shipped to everyone else as plugin updates — the seeded snapshot is current by definition. Only if this machine runs the scheduled refresh task (i.e., the user is the library maintainer) and specs exceed the lane config's freshness window, flag that the refresh likely failed and offer sources 2–4. Otherwise never diagnose a failed refresh; if the user wants fresher formats, offer source 2 (their own URLs) or whichever of sources 3–4 their connections support.
    - Millie's lanes: curated, no freshness window. Never flag staleness. If the user wants formats beyond it, offer the Virio library or discovery sources — but save new specs to Virio's lane, not Millie's, unless the user says otherwise.
 2. **Specific URLs**: If the user supplied post URLs, read each with the Virio MCP `read_linkedin_uri` tool.
-3. **Corpus / bank discovery** (when the user explicitly wants NEW formats beyond the library):
+3. **Corpus / bank discovery** (when the user explicitly wants NEW formats beyond the library; requires corpus access — Supabase project `jacob-content` for funnel lanes, the curated ABM bank for abm. These live on the maintainer's setup; if this user's connections can't reach them, say so and fall through):
    - Funnel lanes: query `viral_posts_all` — always this shape:
 
      ```sql
@@ -38,7 +38,7 @@ Funnel-lane (tofu/mofu/bofu) corpus discovery reads Supabase project `jacob-cont
 
      Two learned gotchas, do not regress: `engagement_score` is null on many rows and Postgres sorts nulls FIRST on `desc` — always wrap in `coalesce(..., 0)`; and filter `post_text_length` to skip stubs. For archetype variety, partition by `format_archetype` and take the top 1–2 per archetype.
    - ABM lane: the user's curated ABM post bank (maintained outside this pipeline by the scheduled refresh task).
-4. **Apify / web search**: Use the Apify MCP: `search-actors` for a LinkedIn post-search actor (and X for the abm lane); check the input schema with `fetch-actor-details` before calling; cap maxItems ≤ 50. ABM search terms: ABM markers only — "how did [x] go from", "the team behind", "playbook", "campaign breakdown", open letters to companies — plus the client's category keywords. Funnel lanes: BOFU only, when the corpus can't sustain the lane's repo target; write keepers back into `viral_posts_all` with `funnel_stage = 'BOFU'`.
+4. **Apify / web search** (requires the Apify MCP — skip if not connected): Use the Apify MCP: `search-actors` for a LinkedIn post-search actor (and X for the abm lane); check the input schema with `fetch-actor-details` before calling; cap maxItems ≤ 50. ABM search terms: ABM markers only — "how did [x] go from", "the team behind", "playbook", "campaign breakdown", open letters to companies — plus the client's category keywords. Funnel lanes: BOFU only, when the corpus can't sustain the lane's repo target; write keepers back into `viral_posts_all` with `funnel_stage = 'BOFU'`.
 
 ## Selecting winners (sources 2–4; library specs skip this)
 

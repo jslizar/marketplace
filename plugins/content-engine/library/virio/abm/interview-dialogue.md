@@ -2,7 +2,7 @@
 
 - **Archetype**: a staged interview exchange at a named company, used to teach a technical/domain concept through back-and-forth
 - **Funnel stage**: BOFU
-- **ABM mechanic**: the named company's hiring bar becomes the stage — their engineers and every candidate targeting them engage. Positions the author as someone who thinks at that company's level.
+- **Stage mechanic**: the named company's hiring bar becomes the stage — their engineers and every candidate targeting them engage. Positions the author as someone who thinks at that company's level.
 - **Platform**: LinkedIn
 - **Source examples**: (refreshed by the scheduled library-refresh task; pinned entries never auto-replaced)
   - https://www.linkedin.com/posts/srgrace_ai-genai-llms-activity-7390394713264021505-YrId — Sourav Verma, 1,143 reactions / 33 comments, Nov 2025 (GenAI engineer interview at Cohere)
@@ -17,6 +17,7 @@
   6. Optional resource block or takeaway line
 - **Rhythm & formatting**: 200–350 words; "Interviewer:" / "You:" labels; answers 2–4 lines max; the escalation carries the pacing.
 - **Why it works**: dialogue is inherently scannable, the named company supplies stakes, and readers self-test against each question — comment bait built in.
+- **ABM payoff**: engineers and hiring managers at the named company engage to confirm or refine the answers, signaling to the target org that the author thinks at their bar and warming later outreach.
 - **Adaptation notes**: company must be one the ICP would interview at (or the client's own hiring bar — the warmest version: "the interview is for a role at {client}"). Concept must survive expert scrutiny.
 - **Watch-outs**: technical errors get destroyed by actual employees of the named company; keep the dialogue plausible — no strawman interviewers.
 

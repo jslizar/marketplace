@@ -9,7 +9,7 @@
 
 ## Admission test
 
-Does this move someone already evaluating — does it de-risk the decision with verifiable proof? Reach plays fail (TOFU); problem-education fails (MOFU). And if the post's engine is glorifying a specific named account, it's ABM — it belongs to the ABM engine, not here.
+Does this move someone already evaluating — does it de-risk the decision with verifiable proof? Reach plays fail (TOFU); problem-education fails (MOFU). And if the post's engine is glorifying a specific named account, it's ABM — it belongs to the abm lane, not here.
 
 ## Refresh policy
 

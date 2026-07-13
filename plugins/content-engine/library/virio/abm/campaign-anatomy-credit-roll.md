@@ -2,12 +2,11 @@
 
 - **Archetype**: breakdown of a hot campaign or company run, ending in a name-by-name credit roll of the team behind it
 - **Funnel stage**: BOFU
-- **ABM mechanic**: every named person on the credit roll is a tag-and-amplify node — the agency, the brand team, and their networks all reshare. Reaches an entire target org (and its agency) in one post.
+- **Stage mechanic**: every named person on the credit roll is a tag-and-amplify node — the agency, the brand team, and their networks all reshare. Reaches an entire target org (and its agency) in one post.
 - **Platform**: LinkedIn
 - **Source examples**: (refreshed by the scheduled library-refresh task; pinned entries never auto-replaced)
   - https://www.linkedin.com/posts/parkerjared_nicefrank-just-pulled-off-the-hottest-campaign-activity-7479912158856749056-WnTN — Jared Parker, 26 reactions / 5 comments (video, captured 2 days after posting), Jul 2026 (nice&frank × ŌURA "Subtle Power") (pinned — included on format merit)
   - https://www.linkedin.com/posts/david-heinemeier-hansson-374b18221_our-s3-exit-is-slated-for-this-summer-thats-activity-7308840098773577728-G7pC — DHH, 7,465 reactions / 628 comments, Mar 2025 (37signals' $1.2M AWS S3 exit, behind_the_scenes on a named vendor run)
-  - alternate: https://www.linkedin.com/posts/brireynolds1_marriott-hotels-social-team-spent-80-for-activity-7328781898380439552-IrrQ — Bri Reynolds, 7,827 reactions, May 2025 (Marriott's $80 → 330K impressions campaign teardown)
 - **Hook pattern**: "{agency/team} just pulled off the hottest campaign in {brand}'s {n}-year history." + news peg ("{exec} JUST announced {IPO/launch}; so here is a dive into their {result}.")
 - **Skeleton**:
   1. Hook naming the maker + the brand + a superlative, tied to a live news peg
@@ -19,7 +18,8 @@
   7. P.S. — links in comments
 - **Rhythm & formatting**: 300–450 words; timeline uses bare year-colon lines; arrows for campaign elements; credit roll one person per line; native video or campaign imagery attached when possible.
 - **Why it works**: news-peg urgency (IPO/launch that week), insider completeness (reads like trade press but faster), and the credit roll — a dozen named people with flattering one-liners is a dozen reshares. Flattery with receipts.
-- **Adaptation notes**: change brand, timeline, elements, people. Keep: superlative hook + peg, dated timeline, element arrows, per-person flattering credential lines. Works for campaigns, product launches, funding runs, rebrands.
+- **ABM payoff**: every credited person at the agency and the brand team reshares their own flattering line, putting the author in front of the entire target org and earning warm replies from the people just named.
+- **Adaptation notes**: change brand, timeline, elements, people. Keep: superlative hook + peg, dated timeline, element arrows, per-person flattering credential lines. Works for campaigns, product launches, funding runs, rebrands. (Alternate example if needed: Bri Reynolds' Marriott credit-roll, 7,827 reactions: https://www.linkedin.com/posts/brireynolds1_marriott-hotels-social-team-spent-80-for-activity-7328781898380439552-IrrQ)
 - **Watch-outs**: credential lines must be accurate — these people will read it; dies without a live news peg (run within days of the announcement); don't credit-roll more than ~12 names or it reads like a cast list.
 
 ## Top example — full post text

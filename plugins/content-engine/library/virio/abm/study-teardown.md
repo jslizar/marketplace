@@ -2,7 +2,7 @@
 
 - **Archetype**: breakdown of a named org's research/report into a "here's what almost nobody realizes" insight
 - **Funnel stage**: BOFU
-- **ABM mechanic**: glorifies the org that produced the study (their research team reshapes it); positions the author as the person who actually read the thing your ICP only saw headlines about.
+- **Stage mechanic**: glorifies the org that produced the study (their research team reshapes it); positions the author as the person who actually read the thing your ICP only saw headlines about.
 - **Platform**: LinkedIn
 - **Source examples**: (refreshed by the scheduled library-refresh task; pinned entries never auto-replaced)
   - https://www.linkedin.com/posts/teybannerman_theres-something-almost-nobody-is-talking-activity-7358405153139367937-4GVf — Tey Bannerman, 9,882 reactions / 1,006 comments, Aug 2025 (107-country AI values study)
@@ -17,6 +17,7 @@
   6. Implication close for the reader's org
 - **Rhythm & formatting**: 250–400 words; scenario told in present tense; arrow or dash sub-bullets for the findings; numbers everywhere.
 - **Why it works**: borrowed authority from the named org, the "nobody's talking about" gap, and a scenario that lets the reader feel the finding instead of reading stats.
+- **ABM payoff**: the org's research team reshares the deep read of their own study, earning the author a reply channel as the one commentator who actually read it.
 - **Adaptation notes**: swap study, scale line, scenario. The scenario must involve the client's ICP. Keep: gap hook, scale line, played-out scenario.
 - **Watch-outs**: misquote the study and the org's own team corrects you; scenario must be plausible for the ICP or it reads like a stretch.
 

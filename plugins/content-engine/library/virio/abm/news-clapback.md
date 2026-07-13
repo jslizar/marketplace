@@ -2,7 +2,7 @@
 
 - **Archetype**: a named company responds publicly to bad news about itself (regulator letter, security incident, viral criticism) — or the author breaks down such news
 - **Funnel stage**: BOFU
-- **ABM mechanic**: highest-heat single-company format — the named company, its critics, and its defenders all engage. Author either IS the company (founder voice) or becomes the definitive commentator on the incident.
+- **Stage mechanic**: highest-heat single-company format — the named company, its critics, and its defenders all engage. Author either IS the company (founder voice) or becomes the definitive commentator on the incident.
 - **Platform**: LinkedIn
 - **Source examples**: (refreshed by the scheduled library-refresh task; pinned entries never auto-replaced)
   - https://www.linkedin.com/posts/willahmed_wellness-innovation-regulation-activity-7351264571933745156-IJw4 — Will Ahmed, 5,260 reactions / 408 comments, Jul 2025 (WHOOP vs FDA warning letter)
@@ -16,6 +16,7 @@
   5. Firm close: the position, stated once ("we're not backing down" / "here's the memo")
 - **Rhythm & formatting**: 200–400 words; short declarative sentences; cite specifics (CFR sections, event names); zero hedging.
 - **Why it works**: live conflict with a named institution, insider context the news lacks, and a spine — position-taking is what gets quoted.
+- **ABM payoff**: the named company's execs, defenders, and critics all engage; in commentator voice the target's comms team sees the most informed take on their incident and the author earns the reply.
 - **Adaptation notes**: founder-voice version needs the client to BE the company; commentator version works on any target account in the news. Keep: flat news hook, skipped-context block, receipts, stakes, position.
 - **Watch-outs**: legal exposure is real — facts only, cite everything; commentator version must punch at institutions or incidents, never at victims.
 

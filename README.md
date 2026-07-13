@@ -18,12 +18,15 @@ Claude plugin marketplace for the team. Current plugins:
 
 `plugins/content-engine/library/` ships two libraries, seeded into a `content-library/` folder in your working directory on first run:
 
-- **virio/** — corpus-mined specs (tofu, mofu, bofu, abm), refreshed by Jacob's scheduled task.
+- **virio/** — corpus-mined specs (tofu, mofu, bofu, abm), refreshed on Jacob's machine by a scheduled task.
 - **millies/** — curated from Millie's viral content bank; updated only when a new bank ships. No BOFU lane by design (her BOFU tab is all ABM-style posts).
 
 Each lane folder has a `config.md` (lane directive + admission test) and an `index.md`.
-Pushing library updates to `main` rolls them out to everyone. Do not edit the
-library directly — file an issue or ask Jacob.
+Library updates reach you through plugin updates: `library/VERSION` is stamped per
+release, and on each run the engine compares it with your seeded `content-library/`
+copy and offers a non-destructive merge (your pinned examples and edits are never
+touched). Update the plugin to pick up new library releases. Do not edit the bundled
+library in this repo directly — file an issue or ask Jacob.
 
 ## Adding a plugin
 

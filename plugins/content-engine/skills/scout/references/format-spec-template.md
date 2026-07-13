@@ -6,10 +6,10 @@ One file per format, saved as `content-library/<library>/<lane>/<kebab-name>.md`
 # <Format name>
 
 - **Archetype**: <one line — e.g. gated playbook drop>
-- **Funnel stage / Lane**: TOFU | MOFU | BOFU | ABM — must match the lane folder it lives in. Restate the lane's job in one clause (TOFU: earns reach with the ICP; MOFU: makes the problem urgent and the approach credible; BOFU: converts existing intent; ABM: makes a named target glad the post exists).
+- **Funnel stage**: TOFU | MOFU | BOFU — funnel-lane specs must match the folder they live in; abm-lane specs are stage-BOFU by definition (they live in `abm/` and do the ABM job). Restate the lane's job in one clause (TOFU: earns reach with the ICP; MOFU: makes the problem urgent and the approach credible; BOFU: converts existing intent; ABM: makes a named target glad the post exists).
 - **Stage mechanic**: <why this shape does the lane's job — what makes a cold ICP member share it (TOFU), what makes the problem land or the approach credible (MOFU), what moves someone already evaluating (BOFU), what makes the target amplify it (ABM)>
 - **Platform**: LinkedIn | X
-- **Source examples**: exactly 2, kept current per the lane's config.md refresh policy. User-pinned examples are marked `(pinned)` and never auto-replaced.
+- **Source examples**: 2 when available — one real example plus an explicit `(second example: to be filled by the maintainer's refresh)` placeholder is acceptable until the refresh backfills it; never more than 2 (park extras as a note under Adaptation notes or Watch-outs). Kept current per the lane's config.md refresh policy. User-pinned examples are marked `(pinned)` and never auto-replaced.
   - <URL> — <author>, <reactions> reactions / <comments> comments, <date> (pinned?)
 - **Hook pattern**: <the first 1–2 lines as a fill-in template>
 - **Skeleton** (block sequence):

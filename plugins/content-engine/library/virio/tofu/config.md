@@ -17,4 +17,4 @@ Would a cold ICP member — someone who has never heard of the client — share 
 - Freshness window: 14 days — specs with source examples older than this are flagged stale.
 - Source: `viral_posts_all` where `funnel_stage = 'TOFU'` (34K+ rows — the deepest pool; be picky, prefer `is_outlier = true`).
 - Example turnover: owned by the scheduled refresh task. Each spec carries exactly 2 source examples; pinned examples are never auto-replaced.
-- ABM deconfliction: posts whose engine is a specific named account/person/campaign go to the ABM engine, not here.
+- ABM deconfliction: posts whose engine is a specific named account/person/campaign go to the abm lane, not here.

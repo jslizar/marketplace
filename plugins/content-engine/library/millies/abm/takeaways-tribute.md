@@ -2,7 +2,7 @@
 
 - **Archetype**: "my biggest takeaways from {person}" — numbered wisdom post that credits one named expert throughout
 - **Lane**: ABM — glorifies a single named person (and their company) by canonizing their thinking.
-- **ABM mechanic**: The featured person gets the ultimate compliment: their ideas, organized and amplified to a large audience with full credit. They (and their company) reshare it. Works as pre-meeting warm-up, podcast promotion, or pure relationship capital with a strategic account.
+- **Stage mechanic**: The featured person gets the ultimate compliment: their ideas, organized and amplified to a large audience with full credit. They (and their company) reshare it. Works as pre-meeting warm-up, podcast promotion, or pure relationship capital with a strategic account.
 - **Platform**: LinkedIn
 - **Source examples**: curated from Millie's bank; refreshed only when the bank updates.
   - https://www.linkedin.com/posts/lennyrachitsky_my-biggest-takeaways-from-elena-verna-head-activity-7407893643732316162-v6OE — Lenny Rachitsky (on Elena Verna, Lovable), 3,902 reactions / 207 comments, 2025-12-19

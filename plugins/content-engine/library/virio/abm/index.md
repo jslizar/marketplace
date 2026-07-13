@@ -6,11 +6,11 @@ Repo target: 15 specs. The pipeline's format-pick step selects 3 to show per run
 
 | Format | Archetype | Top example | Peak engagement | Added |
 |---|---|---|---|---|
-| Executive rise deep-dive | Rise story as studied playbook | Nishit Asnani (Max Freeman/Ramp, pinned) | 4,132 | 2026-07-08 |
-| Campaign anatomy + credit roll | Campaign breakdown + team credit roll | Jared Parker (ŌURA, pinned); DHH | 7,827 | 2026-07-08 |
+| Executive rise deep-dive | Rise story as studied playbook | Nishit Asnani (Max Freeman/Ramp, pinned); Shaan Puri | 4,132 | 2026-07-08 |
+| Campaign anatomy + credit roll | Campaign breakdown + team credit roll | Jared Parker (ŌURA, pinned); DHH | 7,465 | 2026-07-08 |
 | Collab appreciation | Surprise-partnership reaction + market take | Anupam Mittal (Zepto × Shaadi.com) | 41,913 | 2026-07-10 |
 | Study teardown | Named org's research → overlooked insight | Tey Bannerman (107-country AI study) | 9,882 | 2026-07-10 |
-| Named-rival rebuttal | Counter a named exec's claim with your data | Annie Dean (Atlassian vs Nike) | 11,875 | 2026-07-10 |
+| Named-rival rebuttal | Counter a named exec's claim with your data | Annie Dean (vs Amazon RTO memo) | 11,875 | 2026-07-10 |
 | Innovation roster | Jaw-drop artifact + named-company roster | Arnold Ma (robotics roster) | 8,841 | 2026-07-10 |
 | Insider defense | Credentialed defense of a criticized company | Aisha Bowe (Blue Origin) | 7,444 | 2026-07-10 |
 | Category obituary | Deadline doom + named receipts + survival plays | Tom Head (agencies vs AI) | 3,244 | 2026-07-10 |
