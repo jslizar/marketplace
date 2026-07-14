@@ -1,0 +1,17 @@
+{
+  "name": "watt",
+  "version": "1.0.0",
+  "description": "Watt voice, brand, and signal-story toolkit: draft and de-slop copy in the founder voice, apply the Watt design system, and turn Watt audience data into branded signal-story reports.",
+  "author": {
+    "name": "Jacob Lizarraga"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/jslizar/marketplace",
+  "keywords": [
+    "watt",
+    "voice",
+    "design-system",
+    "signal-story",
+    "deslop"
+  ]
+}

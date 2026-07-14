@@ -1,0 +1,53 @@
+/* ============================================================
+   WATT SOCIAL CARD — 1:1 summary of a signal story (LinkedIn).
+   CORRECTED, renderer-agnostic layout: renders identically in
+   Chromium (Playwright) AND WeasyPrint. Borderless map row.
+   Drop-in replacement for watt-brand-kit/assets/card.css.
+
+   What changed vs the original, and why:
+   - The original distributed vertical space with flexbox GROW
+     (.card-canvas flex column + .c-body/.c-maprow flex:1 +
+     min-height:0). Chromium computes that; WeasyPrint does not,
+     so the hero collapsed and the legend spilled into the stats.
+   - This version uses deterministic block flow + an absolutely
+     pinned footer + a fixed map size, so neither engine can
+     mis-distribute height.
+   - The map row border/padding (the black box) is removed.
+   ============================================================ */
+*{box-sizing:border-box;}
+html,body{margin:0;background:#e9e9e9;color:var(--text-body);font-family:var(--font-sans);-webkit-font-smoothing:antialiased;}
+.card-canvas{position:relative;width:1080px;height:1080px;overflow:hidden;background:var(--surface-page);}
+
+/* Hero */
+.c-hero{background:var(--surface-dark);color:#fff;border-bottom:8px solid var(--lime);padding:56px 64px 40px;}
+.c-badge{display:inline-block;background:var(--lime);color:var(--ink);font-family:var(--font-mono);font-size:17px;font-weight:var(--weight-medium);letter-spacing:.12em;text-transform:uppercase;padding:8px 16px;}
+.c-title{font-size:54px;line-height:1.05;margin:22px 0 14px;font-weight:var(--weight-black);letter-spacing:-.025em;color:#fff;}
+.c-dek{color:var(--hero-sub);font-size:25px;line-height:1.32;margin:0;max-width:900px;}
+
+/* Body */
+.c-body{padding:44px 64px 0;}
+
+/* Stats */
+.c-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;}
+.c-stat{background:#fff;border:1.5px solid var(--ink);padding:26px 28px;}
+.c-stat .n{font-size:54px;font-weight:var(--weight-black);letter-spacing:-.02em;line-height:1;}
+.c-stat .l{font-size:16px;color:var(--muted);margin-top:14px;font-family:var(--font-mono);text-transform:uppercase;letter-spacing:.05em;line-height:1.35;}
+.c-stat.lime{background:var(--lime);}
+.c-stat.lime .l{color:var(--on-lime);}
+
+/* Map — borderless, fixed size so it renders identically across engines */
+.c-maprow{display:flex;gap:48px;align-items:center;justify-content:center;margin-top:60px;}
+.c-legend{flex:none;width:280px;display:flex;flex-direction:column;gap:16px;font-size:17px;color:var(--muted);line-height:1.25;}
+.c-legend span{display:flex;align-items:flex-start;gap:12px;}
+.c-legend .sw{width:20px;height:20px;flex:none;margin-top:2px;border:1px solid rgba(0,0,0,.15);}
+.c-visual{flex:none;width:500px;}
+.c-visual svg{width:500px;height:auto;max-height:340px;display:block;margin:0 auto;}
+.c-visual path{stroke:#fff;stroke-width:1;stroke-linejoin:round;}
+
+/* Footer — pinned to the bottom without flex-grow */
+.c-foot{position:absolute;left:0;right:0;bottom:0;margin:0 64px 44px;display:flex;justify-content:space-between;gap:20px;font-family:var(--font-mono);font-size:15px;color:#a8a399;text-transform:uppercase;letter-spacing:.1em;border-top:1px solid var(--hairline);padding-top:16px;}
+.c-foot span{display:flex;align-items:center;white-space:nowrap;}
+.c-foot .sq{display:inline-block;width:15px;height:15px;background:var(--lime);margin-right:9px;}
+
+@page{size:1080px 1080px;margin:0;}
+@media print{html,body{background:#fff;}.card-canvas{box-shadow:none;}}

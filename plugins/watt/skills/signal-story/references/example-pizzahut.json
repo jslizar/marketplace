@@ -1,0 +1,272 @@
+{
+  "title": "Winning back the pizza buyer",
+  "footer": "CASE STUDY: PIZZA HUT MARKETING STRATEGY",
+  "card": {
+    "eyebrow": "Case study · Pizza Hut marketing strategy",
+    "title": "Winning back the pizza buyer",
+    "dek": "A state-by-state read on where Pizza Hut should defend dining rooms versus run delivery-only ghost kitchens.",
+    "stats": [
+      {
+        "num": "13.2M",
+        "label": "High-intent US audience",
+        "hero": true
+      },
+      {
+        "num": "~4×",
+        "label": "Delivery over dine-in intent"
+      },
+      {
+        "num": "23",
+        "label": "States scored on the index"
+      }
+    ],
+    "footer": "WATT · CASE STUDY",
+    "footer_right": "Index = dine-in share ÷ delivery share × 100"
+  },
+  "pages": [
+    {
+      "blocks": [
+        {
+          "type": "masthead",
+          "eyebrow": "WATT · CUSTOMER STRATEGY",
+          "title": "Winning back the pizza buyer",
+          "dek": "A high-intent audience for Pizza Hut, and a state-by-state read on where to keep dining rooms versus where to run delivery-only kitchens."
+        },
+        {
+          "type": "section_head",
+          "title": "The audience",
+          "lead": "The widest credible pool of high-intent buyers worth re-engaging: everyone is in-market for pizza, crossed with the behaviors that actually move reach."
+        },
+        {
+          "type": "stats",
+          "items": [
+            {
+              "num": "13.2M",
+              "label": "US adults · measured reach",
+              "hero": true
+            },
+            {
+              "num": "Pizza",
+              "label": "Required of everyone (the gate)"
+            },
+            {
+              "num": "4 of 8",
+              "label": "Signals kept, rest dead weight"
+            }
+          ]
+        },
+        {
+          "type": "composition",
+          "title": "Composition",
+          "required": {
+            "name": "Pizza interest",
+            "tag": "(required)"
+          },
+          "kept": [
+            "Value shoppers",
+            "Coupon enthusiasts",
+            "Households with teens",
+            "Food-delivery users"
+          ],
+          "note": "Curbside pickup, very-high-spend families, casual dining and price sensitivity were dropped: each added under 5% new reach because they already sat inside the bigger signals."
+        },
+        {
+          "type": "section_head",
+          "title": "Where to build what",
+          "lead": "Delivery intent outweighs dine-in roughly **4 to 1** nationally, so the map reads *relative* skew. The index is a state's dine-in share ÷ its delivery share × 100: above 100 → dine-in over-indexes (favor brick-and-mortar); below 100 → delivery over-indexes (favor ghost kitchens)."
+        },
+        {
+          "type": "map",
+          "states": {
+            "FL": 106,
+            "NJ": 106,
+            "VA": 106,
+            "AZ": 106,
+            "OH": 103,
+            "CT": 103,
+            "NY": 100,
+            "IL": 100,
+            "CA": 100,
+            "PA": 100,
+            "MI": 100,
+            "GA": 100,
+            "MD": 100,
+            "IN": 100,
+            "MA": 100,
+            "TX": 96,
+            "AL": 96,
+            "SC": 97,
+            "WA": 91,
+            "MO": 92,
+            "NC": 95,
+            "MN": 95,
+            "KY": 95
+          },
+          "scale": [
+            {
+              "label": "Dine-in market (104+)",
+              "color": "#8e7cc9",
+              "min": 104,
+              "max": null
+            },
+            {
+              "label": "Leans dine-in (101–103)",
+              "color": "#d7d0f2",
+              "min": 101,
+              "max": 103
+            },
+            {
+              "label": "Balanced (99–100)",
+              "color": "#eaeaea",
+              "min": 99,
+              "max": 100
+            },
+            {
+              "label": "Leans delivery (96–98)",
+              "color": "#ffa087",
+              "min": 96,
+              "max": 98
+            },
+            {
+              "label": "Ghost-kitchen (≤95)",
+              "color": "#ff6200",
+              "min": null,
+              "max": 95
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "blocks": [
+        {
+          "type": "section_head",
+          "title": "Market playbook",
+          "lead": "How the index translates into footprint decisions, by state cluster."
+        },
+        {
+          "type": "clusters",
+          "items": [
+            {
+              "theme": "dinein",
+              "label": "Lead with dine-in",
+              "chips": [
+                {
+                  "name": "Florida",
+                  "value": 106
+                },
+                {
+                  "name": "New Jersey",
+                  "value": 106
+                },
+                {
+                  "name": "Virginia",
+                  "value": 106
+                },
+                {
+                  "name": "Arizona",
+                  "value": 106
+                },
+                {
+                  "name": "Ohio",
+                  "value": 103
+                },
+                {
+                  "name": "Connecticut",
+                  "value": 103
+                }
+              ],
+              "desc": "Keep and refresh physical restaurants: the sit-down “Hut” experience over-indexes here."
+            },
+            {
+              "theme": "hybrid",
+              "label": "Hybrid footprint",
+              "chips": [
+                "New York",
+                "Illinois",
+                "California",
+                "Pennsylvania",
+                "Michigan",
+                "Georgia",
+                "Maryland",
+                "Indiana",
+                "Massachusetts"
+              ],
+              "desc": "Mix dine-in and delivery: neither channel dominates among pizza households."
+            },
+            {
+              "theme": "ghost",
+              "label": "Lead with ghost kitchens",
+              "chips": [
+                {
+                  "name": "Washington",
+                  "value": 91
+                },
+                {
+                  "name": "Missouri",
+                  "value": 92
+                },
+                {
+                  "name": "N. Carolina",
+                  "value": 95
+                },
+                {
+                  "name": "Minnesota",
+                  "value": 95
+                },
+                {
+                  "name": "Kentucky",
+                  "value": 95
+                },
+                {
+                  "name": "Texas",
+                  "value": 96
+                },
+                {
+                  "name": "Alabama",
+                  "value": 96
+                },
+                {
+                  "name": "S. Carolina",
+                  "value": 97
+                }
+              ],
+              "desc": "Favor lower-capex delivery-only kitchens over full dining-room builds."
+            }
+          ]
+        },
+        {
+          "type": "recs",
+          "title": "What we'd recommend to LongRange",
+          "items": [
+            {
+              "lead": "Re-acquire on value, not novelty.",
+              "body": "The audience is anchored on deal-seeking and coupon behavior: promotional, bundle-led offers are the lever that reactivates these households."
+            },
+            {
+              "lead": "Right-size the footprint by market.",
+              "body": "Defend and modernize dining rooms in the dine-in states; convert or open delivery-only kitchens in the ghost-kitchen states to cut occupancy cost where demand is already digital."
+            },
+            {
+              "lead": "Treat carryout as a margin play.",
+              "body": "It’s small and precise in the data: an underserved, high-margin channel to grow in hybrid and dine-in markets alike."
+            },
+            {
+              "lead": "Pilot before national.",
+              "body": "A tighter high-intent cut can prove ROI in one region before rolling the full 13.2M audience out on Meta or Google."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "lead": "Read the map as format mix, not presence.",
+          "body": "Texas and California index toward delivery but are enormous absolute markets: the skew should shape the dine-in-vs-ghost-kitchen ratio there, not whether Pizza Hut shows up at all."
+        },
+        {
+          "type": "method",
+          "text": "METHOD: Audience and channel splits measured on the Watt Signal Graph (US adults, refreshed Jun 2026). The siting index compares the state distribution of two deterministic 200K samples, pizza × casual-dining intent vs pizza × food-delivery intent, conditioned on pizza interest. States without enough sample in both audiences are left uncolored. Index = (dine-in share ÷ delivery share) × 100."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+/* ============================================================
+   WATT REPORT — DESIGN TOKENS  (verbatim from the Signal Story
+   Report Template). Geist everywhere; warm-neutral + electric-lime;
+   flat, square, 1px-black-bordered. Swap a value to re-skin.
+   ============================================================ */
+:root {
+  /* Families */
+  --font-sans: "Geist", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, sans-serif;
+  --font-mono: "Geist Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+
+  /* Weights */
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --weight-semibold: 600;
+  --weight-bold: 700;
+  --weight-black: 800;
+
+  /* Display / heading scale (report sized — 816px page) */
+  --type-h1: 28px;          /* hero title, weight 800, ls -.025em */
+  --type-h1-ls: -0.025em;
+  --type-h2: 19px;          /* section header, weight 700, ls -.015em */
+  --type-h2-ls: -0.015em;
+  --type-stat: 24px;        /* stat numerals, weight 800, ls -.02em */
+  --type-stat-ls: -0.02em;
+
+  /* Body */
+  --type-body: 14px;
+  --type-lead: 13.5px;      /* section intro / lede, muted */
+  --type-sub: 14px;         /* hero subtitle */
+  --type-small: 13px;
+  --line-body: 1.55;
+
+  /* Mono labels (always UPPERCASE) */
+  --type-badge: 10.5px;     --type-badge-ls: 0.14em;
+  --type-label: 10.5px;     --type-label-ls: 0.08em;
+  --type-foot: 10px;        --type-foot-ls: 0.1em;
+  --type-mono-card: 12.5px;
+  --type-method: 11.5px;
+
+  /* Brand core */
+  --lime: #D1FF01;          /* signature accent */
+  --ink: #222222;           /* primary text + dark surfaces (hero, footers) */
+  --white: #FFFFFF;         /* page + card surface */
+  --black: #000000;
+
+  /* Warm neutrals */
+  --taupe: #A29A7E;
+  --gray: #ECECEC;          /* balanced/neutral fills */
+  --sand: #CDC4A5;          /* low-sample / muted data */
+  --sage: #B8C3AE;
+  --muted: #6f6a5d;         /* secondary / lede text */
+  --hairline: #e2e0d8;      /* footer divider, faint rules */
+
+  /* Diverging scale (lavender pole A / orange pole B) */
+  --lavender-deep: #8E7CC9; --lavender: #D7D0F2; --lavender-pale: #E8E4F5;
+  --coral: #FFA087;         --orange: #FF6200;
+
+  /* On-color text pairings */
+  --on-lime: #4a5400;
+  --on-lavender: #3b2f63;
+  --on-coral: #6e2a12;
+  --hero-sub: #cbc7bd;
+
+  /* Semantic aliases */
+  --surface-page: var(--white);
+  --surface-dark: var(--ink);
+  --surface-callout: var(--lavender-pale);
+  --text-body: var(--ink);
+  --text-muted: var(--muted);
+  --accent: var(--lime);
+  --border-strong: var(--ink);
+
+  /* Diverging index scale */
+  --scale-a2: #8E7CC9; --scale-a1: #D7D0F2; --scale-mid: #ECECEC;
+  --scale-b1: #FFA087; --scale-b2: #FF6200; --scale-null: #CDC4A5;
+
+  /* Page geometry (US Letter @ 96dpi) */
+  --page-w: 816px;  --page-h: 1056px;
+  --page-pad-x: 56px;  --page-pad-b: 44px;
+
+  /* Spacing scale */
+  --space-1: 4px; --space-2: 7px; --space-3: 10px; --space-4: 14px;
+  --space-5: 18px; --space-6: 26px; --space-8: 44px;
+
+  /* Borders & corners */
+  --border: 1px solid var(--ink);
+  --border-hair: 1px solid var(--hairline);
+  --rule-accent: 7px solid var(--lime);
+  --radius: 0;              /* containers are square */
+  --radius-pill: 6px;       /* pills/tags — the only rounded element */
+  --tick: 13px;             /* lime square before section headers */
+  --card-accent-top: 5px;
+  --shadow-page: 0 2px 14px rgba(0,0,0,.14);
+}

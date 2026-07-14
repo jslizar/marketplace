@@ -1,0 +1,11 @@
+{
+  "name": "lets-get-curious",
+  "version": "1.0.0",
+  "description": "Turns a topic you have to post about but don't care about into one you're curious enough to write well: 11 curiosity lenses, angle triage, then verified surprising facts. Four modes: quick spark, deep dig, simulate, zoom out.",
+  "author": {
+    "name": "Jacob Lizarraga"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/jslizar/marketplace",
+  "keywords": ["ideation", "angles", "content", "research", "curiosity"]
+}

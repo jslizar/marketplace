@@ -1,0 +1,17 @@
+{
+  "name": "gtm-strategy-suite",
+  "version": "0.1.0",
+  "description": "Builds rigorous go-to-market strategy documents. Closes the gaps a general model is weakest on: MECE segmentation-tree enumeration, deterministic scoring/pricing/capacity math, sourced sales & channel benchmarks, conjoint analysis, and research grounding — orchestrated end-to-end against a master GTM template.",
+  "author": {
+    "name": "Otter Labs"
+  },
+  "keywords": [
+    "gtm",
+    "go-to-market",
+    "marketing-strategy",
+    "sales-motion",
+    "segmentation",
+    "pricing",
+    "channel-strategy"
+  ]
+}

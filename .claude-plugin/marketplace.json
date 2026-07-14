@@ -11,9 +11,39 @@
       "version": "0.3.2"
     },
     {
+      "name": "linkedin-post-engine",
+      "source": "./plugins/linkedin-post-engine",
+      "description": "Style-matching engine: reverse-engineers an example LinkedIn post into a reusable style spec, then drafts a style-matched, funnel-classified, ICP-personalized, de-slopped post. Complements content-engine (library-driven) with example-driven drafting.",
+      "version": "0.3.0"
+    },
+    {
+      "name": "watt",
+      "source": "./plugins/watt",
+      "description": "Watt voice, brand, and signal-story toolkit: draft and de-slop copy in the founder voice (/deslop, /post), apply the Watt design system, and turn Watt audience data into branded signal-story reports. Merges the former watt-voice, watt-design, and watt-signal-story plugins.",
+      "version": "1.0.0"
+    },
+    {
+      "name": "gtm-strategy-suite",
+      "source": "./plugins/gtm-strategy-suite",
+      "description": "Builds a rigorous client-ready GTM strategy doc from a 16-section master template, delegating segmentation, pricing economics, sales-motion math, conjoint analysis, benchmarks, and claims-grounding to specialist skills with deterministic Python calculators.",
+      "version": "0.1.0"
+    },
+    {
+      "name": "dm-master",
+      "source": "./plugins/dm-master",
+      "description": "LinkedIn outreach ghostwriting: profile analysis, tone read, and register-matched connection notes, DMs, follow-ups, call asks, and rejection comebacks — written as the client, never inventing a profile detail.",
+      "version": "1.0.0"
+    },
+    {
+      "name": "lets-get-curious",
+      "source": "./plugins/lets-get-curious",
+      "description": "Turns a topic you have to post about but don't care about into one you're curious enough to write well: 11 curiosity lenses, angle triage, then verified surprising facts. Hands off to watt or dm-master for drafting.",
+      "version": "1.0.0"
+    },
+    {
       "name": "abm-engine",
       "source": "./plugins/abm-engine",
-      "description": "DEPRECATED \u2014 superseded by content-engine (which covers ABM plus the full funnel). ABM content engine: drafts LinkedIn posts from a curated library of 15 viral ABM formats, researches the client and market, proposes angles, and drafts posts. Requires the Virio MCP connector.",
+      "description": "DEPRECATED — superseded by content-engine (which covers ABM plus the full funnel). ABM content engine: drafts LinkedIn posts from a curated library of 15 viral ABM formats, researches the client and market, proposes angles, and drafts posts. Requires the Virio MCP connector.",
       "version": "1.0.0"
     }
   ]

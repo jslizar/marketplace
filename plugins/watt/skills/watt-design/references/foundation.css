@@ -1,0 +1,57 @@
+/* ============================================================
+   Watt Design System — ready-to-use CSS foundation
+   Paste into any new Watt HTML build to start on-system.
+   Pair with the Geist font link (see watt-design-system.md §02).
+   ============================================================ */
+
+:root{
+  /* foundation */
+  --lime:#D1FF01; --white:#FFFFFF; --dark:#222222; --taupe:#A29A7E;
+  /* extended */
+  --gray:#ECECEC; --black:#000000; --sand:#CDC4A5;
+  /* accent (data-viz / patterns only) */
+  --sage:#B8C3AE; --lavender:#D7D0F2; --lavender-pale:#E8E4F5; --coral:#FFA087; --orange:#FF6200;
+  /* type */
+  --sans:'Geist',-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;
+  --mono:'Geist Mono',ui-monospace,'SF Mono',Menlo,monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:var(--sans);color:var(--dark);background:var(--white);line-height:1.5;-webkit-font-smoothing:antialiased}
+
+/* eyebrow / section meta */
+.eyebrow{font-family:var(--mono);font-size:13px;text-transform:uppercase;letter-spacing:.13em;color:var(--taupe)}
+
+/* display + headings */
+.display{font-weight:400;font-size:clamp(40px,7vw,88px);line-height:1.0;letter-spacing:-.03em}
+h1{font-weight:500;font-size:clamp(34px,5vw,56px);line-height:1.04;letter-spacing:-.03em}
+h2{font-weight:500;font-size:clamp(26px,3.4vw,44px);line-height:1.06;letter-spacing:-.025em}
+
+/* surfaces (flat, zero-radius) */
+.section{padding:96px 32px}
+.section--sand{background:var(--sand)}
+.section--dark{background:var(--dark);color:var(--white)}
+.section--black{background:var(--black);color:var(--white)}
+
+/* card: white, 1px gray border, ZERO radius, 32px pad, no shadow */
+.card{background:var(--white);border:1px solid var(--gray);border-radius:0;padding:32px}
+.card--dark{background:var(--dark);color:var(--white);border-color:rgba(255,255,255,.14)}
+
+/* lime is only valid on dark/black/taupe/sand surfaces, never on white */
+.section--dark .lime,.section--black .lime,.section--sand .lime{color:var(--lime)}
+
+/* button: the only 6px-radius element */
+.btn{display:inline-block;background:var(--lime);color:var(--dark);font-family:var(--sans);
+  font-weight:500;font-size:14px;letter-spacing:.01em;padding:16px 28px;border:0;border-radius:6px;text-decoration:none}
+.btn--ghost{background:transparent;border:1px solid var(--dark);color:var(--dark)}
+
+/* data-viz bar: black + lime only */
+.bar{height:14px;background:var(--black)}      /* competitors */
+.bar--watt{background:var(--lime)}             /* Watt is always lime */
+
+/* chevron-wave motif — lime on dark, two-tone, self-contained (no PNG needed) */
+.chevron{
+  background-color:var(--dark);
+  background-image:repeating-linear-gradient(135deg,var(--lime) 0 2px,transparent 2px 22px),
+                   repeating-linear-gradient(45deg,var(--lime) 0 2px,transparent 2px 22px);
+  background-size:31px 31px;opacity:.9;
+}
