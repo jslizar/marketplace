@@ -7,6 +7,8 @@ description: Load or build a client's context for content. Use when the user say
 
 Build one authoritative context file per client at `clients/<client-slug>/context.md` in the user's working folder. One store serves ALL lanes (abm, tofu, mofu, bofu) — a client researched once serves every post type.
 
+The client can be the user themselves. "My content" / "personal post" → slug is the user; don't ask which client. The Virio `content_*` tools default to the caller's own settings when no user is passed, so the same build flow below applies unchanged.
+
 ## Resolution order
 
 1. `clients/<slug>/context.md` — if it exists, load it. Updated within 30 days → offer to reuse as-is; otherwise refresh the volatile sections (news, live wires).
