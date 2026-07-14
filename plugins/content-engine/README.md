@@ -11,7 +11,7 @@ preset) and `/content-engine:funnel` (asks or infers TOFU/MOFU/BOFU). The
 pipeline:
 
 1. **Post type** — resolves abm / tofu / mofu / bofu from your prompt, or asks one question if unclear.
-2. **Library** — asks which format library to pull from: **Virio** (corpus-mined; refreshed on the maintainer's machine and shipped to you as plugin updates) or **Millie's list** (curated from `Viral_Content_Bank.xlsx`). Always asks unless you name one.
+2. **Library** — asks which format library to pull from: **Virio** (corpus-mined; refreshed on the maintainer's machine and delivered to you automatically — see below) or **Millie's list** (curated from `Viral_Content_Bank.xlsx`). Always asks unless you name one.
 3. **Formats → format pick** (scout) — the 3 best-fitting specs, presented as cards.
 4. **Client context** (client) — one shared `clients/` store for all lanes.
 5. **Angles** (angles) — ranked format × subject × why-now options.
@@ -37,7 +37,7 @@ content-library/
 └── millies/        tofu (13) · mofu (9)  · bofu (0)  · abm (5)    ← curated, manual updates
 ```
 
-Library updates ship with the plugin: `library/VERSION` is stamped per release, and on each run the engine compares it against your seeded copy and offers a non-destructive merge (new specs added, unpinned examples refreshed; your pins and edits are never touched).
+Library updates reach you automatically — no plugin update needed. `library/VERSION` is stamped per release, and on each run the engine fetches the marketplace's remote `VERSION` (one small file); if it's newer than your seeded copy, it pulls the changed specs and merges them in silently (new specs added, unpinned examples refreshed; your pins and edits are never touched). Offline, it uses your local copy. So when the maintainer pushes new formats to the marketplace repo, everyone picks them up on their next run.
 
 Millie's BOFU is empty by design — her Bottom of Funnel tab is all ABM-style posts; those live in `millies/abm/`. Each populated lane folder has a `config.md` (directive + admission test + refresh policy) and an `index.md`; Millie's empty BOFU carries a redirect `config.md` instead. Millie's indexes list "unread candidates" — bank posts not yet deconstructed; say "deconstruct this post" to spec one.
 
