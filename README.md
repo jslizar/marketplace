@@ -27,7 +27,7 @@ Claude plugin marketplace for the team. Current plugins:
 ## Use
 
 - Pick a working folder and use the **same folder every time** — the plugin keeps your clients, format library, and drafts there
-- Type **/** and pick **content-engine:post** — or just ask in plain words: *"TOFU post for Acme"*
+- Type **/content-engine** and hit enter with your ask — or just ask in plain words: *"TOFU post for Acme"*
 - Shortcuts: `/content-engine:abm` runs the ABM pipeline directly; `/content-engine:funnel` the TOFU/MOFU/BOFU one (typing `/abm` or `/funnel` autocompletes to them)
 - The pipeline pauses for your pick at each step:
   - **Post type** — abm / tofu / mofu / bofu

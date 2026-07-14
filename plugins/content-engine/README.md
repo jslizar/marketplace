@@ -4,9 +4,11 @@ One pipeline for every LinkedIn post type — ABM, TOFU, MOFU, BOFU — pulling 
 
 ## How it works
 
-`/content-engine:post` is the front door — one command, the whole pipeline. Two
-shortcuts skip the type question: `/content-engine:abm` (ABM preset) and
-`/content-engine:funnel` (asks or infers TOFU/MOFU/BOFU). The pipeline:
+`/content-engine` is the front door — one command, the whole pipeline (in the
+CLI it's namespaced: `/content-engine:content-engine`, or use the `post` skill
+directly). Two shortcuts skip the type question: `/content-engine:abm` (ABM
+preset) and `/content-engine:funnel` (asks or infers TOFU/MOFU/BOFU). The
+pipeline:
 
 1. **Post type** — resolves abm / tofu / mofu / bofu from your prompt, or asks one question if unclear.
 2. **Library** — asks which format library to pull from: **Virio** (corpus-mined; refreshed on the maintainer's machine and shipped to you as plugin updates) or **Millie's list** (curated from `Viral_Content_Bank.xlsx`). Always asks unless you name one.
