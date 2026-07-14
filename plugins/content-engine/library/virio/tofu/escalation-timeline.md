@@ -6,7 +6,7 @@
 - **Platform**: LinkedIn
 - **Source examples**: exactly 2, refreshed by the scheduled library-refresh task from the viral_posts_all corpus.
   - https://www.linkedin.com/posts/stevenouri_artificialintelligence-technology-innovation-ugcPost-7155841105475854336-8SYt — Steve Nouri, 27,186 reactions / 730 comments, 2024-01-26
-  - (second example: to be filled by the scheduled refresh)
+  - https://www.linkedin.com/posts/harbech_amazon-just-revealed-they-now-have-more-than-activity-7121124632673300480-OfsQ — Martin Harbech (Meta), 10,036 reactions / 462 comments, 2023-10-20
 - **Hook pattern**: "{Company/industry} has {jaw-drop current number} {things} deployed to {goal}."
 - **Skeleton** (block sequence):
   1. Jaw-drop stat hook (the endpoint of the timeline)

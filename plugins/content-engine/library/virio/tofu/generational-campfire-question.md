@@ -6,7 +6,7 @@
 - **Platform**: LinkedIn
 - **Source examples**: exactly 2, refreshed by the scheduled library-refresh task from the viral_posts_all corpus.
   - https://www.linkedin.com/posts/max-penk_when-i-was-young-i-fixed-my-parents-computers-activity-7253701040980602880-1D_5 — Max Penk, 170,147 reactions / 12,077 comments, 2024-10-20
-  - (second example: to be filled by the scheduled refresh)
+  - https://www.linkedin.com/posts/annaclaiborne_when-i-was-young-i-fixed-computers-for-everyone-activity-7298084695185965056-w2w5 — Anna Claiborne, 641 reactions / 147 comments, 2025-02-19
 - **Hook pattern**: "When I was young I {did X for the older generation}. Now I {do X for the younger one}. Are we the only generation that {skill/trait}?"
 - **Skeleton** (block sequence):
   1. Two-beat sandwich observation (young → old, same role)

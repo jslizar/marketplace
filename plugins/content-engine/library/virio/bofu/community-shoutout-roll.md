@@ -6,7 +6,7 @@
 - **Platform**: LinkedIn
 - **Source examples**: exactly 2, refreshed by the scheduled library-refresh task from the viral_posts_all corpus.
   - https://www.linkedin.com/posts/progressivethinker_softwaredevelopment-systemdesign-ai-activity-7375064667431419904-98sT — Pallavi A. (Shoutout Saturday), 777 reactions / 55 comments, 2025-09-20
-  - (second example: to be filled by the scheduled refresh)
+  - https://www.linkedin.com/posts/charlie-hills_i-learned-more-from-these-26-creators-than-activity-7415346616624152576-jLCL — Charlie Hills (2026 follow list), 859 reactions / 483 comments, 2026-01-09
 - **Hook pattern**: "{OCCASION}! If you're going to spend time on {platform}, make it time well spent."
 - **Skeleton** (block sequence):
   1. Occasion hook (a recurring, ownable slot — "Shoutout Saturday")

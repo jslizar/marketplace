@@ -6,7 +6,7 @@
 - **Platform**: LinkedIn
 - **Source examples**: exactly 2, refreshed by the scheduled library-refresh task from the viral_posts_all corpus.
   - https://www.linkedin.com/posts/patrice-dussault-translator-writer_litranslators-interpreters-activity-7323317989376679936-9H0R — Patrice Dussault, 512 reactions / 92 comments, 2025-04-30
-  - (second example: to be filled by the scheduled refresh)
+  - https://www.linkedin.com/posts/danielhemhauser_im-a-project-manager-im-a-project-manager-activity-7286769529186066432-Q5qK — Daniel Hemhauser, 409 reactions / 90 comments, 2025-07-14
 - **Hook pattern**: "I'm a {role}. Of course, I'll {insider truth #1}"
 - **Skeleton** (block sequence):
   1. Four "I'm a {role}. Of course, I {truth}" lines — escalating from relatable to only-us

@@ -6,7 +6,7 @@
 - **Platform**: LinkedIn
 - **Source examples**: exactly 2, refreshed by the scheduled library-refresh task from the viral_posts_all corpus.
   - https://www.linkedin.com/posts/jrecoon_im-writing-this-post-as-a-final-last-ditch-activity-7387198614332346368-dJjP — Jacob Recoon, 2,266 reactions / 301 comments, 2025-10-26
-  - (second example: to be filled by the scheduled refresh)
+  - https://www.linkedin.com/posts/samiradhikari_ive-applied-to-more-than-3000-of-engineering-activity-7476276720644497408-fQUB — Sam Adhikari, 382 reactions / 47 comments, 2026-06-30
 - **Hook pattern**: "I'm writing this post as a final, last ditch effort. After {quantified attempts}, this is the only thing I haven't tried."
 - **Skeleton** (block sequence):
   1. Last-resort framing + the quantified attempts

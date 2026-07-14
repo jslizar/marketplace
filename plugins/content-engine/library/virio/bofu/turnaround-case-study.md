@@ -6,7 +6,7 @@
 - **Platform**: LinkedIn
 - **Source examples**: exactly 2, refreshed by the scheduled library-refresh task from the viral_posts_all corpus.
   - https://www.linkedin.com/posts/jeetupatel_every-once-in-a-while-in-my-job-you-get-activity-7249291360359350272-zSTv — Jeetu Patel (Cisco), 4,260 reactions / 180 comments, 2024-10-08
-  - (second example: to be filled by the scheduled refresh)
+  - https://www.linkedin.com/posts/pfranceschi_early-this-year-we-made-tough-changes-at-activity-7270500506093973504-0ycd — Pedro Franceschi (Brex), 1,259 reactions / 47 comments, 2024-12-05
 - **Hook pattern**: "Every once in a while in my job, you get to witness {products past their prime / a turnaround nobody expected}."
 - **Skeleton** (block sequence):
   1. Reflective hook about decline as a category-wide phenomenon

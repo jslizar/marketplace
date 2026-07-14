@@ -6,7 +6,7 @@
 - **Platform**: LinkedIn
 - **Source examples**: exactly 2, refreshed by the scheduled library-refresh task from the viral_posts_all corpus.
   - https://www.linkedin.com/posts/austinnasso_i-make-340000-per-year-in-san-francisco-activity-7286518738101698560-r7F1 — Austin Nasso, 95,033 reactions / 26,316 comments, 2025-01-18
-  - (second example: to be filled by the scheduled refresh)
+  - https://www.linkedin.com/posts/hoogvliets_i-make-250000-per-year-in-amsterdam-as-activity-7312787123248484352-6Dut — Raphaël Hoogvliets (Amsterdam €250k variant, h/t Nasso), 1,890 reactions / 412 comments, 2025-04-01
 - **Hook pattern**: "I {enviable status stat} and it's utterly {complaint}. Let's break it down."
 - **Skeleton** (block sequence):
   1. Enviable-status hook + deadpan complaint

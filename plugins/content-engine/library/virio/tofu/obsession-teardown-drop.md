@@ -6,7 +6,7 @@
 - **Platform**: LinkedIn
 - **Source examples**: exactly 2, refreshed by the scheduled library-refresh task from the viral_posts_all corpus.
   - https://www.linkedin.com/posts/joshlowman_yo-we-spent-the-last-19-hours-breaking-down-activity-7239273746467823616-e6T4 — Josh Lowman (iPhone 16 funnel), 2,784 reactions / 8,505 comments, 2024-09-10
-  - (second example: to be filled by the scheduled refresh)
+  - https://www.linkedin.com/posts/nielsklement_i-spent-5-hours-reverse-engineering-how-alex-activity-7297165553851404289-F4kv — Niels Klement (Perspective; Hormozi Skool Games funnel, open-link variant), 1,234 reactions / 1,309 comments, 2025-02-17
 - **Hook pattern**: "Yo. We spent the last {obsessive hours} breaking down {beloved brand's} {system}."
 - **Skeleton** (block sequence):
   1. Casual-obsessive hook (the hours + the subject)

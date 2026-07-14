@@ -6,7 +6,7 @@
 - **Platform**: LinkedIn
 - **Source examples**: exactly 2, refreshed by the scheduled library-refresh task from the viral_posts_all corpus.
   - https://www.linkedin.com/posts/juergmueller_this-week-marked-a-very-unique-milestone-activity-7197231011980541953-xMx6 — Juergen Mueller (SAP, Hasso Plattner), 3,409 reactions / 24 comments, 2024-05-17
-  - (second example: to be filled by the scheduled refresh)
+  - https://www.linkedin.com/posts/navin-arora_few-ceos-have-the-opportunity-to-lead-a-activity-7476335714209787904-Emo- — Navin Arora (TELUS, Darren Entwistle), 624 reactions / 18 comments, 2026-06-26
 - **Hook pattern**: "This week marked a very unique milestone in {company}'s history. {Timespan} after {founding act}, we honored {name} as {transition}."
 - **Skeleton** (block sequence):
   1. Milestone hook with the timespan (half a century — the scale is the hook)
