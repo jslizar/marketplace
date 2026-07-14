@@ -14,7 +14,8 @@ Claude plugin marketplace for the team. Current plugins:
 | `linkedin-strategy` | LinkedIn performance advisor grounded in research on 226K posts — performance states, image/timing strategy, reaction mechanics, topic selection, 2026 feed mechanics. Answers "why is my engagement down" with findings, not vibes. |
 | `wartime-advisor` | Strategic work + leadership advisor grounded in Horowitz's Peacetime/Wartime CEO and Grove's inflection points, plus a talent 2x2. Direct, diagnoses before advising. No dependencies. |
 | `systems-thinking` | Systemic root-cause analysis via the Questions of a Systems Thinker and Causal Loop Diagrams. By Agile Pain Relief (CC BY-SA 4.0). |
-| `abm-engine` | **Deprecated — install `content-engine` instead.** Kept so existing installs keep working. ABM-only predecessor of content-engine. |
+
+> **Retired:** `abm-engine` and `funnel-engine` were folded into `content-engine`. If you have either installed, remove it and install `content-engine`.
 
 ## Install in Cowork (Claude desktop app) — once
 

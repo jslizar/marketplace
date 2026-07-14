@@ -7,7 +7,7 @@
     {
       "name": "content-engine",
       "source": "./plugins/content-engine",
-      "description": "Unified LinkedIn content engine: one pipeline for ABM, TOFU, MOFU, and BOFU posts, pulling viral formats from selectable libraries (Virio corpus or Millie's curated list). Format library auto-refreshes from this repo each run — no plugin update needed. Supersedes abm-engine. Requires the Virio MCP connector.",
+      "description": "Unified LinkedIn content engine: one pipeline for ABM, TOFU, MOFU, and BOFU posts, pulling viral formats from selectable libraries (Virio corpus or Millie's curated list). Format library auto-refreshes from this repo each run — no plugin update needed. Requires the Virio MCP connector.",
       "version": "0.4.0"
     },
     {
@@ -31,7 +31,7 @@
     {
       "name": "dm-master",
       "source": "./plugins/dm-master",
-      "description": "LinkedIn outreach ghostwriting: profile analysis, tone read, and register-matched connection notes, DMs, follow-ups, call asks, and rejection comebacks \u2014 written as the client, never inventing a profile detail.",
+      "description": "LinkedIn outreach ghostwriting: profile analysis, tone read, and register-matched connection notes, DMs, follow-ups, call asks, and rejection comebacks — written as the client, never inventing a profile detail.",
       "version": "1.0.0"
     },
     {
@@ -63,12 +63,6 @@
       "source": "./plugins/systems-thinking",
       "description": "Systemic root-cause analysis via the Questions of a Systems Thinker and Causal Loop Diagrams. By Agile Pain Relief (CC BY-SA 4.0), packaged for this marketplace.",
       "version": "1.0.0"
-    },
-    {
-      "name": "abm-engine",
-      "source": "./plugins/abm-engine",
-      "description": "DEPRECATED \u2014 superseded by content-engine (which covers ABM plus the full funnel and auto-refreshes its library each run). ABM content engine: drafts LinkedIn posts from a curated library of 15 viral ABM formats, researches the client and market, proposes angles, and drafts posts. Requires the Virio MCP connector.",
-      "version": "0.5.0"
     }
   ]
 }
