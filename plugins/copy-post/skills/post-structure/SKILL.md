@@ -20,7 +20,7 @@ Own the **structure** — everything that makes a post *look and move* like the 
 
 - Inside `post-deconstruct` — supplies the structural layer of the Style Spec + template.
 - Standalone — "map the structure of this post" / "copy this format."
-- Referenced by the drafter (`linkedin-post`) when building the body.
+- Referenced by the drafter (`copy-post`) when building the body.
 
 ## Extract a structural blueprint
 

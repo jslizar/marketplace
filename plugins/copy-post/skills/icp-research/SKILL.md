@@ -49,7 +49,7 @@ targets:
 sources: [<links>]
 ```
 
-Hand this to `linkedin-post`, which can produce **one segment-level post** (speaks to the pattern across the set) or a **batch** (one account-aware post per target).
+Hand this to `copy-post`, which can produce **one segment-level post** (speaks to the pattern across the set) or a **batch** (one account-aware post per target).
 
 ## Guardrails
 

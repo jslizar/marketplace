@@ -4,7 +4,7 @@ description: >
   This skill should be used when the user wants to load, check, or set up a client's
   context for LinkedIn content — "load context for a client", "set up a new client",
   "create a context file", "what do we know about this client", "check this context file",
-  or whenever another LinkedIn Post Engine skill needs a client's context. It reads the
+  or whenever another copy-post engine skill needs a client's context. It reads the
   client's context.md file, validates the required sections, honestly flags gaps, and
   can scaffold a new context file from the template. It never overwrites the file without
   asking — the user owns it.
@@ -14,7 +14,7 @@ metadata:
 
 # context-loader
 
-Load and maintain the per-client `context.md` that every other LinkedIn Post Engine skill reads. The user owns this file; this skill reads it, checks it, and can scaffold a new one — it does not silently rewrite it.
+Load and maintain the per-client `context.md` that every other copy-post engine skill reads. The user owns this file; this skill reads it, checks it, and can scaffold a new one — it does not silently rewrite it.
 
 ## Locate the file (auto-discover — don't ask for a path)
 

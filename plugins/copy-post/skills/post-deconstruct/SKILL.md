@@ -7,7 +7,7 @@ description: >
   the style from this screenshot", or when they upload or screenshot a swipe post to match
   later. It turns one or more example posts into a
   reusable Style Spec (hook, skeleton, rhythm, voice, formatting, CTA, length, and the
-  AI-tells to avoid) that the linkedin-post drafter consumes.
+  AI-tells to avoid) that the copy-post drafter consumes.
 metadata:
   version: "0.1.0"
 ---
@@ -58,7 +58,7 @@ formatting_map: { line_breaks: double-between-blocks, glyphs: ["→"], emoji: no
 rhythm_targets:  { avg_sentence_words: 8–12, pct_one_line_paragraphs: ~60%, total_chars: 700–1100 }
 ```
 
-The full field list is in `references/style-spec-schema.md`. This template is what `linkedin-post` fills and what `style-match` scores a draft against.
+The full field list is in `references/style-spec-schema.md`. This template is what `copy-post` fills and what `style-match` scores a draft against.
 
 ## Multiple examples
 
@@ -72,4 +72,4 @@ Offer to save it to the **style library** (`style-library`) so it's reusable acr
 
 ## Hand off
 
-The Style Spec feeds `linkedin-post` (the drafter matches skeleton + rhythm + voice) and `post-qa` (which checks the draft against `avoid` and the skeleton). It does **not** carry the example's topic or claims forward — only its style.
+The Style Spec feeds `copy-post` (the drafter matches skeleton + rhythm + voice) and `post-qa` (which checks the draft against `avoid` and the skeleton). It does **not** carry the example's topic or claims forward — only its style.

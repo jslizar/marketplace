@@ -64,7 +64,7 @@ variance_notes: <only when multiple examples; where the author varies>
 
 ## Field notes
 
-- **hook.pattern** is what the drafter fills — the example's hook as a template with the specifics blanked out. Candidates keep the type and pattern; they vary the entry point (see `skills/linkedin-post/references/hook-framework.md`).
+- **hook.pattern** is what the drafter fills — the example's hook as a template with the specifics blanked out. Candidates keep the type and pattern; they vary the entry point (see `skills/copy-post/references/hook-framework.md`).
 - **skeleton** must name the post's real structure, not a generic template. If the post is a single unbroken story with no list, say so.
 - **avoid** is descriptive of this author (what they never do), and becomes a checklist in `post-qa`. Always include the universal AI-tells from `skills/post-qa/references/ai-tells.md`.
 - Keep topic, claims, and named entities **out** of the spec — those come from the client context and ICP research, not the example.

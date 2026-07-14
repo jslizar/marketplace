@@ -32,7 +32,7 @@ Glob the project for `**/styles/*/profile.md`. Match the requested style by slug
 
 - **Add** — save a new example post into `styles/<slug>/examples/` (create the style if new). Never overwrite an existing example; add a numbered file.
 - **Compile / refresh** — run `post-deconstruct` (which calls `post-structure`) across **all** examples in the style, average the template, record variance, and write `profile.md`. Re-run whenever examples are added.
-- **Load** — read `profile.md` and hand the template + variance to `linkedin-post` for drafting or to `style-match` for scoring.
+- **Load** — read `profile.md` and hand the template + variance to `copy-post` for drafting or to `style-match` for scoring.
 - **List** — show available styles with their example counts and tags.
 
 ## Compile logic

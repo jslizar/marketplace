@@ -6,7 +6,7 @@ description: >
   this LinkedIn post before I publish". It enforces the client's context.md: it HARD-BLOCKS
   drafts that break a Canon hard constraint, invent Proof, or use the wrong voice, and
   FLAGS softer issues (AI-tells, style-spec drift, hook past the fold). Runs automatically
-  inside linkedin-post before candidates are shown.
+  inside copy-post before candidates are shown.
 metadata:
   version: "0.1.0"
 ---
@@ -15,7 +15,7 @@ metadata:
 
 The gate. Check a draft against the client's `context.md` and the Style Spec, then return a clean draft plus a pass/flag report. Two severities: **hard block** (must fix or drop) and **flag** (fix if you can).
 
-This gate serves ALL three engines: `linkedin-post` runs it as its final step, and `abm-draft` / `funnel-draft` run it as their QA gate (passing their engine-specific checks as extra flags).
+This gate serves ALL three engines: `copy-post` runs it as its final step, and `abm-draft` / `funnel-draft` run it as their QA gate (passing their engine-specific checks as extra flags).
 
 ## Inputs
 

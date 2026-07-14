@@ -20,14 +20,14 @@ The canonical template lives at `clients/_template/context.md` — copy THAT fil
 
 | Field | Used by | For |
 |---|---|---|
-| Canon → Conversion ask | `linkedin-post`, `funnel-draft` | The BOFU CTA |
+| Canon → Conversion ask | `copy-post`, `funnel-draft` | The BOFU CTA |
 | Canon → Hard constraint / Do not post / INTERNAL ONLY | `post-qa` | Hard block on violation |
 | ICP → Example / named accounts | `icp-research`, ABM engine | Look-alike seeds; ABM subjects |
 | ICP → Firmographics / Triggers | `icp-research` | Search filters + the angle |
-| Voice → Author | `linkedin-post`, `post-qa` | Who the post speaks as; reject other voices |
+| Voice → Author | `copy-post`, `post-qa` | Who the post speaks as; reject other voices |
 | Voice → banned phrases | drafters, `post-qa` | Hard constraint check |
 | Voice → Does NOT sound like | `post-qa` | Off-brand failure check |
-| Pillars | `linkedin-post`, `funnel-angles` | Topic fit |
+| Pillars | `copy-post`, `funnel-angles` | Topic fit |
 | Proof status | `post-qa` | "None on record" → block invented results |
 | Live wires | `abm-angles`, `funnel-angles` | Why-now pegs |
 | History | angles/drafters | What already performs for them |

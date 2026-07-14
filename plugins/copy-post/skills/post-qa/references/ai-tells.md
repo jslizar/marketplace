@@ -1,6 +1,6 @@
 # AI-tells — the canonical list
 
-THE single source of truth for AI-tells across every engine. The drafters (`linkedin-post` via `references/deslop-pass.md`, `abm-draft`, `funnel-draft`) rewrite against this list during drafting; `post-qa` flags against it as the final backstop. Don't maintain a second list anywhere — edit this one.
+THE single source of truth for AI-tells across every engine. The drafters (`copy-post` via `references/deslop-pass.md`, `abm-draft`, `funnel-draft`) rewrite against this list during drafting; `post-qa` flags against it as the final backstop. Don't maintain a second list anywhere — edit this one.
 
 Goal: the post reads like the Author wrote it, not a model. Preserve anything the Style Spec or the client's Voice section marks as an intentional signature move (e.g. deliberate staccato).
 

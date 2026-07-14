@@ -1,6 +1,6 @@
 {
-  "name": "linkedin-post-engine",
-  "version": "0.3.0",
+  "name": "copy-post",
+  "version": "0.4.0",
   "description": "Reverse-engineers an example LinkedIn post, pulls per-client context, and drafts a style-matched post — classified to a funnel stage, personalized to an ICP via Exa research, and de-slopped before it ships.",
   "author": {
     "name": "Jacob Lizarraga"

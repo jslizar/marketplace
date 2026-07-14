@@ -6,7 +6,7 @@ description: >
   MOFU / BOFU", "make this a top-of-funnel post", "should this have a CTA". It maps a
   post's intent to TOFU / MOFU / BOFU and returns a stage directive (the post's job,
   required structure, CTA strength, and proof level) that shapes the draft. Runs inside
-  linkedin-post before drafting and inside the funnel engine's Step 0 stage resolution.
+  copy-post before drafting and inside the funnel engine's Step 0 stage resolution.
 metadata:
   version: "0.1.0"
 ---

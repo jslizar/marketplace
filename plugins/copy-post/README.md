@@ -1,4 +1,4 @@
-# LinkedIn Post Engine
+# copy-post engine
 
 Reverse-engineer an example LinkedIn post, pull what you know about a client (or your own account), and draft a post that matches the example's style — classified to a funnel stage, personalized to an ICP, and de-slopped before it ships.
 
@@ -6,11 +6,11 @@ Built for ghostwriting across multiple clients. Each client is a `context.md` fi
 
 ## What it does
 
-Front-door skill **`linkedin-post`** runs the full loop; each stage is also a skill you can run on its own.
+Front-door skill **`copy-post`** runs the full loop; each stage is also a skill you can run on its own.
 
 | Skill | What it does |
 |---|---|
-| `linkedin-post` | Front door. Runs context → style → classify → research → draft → **match** → QA and returns 3 candidates. |
+| `copy-post` | Front door. Runs context → style → classify → research → draft → **match** → QA and returns 3 candidates. |
 | `post-deconstruct` | Turns example post(s) into a reusable **Style Spec + fill-in template** (hook, skeleton, rhythm, formatting, CTA, length, AI-tells). |
 | `post-structure` | Structural-copying specialist — maps skeleton, transitions, whitespace, rhythm, and close. Counterpart to the hook framework. |
 | `style-library` | Swipe file. Compiles multiple examples per author into a reusable **Style Profile**, shared across clients. |
@@ -49,7 +49,7 @@ If neither Clay nor Exa is connected, `icp-research` falls back to standard web 
 
 ## Usage
 
-- "Draft a LinkedIn post for AICRO from this example: …" → `linkedin-post`
+- "Draft a LinkedIn post for AICRO from this example: …" → `copy-post`
 - "Reverse-engineer this post" → `post-deconstruct`
 - "Set up a new client / check this context file" → `context-loader`
 - "Is this TOFU, MOFU, or BOFU?" → `funnel-classify`
@@ -59,5 +59,5 @@ If neither Clay nor Exa is connected, `icp-research` falls back to standard web 
 ## Notes
 
 - Examples can be **screenshots** — the deconstructor reads the text and visual formatting straight from the image. Expand the post's "…more" before capturing so nothing's cut off.
-- `skills/linkedin-post/references/hook-framework.md` holds a **placeholder 6-lever hook framework**. Swap in your coworker's exact levers from the `linkedin-hook-generator` skill to make it faithful.
+- `skills/copy-post/references/hook-framework.md` holds a **placeholder 6-lever hook framework**. Swap in your coworker's exact levers from the `linkedin-hook-generator` skill to make it faithful.
 - v1 defaults: 3 candidate drafts, Canon-driven QA gate, Clay + Exa research.

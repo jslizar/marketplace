@@ -6,7 +6,7 @@ description: >
   this to the example", "check the format fidelity", "is this on-style". It compares a
   draft against the Style Spec / profile (and the raw example if available) across hook
   type, block sequence, length, rhythm, formatting, and open/close, and returns a 0–100
-  fidelity score with per-dimension misses and concrete fixes. Runs inside linkedin-post
+  fidelity score with per-dimension misses and concrete fixes. Runs inside copy-post
   before post-qa.
 metadata:
   version: "0.1.0"
@@ -51,7 +51,7 @@ fixes:
   - swap "•" for "→" in the list block
 ```
 
-Show a compact version to the user (score + the misses). Below **threshold (default 80)**, return the fixes to `linkedin-post` and re-score after the revision. Cap the loop at **2 revision cycles per candidate** — if it still scores below threshold, hand back the best version with its score and remaining misses labeled rather than looping or silently dropping it.
+Show a compact version to the user (score + the misses). Below **threshold (default 80)**, return the fixes to `copy-post` and re-score after the revision. Cap the loop at **2 revision cycles per candidate** — if it still scores below threshold, hand back the best version with its score and remaining misses labeled rather than looping or silently dropping it.
 
 ## Boundary with post-qa
 

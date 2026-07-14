@@ -1,5 +1,5 @@
 ---
-name: linkedin-post
+name: copy-post
 description: >
   This skill should be used when the user wants to draft a LinkedIn post that matches an
   example's style for a client or their own account — "draft a LinkedIn post for a
@@ -13,7 +13,7 @@ metadata:
   version: "0.1.0"
 ---
 
-# linkedin-post
+# copy-post
 
 Front door and drafter. Run the full loop, or pick up wherever the user already is (they may have a style spec or context loaded). Produce posts that match an example's *style* while carrying the *client's* substance.
 
