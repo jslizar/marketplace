@@ -7,12 +7,27 @@ Claude plugin marketplace for the team. Current plugins:
 | `content-engine` | Unified LinkedIn content engine — one pipeline for ABM, TOFU, MOFU, and BOFU posts. Picks viral formats from a selectable library (Virio corpus or Millie's curated list), builds client context, proposes ranked angles, drafts de-slopped QA-gated candidates. Requires the Virio MCP connector. |
 | `abm-engine` | **Deprecated — install `content-engine` instead.** Kept so existing installs keep working. ABM-only predecessor of content-engine. |
 
-## Install (coworkers)
+## Install (once)
 
-1. In Claude Code / Cowork: `/plugin marketplace add jslizar/marketplace`
-2. Install `content-engine`. If you had `abm-engine` (or `funnel-engine`) installed, remove them — content-engine replaces both.
-3. Make sure the Virio MCP connector is enabled (you already have it).
-4. Run `/content-engine:post` — that's it. It walks you through post type → format library → format pick → client → angles → drafts.
+- Open Claude Code — [claude.ai/code](https://claude.ai/code), the desktop app, or the CLI
+- Run: `/plugin marketplace add jslizar/marketplace`
+- Run: `/plugin install content-engine@jslizar-marketplace`
+- Had `abm-engine` or `funnel-engine`? Remove them — content-engine replaces both
+- Enable the **Virio MCP** connector (claude.ai → Settings → Connectors) — required
+- Optional: connect HubSpot/Attio for richer client context
+
+## Use
+
+- Run `/content-engine:post` — or just ask in plain words: *"TOFU post for Acme"*
+- The pipeline pauses for your pick at each step:
+  - **Post type** — abm / tofu / mofu / bofu
+  - **Library** — Virio (corpus-mined) or Millie's list (curated)
+  - **Format** — 3 best-fit format cards, each with a real viral example
+  - **Client** — loads or builds the client's context file
+  - **Angles** — ranked format × subject × why-now options
+  - **Drafts** — 2–3 de-slopped, QA-gated candidates
+- Skip steps by naming them up front: *"MOFU gated-playbook post for Acme from Millie's list"* jumps straight to drafting
+- First run seeds `content-library/` and `clients/` into your working folder — yours to keep and edit
 
 ## Format libraries
 
