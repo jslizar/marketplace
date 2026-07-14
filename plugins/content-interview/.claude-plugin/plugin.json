@@ -1,0 +1,17 @@
+{
+  "name": "content-interview",
+  "version": "1.0.0",
+  "description": "Client content-intake pipeline: run the content interview, build a deep emotional ICP avatar, mine the transcript into 20+ tagged post concepts, and draft to hook-lever writing standards.",
+  "author": {
+    "name": "Jacob Lizarraga"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/jslizar/marketplace",
+  "keywords": [
+    "linkedin",
+    "content",
+    "interview",
+    "icp",
+    "ideation"
+  ]
+}

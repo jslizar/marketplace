@@ -1,0 +1,11 @@
+{
+  "name": "wartime-advisor",
+  "version": "1.0.0",
+  "description": "Strategic work and leadership advisor grounded in Ben Horowitz's Peacetime/Wartime CEO framework and Andy Grove's strategic inflection points, plus a skill × culture-fit talent 2x2. Direct, pushes back, diagnoses before advising.",
+  "author": {
+    "name": "Jacob Lizarraga"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/jslizar/marketplace",
+  "keywords": ["leadership", "strategy", "advisor", "management", "talent"]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "systems-thinking",
+  "version": "1.0.0",
+  "description": "Systemic root-cause analysis: guides you through the Questions of a Systems Thinker and Causal Loop Diagrams to find the structure behind a recurring problem instead of patching symptoms. By Agile Pain Relief (CC BY-SA 4.0), packaged for this marketplace.",
+  "author": {
+    "name": "Agile Pain Relief (packaged by Jacob Lizarraga)"
+  },
+  "license": "CC-BY-SA-4.0",
+  "repository": "https://github.com/jslizar/marketplace",
+  "keywords": ["systems-thinking", "root-cause", "causal-loops", "analysis", "problem-solving"]
+}

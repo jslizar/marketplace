@@ -41,6 +41,30 @@
       "version": "1.0.0"
     },
     {
+      "name": "content-interview",
+      "source": "./plugins/content-interview",
+      "description": "Client content-intake pipeline: run the content interview, build a deep emotional ICP avatar, mine the transcript into 20+ tagged post concepts, and draft to hook-lever writing standards. Feeds content-engine downstream; no MCP dependencies.",
+      "version": "1.0.0"
+    },
+    {
+      "name": "linkedin-strategy",
+      "source": "./plugins/linkedin-strategy",
+      "description": "LinkedIn performance advisor grounded in research on 226K posts: performance states, image and timing strategy, reaction mechanics, topic selection, and 2026 feed mechanics — answers 'why is my engagement down' with findings, not vibes.",
+      "version": "1.0.0"
+    },
+    {
+      "name": "wartime-advisor",
+      "source": "./plugins/wartime-advisor",
+      "description": "Strategic work and leadership advisor grounded in Horowitz's Peacetime/Wartime CEO framework and Grove's strategic inflection points, plus a skill × culture-fit talent 2x2. Direct, pushes back, diagnoses before advising.",
+      "version": "1.0.0"
+    },
+    {
+      "name": "systems-thinking",
+      "source": "./plugins/systems-thinking",
+      "description": "Systemic root-cause analysis via the Questions of a Systems Thinker and Causal Loop Diagrams. By Agile Pain Relief (CC BY-SA 4.0), packaged for this marketplace.",
+      "version": "1.0.0"
+    },
+    {
       "name": "abm-engine",
       "source": "./plugins/abm-engine",
       "description": "DEPRECATED \u2014 superseded by content-engine (which covers ABM plus the full funnel). ABM content engine: drafts LinkedIn posts from a curated library of 15 viral ABM formats, researches the client and market, proposes angles, and drafts posts. Requires the Virio MCP connector.",

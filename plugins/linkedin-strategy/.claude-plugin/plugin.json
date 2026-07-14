@@ -1,0 +1,17 @@
+{
+  "name": "linkedin-strategy",
+  "version": "1.0.0",
+  "description": "LinkedIn performance advisor grounded in research on 226K posts: performance states, image and timing strategy, reaction mechanics, topic selection, and 2026 feed mechanics — answers 'why is my engagement down' with findings, not vibes.",
+  "author": {
+    "name": "Jacob Lizarraga"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/jslizar/marketplace",
+  "keywords": [
+    "linkedin",
+    "strategy",
+    "engagement",
+    "algorithm",
+    "analytics"
+  ]
+}
