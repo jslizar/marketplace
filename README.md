@@ -7,18 +7,27 @@ Claude plugin marketplace for the team. Current plugins:
 | `content-engine` | Unified LinkedIn content engine — one pipeline for ABM, TOFU, MOFU, and BOFU posts. Picks viral formats from a selectable library (Virio corpus or Millie's curated list), builds client context, proposes ranked angles, drafts de-slopped QA-gated candidates. Requires the Virio MCP connector. |
 | `abm-engine` | **Deprecated — install `content-engine` instead.** Kept so existing installs keep working. ABM-only predecessor of content-engine. |
 
-## Install (once)
+## Install in Cowork (Claude desktop app) — once
 
-- Open Claude Code — [claude.ai/code](https://claude.ai/code), the desktop app, or the CLI
+- Open the Claude desktop app → **Cowork** tab
+- Open **Customize** → **Plugins** tab
+- Under **Personal plugins**, click **+** → **Add marketplace** → **Add from a repository**
+- Paste: `https://github.com/jslizar/marketplace`
+- Find **content-engine** in the new marketplace → click **Install**
+- Check **Customize → Connectors** — the **Virio** connector must be enabled (required)
+- Optional: connect HubSpot/Attio for richer client context
+
+## Install in Claude Code (CLI / web) — once
+
 - Run: `/plugin marketplace add jslizar/marketplace`
 - Run: `/plugin install content-engine@jslizar-marketplace`
 - Had `abm-engine` or `funnel-engine`? Remove them — content-engine replaces both
 - Enable the **Virio MCP** connector (claude.ai → Settings → Connectors) — required
-- Optional: connect HubSpot/Attio for richer client context
 
 ## Use
 
-- Run `/content-engine:post` — or just ask in plain words: *"TOFU post for Acme"*
+- Pick a working folder and use the **same folder every time** — the plugin keeps your clients, format library, and drafts there
+- Type **/** and pick **content-engine:post** — or just ask in plain words: *"TOFU post for Acme"*
 - The pipeline pauses for your pick at each step:
   - **Post type** — abm / tofu / mofu / bofu
   - **Library** — Virio (corpus-mined) or Millie's list (curated)
@@ -28,6 +37,7 @@ Claude plugin marketplace for the team. Current plugins:
   - **Drafts** — 2–3 de-slopped, QA-gated candidates
 - Skip steps by naming them up front: *"MOFU gated-playbook post for Acme from Millie's list"* jumps straight to drafting
 - First run seeds `content-library/` and `clients/` into your working folder — yours to keep and edit
+- Updates: update the plugin (Cowork: **Customize → Plugins**); new library releases trigger a one-time merge offer — your edits and pins are never touched
 
 ## Format libraries
 
