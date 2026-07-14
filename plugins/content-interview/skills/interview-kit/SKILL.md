@@ -1,6 +1,6 @@
 ---
 name: interview-kit
-description: Run a client content interview end to end. Use when the user says "run a content interview", "prep the interview for [client]", "interview questions for [client]", "first content interview", "next content interview", or wants question banks by funnel stage for interviewing a client's Face of Content. Produces the interview plan, the live question flow, and capture guidance; the transcript hands off to idea-inventory.
+description: Prep and run a client content interview end to end. Use when the user says "prepare for a content interview with [name]", "prep the interview for [client]", "research [name] for the interview", "run a content interview", "interview questions for [client]", "first content interview", "next content interview", or wants question banks by funnel stage for interviewing a client's Face of Content. Researches the FOC in Virio (their strategy, tone, ICPs, banned topics) plus their recent LinkedIn posts, then builds a tailored question set instead of a generic one. Produces the interview brief, the live question flow, and capture guidance; the transcript hands off to idea-inventory.
 ---
 
 # Content interview kit
@@ -9,10 +9,40 @@ Interview the client's Face of Content (FOC) to extract unique, POV-based insigh
 
 Operate under the assumption that you are interviewing an extremely interesting person. Interesting answers come from interesting questions. Interviewing is a skill.
 
-## Prep
+## Prep research — run this BEFORE choosing any questions
+
+"Prepare for a content interview with [name]" starts here. Never walk in with the raw bank: research the FOC first, then cut and tailor. A question the record already answers is a wasted minute of their time.
+
+**1. Resolve the FOC.** Call `content_publishers_list` (Virio) and match the name or email. Several matches → show them and ask which. No match → say so plainly, then fall back to the no-connector path below. Never guess who you're interviewing.
+
+**2. Pull their record.** Call `content_settings_get` for that publisher. This is read-only — never call a `content_*_update` tool from this skill. Extract:
+
+- **Strategy** — company overview and stage, active `topics`, `bannedTopics`, cadence, pipeline share
+- **Tone** — formality, rhythm, banned phrases, hard rules (em-dashes, hashtags, exclamations), AI-tells, and `customInstructions` (voice notes plus any dismissed topics)
+- **ICPs** — each persona's titles, company size, funding, location, description
+- **Provenance** — who last set each section and when. Stale or agent-set sections are exactly what the interview should re-confirm.
+
+**3. Read what they've already said.** Use `read_linkedin_uri` on their LinkedIn profile to pull recent posts. Note the topics they've already covered, the stories they've already told, and what performed. The interview mines new ground; it does not re-run their greatest hits.
+
+**4. Account context** (only if HubSpot or Attio is connected). Search the company for industry, size, deals, and named accounts.
+
+**5. Write the interview brief**, then the question set:
+
+- **Already on file — validate, don't re-ask.** Anything strategy/tone/ICPs already answer. Read it back for confirmation instead of asking cold ("Your tone is on file as casual and punchy, no em-dashes. Still right?") rather than "How would you describe your tone of voice?"
+- **Gaps to fill.** Sections that are empty, thin, or stale per provenance. These are the interview's priority — spend the time here.
+- **Never ask.** Everything in `bannedTopics` plus the dismissed topics in `customInstructions`.
+- **ICP-derived questions.** For each persona, the questions that audience actually wants answered. This is the backbone of interview #2 and beyond.
+- **The tailored set.** Start from the funnel-stage banks below, CUT every question the record already answers, and ADD specific probes that name their real topics, posts, and competitors.
+
+Save the brief to `clients/<slug>/interview-prep.md`.
+
+**Hard rule:** the brief states only what Virio, LinkedIn, or CRM actually returned. Never invent a fact, a stat, or a POV for the FOC. "Unknown" beats invented — an unknown becomes an interview question, which is the whole point.
+
+**No connector, or FOC not in Virio:** say which, then run the generic flow — the question banks below plus whatever web research you can do on the person and company. The skill works with zero connectors; it is just sharper with them.
+
+## Prep — the rest
 
 - Know which interview this is: #1 (foundation) or #2+ (topic mining). The flows differ — see below.
-- Review the client's past content and any existing context before the interview, so tone-of-voice and style questions build on what already exists instead of starting cold.
 - Know why you're asking each section, and be ready to say it. Questions land as irrelevant when the FOC can't see the purpose; frame the why before the what.
 
 ## Interview #1 — setting the scene
@@ -27,6 +57,8 @@ Open by telling the FOC what the interview is for. Something like:
 ## Question banks by funnel stage
 
 These questions are meant to be deep, not surface level. Don't let the FOC just report stories they've told a million times — mine for thoughtful, tactical takes that would make their ICP's ears perk up. Treat the interview like a good podcast: it should satisfy on both learning and entertainment.
+
+The banks are raw material, not a script. After prep research, cut every question the Virio record already answers (tone, ICP, banned topics, company basics are usually on file) and replace them with probes that name what you found. Ask the questions only this person can answer.
 
 **Tell me about yourself (TOFU)**
 - Where did you grow up? What shaped your values?
@@ -88,7 +120,7 @@ These questions are meant to be deep, not surface level. Don't let the FOC just 
 
 The goal of every subsequent interview is to keep mining for content ideas the ICP would find interesting while sharpening the FOC's unique POV as a thought leader.
 
-Topic discovery has many possible approaches, but it boils down to understanding the psyche of the FOC's audience and answering the questions already in their heads. Before the call, build (or refresh) a deep read of that audience — the icp-avatar skill produces exactly this — and turn it into a list of questions the ICP would want answered. Bring those to the interview and validate them with the FOC.
+Topic discovery has many possible approaches, but it boils down to understanding the psyche of the FOC's audience and answering the questions already in their heads. Before the call, build (or refresh) a deep read of that audience — the icp-avatar skill produces exactly this, and it should start from the ICP personas the prep research pulled from Virio rather than from a blank page — and turn it into a list of questions the ICP would want answered. Bring those to the interview and validate them with the FOC.
 
 ## Capture guidance — during the interview
 

@@ -43,8 +43,8 @@
     {
       "name": "content-interview",
       "source": "./plugins/content-interview",
-      "description": "Client content-intake pipeline: run the content interview, build a deep emotional ICP avatar, mine the transcript into 20+ tagged post concepts, and draft to hook-lever writing standards. Feeds content-engine downstream; no MCP dependencies.",
-      "version": "1.0.0"
+      "description": "Client content-intake pipeline: prep an interview by researching the FOC in Virio (strategy, tone, ICPs, banned topics) and their recent posts, run the tailored interview, build a deep emotional ICP avatar, mine the transcript into 20+ tagged post concepts, and draft to hook-lever writing standards. Feeds content-engine downstream; Virio connector recommended, works without it.",
+      "version": "1.1.0"
     },
     {
       "name": "linkedin-strategy",
