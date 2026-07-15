@@ -36,10 +36,22 @@ On EVERY run (including the first, right after seeding), auto-refresh from the m
    `https://raw.githubusercontent.com/jslizar/marketplace/main/plugins/content-engine/library/VERSION`
 2. Compare it to local `content-library/VERSION`:
    - **Remote newer** → fetch each lane's remote `index.md` (`.../library/<library>/<lane>/index.md`), diff against the local index, and pull only the new/changed spec files from the same raw base (`.../library/<library>/<lane>/<file>.md`). Merge them into `content-library/`, then write the new value into `content-library/VERSION`. Apply silently — just one line afterward: "Refreshed format library to `<version>`." Additions and unpinned-example refreshes on unmodified specs auto-apply; ONLY pause to ask if a remote change would overwrite a spec the user pinned or edited (show that diff).
-   - **Equal** → do nothing, proceed.
+   - **Equal** → do nothing here, but still run the per-lane integrity check below. Equal VERSION does NOT mean the local library is correct — a `content-library/` seeded by an older plugin version can be stale or have the two libraries crossed while still carrying the current VERSION.
    - **Fetch fails** (offline, sandbox, rate limit) → use the local `content-library/` silently. No error, no nag. The bundled `${CLAUDE_PLUGIN_ROOT}/library/` is the offline/first-run fallback.
 
 This version check is a cheap distribution mechanism (one file per run), not corpus mining — it is always allowed, unlike the external format-discovery sources which run only on explicit request.
+
+### Per-lane integrity check (runs every request, even when VERSION matched)
+
+Once the library and lane are chosen (Step 1 above + the lane from Step 0), verify the local lane against the source before reading formats from it. This is what heals a stale `content-library/` left by an older version — VERSION equality alone is not trusted for the lane you're about to use.
+
+1. Fetch the remote lane index: `.../library/<library>/<lane>/index.md`. Compare its spec list to the actual `.md` files in `content-library/<library>/<lane>/`.
+2. **Local matches the index** → proceed.
+3. **Local is missing the folder, is empty while the index lists specs, or its spec filenames don't match the index** (the signature of a stale or crossed seed — e.g. `millies/tofu/` holding Virio's specs) → re-pull that lane's specs from the remote raw base (`.../library/<library>/<lane>/<file>.md`), overwrite the local lane to match the index, and write one line: "Repaired the `<library>` `<lane>` library." Preserve any spec the user pinned or edited (never clobber a pin).
+4. **Remote index is 404 / has no specs** → this lane is intentionally empty (e.g. Millie's BOFU). That is not "broken": leave it, and apply the normal empty-lane handling (Millie's + BOFU → offer Virio BOFU). Never fabricate specs to fill it.
+5. **Remote unreachable AND the local lane looks wrong** (empty/missing/mismatched) → re-seed just that lane from the bundled `${CLAUDE_PLUGIN_ROOT}/library/<library>/<lane>/`, which always matches the installed plugin version. Never fall through to a stale copy.
+
+Cost is one index file for the single lane in use. The VERSION check handles bulk updates across all lanes; this catches the one lane you're using being stale or crossed.
 
 ## Pipeline
 
@@ -48,6 +60,8 @@ This version check is a cheap distribution mechanism (one file per run), not cor
 3. **Client context** (client): Load or build the client's context file from the shared `clients/` store. Confirm with the user which client this run is for if not stated.
 4. **Angles** (angles): Cross the CHOSEN format(s) — not the whole library — against the client context, market research, and the lane directive from `content-library/<library>/<lane>/config.md`. Present ranked angles. STOP — the user picks the angle(s).
 5. **Drafts** (draft): Draft 2–3 candidates for each chosen angle, shaped by the lane directive. De-slop, QA, present.
+6. **Pick the winner**: After the candidates are shown, the user chooses the one to go forward with. Present it as a selection form the same way the format pick does — if `mcp__visualize__show_widget` is available, render a single-select card group (one card per candidate: its hook as the title, a one-line note on the variant, and the full draft text in a collapsed reveal); otherwise fall back to the question tool with each candidate as an option. STOP — the user picks. Record the choice in the run's `picked:` field via `run-log`. If the user skips, treat the first candidate as picked and say so in one line.
+7. **Graphic prompt** (graphic-prompt, offered — default yes): Offer to generate a paste-ready Claude graphic prompt for the selected post. If the user wants it, run the graphic-prompt skill on the picked draft. "No graphic" skips cleanly — never force it.
 
 ## Rules
 
