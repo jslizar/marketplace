@@ -39,4 +39,4 @@ Score each angle 1–5 on: subject heat (is the moment live), format fit (does t
 
 ## Output
 
-Present 5–8 angles as a ranked table. STOP and let the user pick before any drafting. Do not auto-run draft.
+Present 5–8 angles as a ranked table in the chat — never a selection widget or card form; the user must be able to read every angle without tapping anything. STOP and let the user pick with a plain question before any drafting. Do not auto-run draft.
