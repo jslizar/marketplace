@@ -13,7 +13,7 @@ pipeline:
 1. **Post type** — resolves abm / tofu / mofu / bofu from your prompt, or asks one question if unclear.
 2. **Library** — asks which format library to pull from: **Virio** (corpus-mined; refreshed on the maintainer's machine and delivered to you automatically — see below) or **Millie's list** (curated from `Viral_Content_Bank.xlsx`). Always asks unless you name one.
 3. **Formats → format pick** (scout) — the 3 best-fitting specs, presented as cards.
-4. **Client context** (client) — one shared `clients/` store for all lanes.
+4. **Client context** (client) — one shared `clients/` store for all lanes. A named client is resolved via Virio first (`content_publishers_list`) — it never web-guesses who they are when Virio knows them.
 5. **Angles** (angles) — ranked format × subject × why-now options.
 6. **Drafts** (draft) — 2–3 de-slopped, QA-gated candidates.
 7. **Pick the winner** — choose the candidate to go forward with.
