@@ -11,7 +11,7 @@ preset) and `/content-engine:funnel` (asks or infers TOFU/MOFU/BOFU). The
 pipeline:
 
 1. **Post type** — resolves abm / tofu / mofu / bofu from your prompt, or asks one question if unclear.
-2. **Library** — asks which format library to pull from: **Virio** (corpus-mined; refreshed on the maintainer's machine and delivered to you automatically — see below) or **Millie's list** (curated from `Viral_Content_Bank.xlsx`). Always asks unless you name one.
+2. **Library** — asks which format library to pull from: **Virio** (corpus-mined; refreshed on the maintainer's machine and delivered to you automatically — see below), **Millie's list** (curated from `Viral_Content_Bank.xlsx`), or **Emerging** (this week's LinkedIn winners, refreshed every Saturday by the maintainer's viral scan). Always asks unless you name one.
 3. **Formats → format pick** (scout) — the 3 best-fitting specs, presented as cards.
 4. **Client context** (client) — one shared `clients/` store for all lanes. A named client is resolved via Virio first (`content_publishers_list`) — it never web-guesses who they are when Virio knows them.
 5. **Angles** (angles) — ranked format × subject × why-now options.
@@ -37,8 +37,15 @@ Bundled under `library/` and seeded to `content-library/` in your working folder
 ```
 content-library/
 ├── virio/          tofu (15) · mofu (15) · bofu (15) · abm (15)   ← maintainer-refreshed
-└── millies/        tofu (13) · mofu (9)  · bofu (0)  · abm (5)    ← curated, manual updates
+│                   + up to 15/lane "Recent finds" rolled in weekly from Emerging
+├── millies/        tofu (13) · mofu (9)  · bofu (0)  · abm (5)    ← curated, manual updates
+└── emerging/       0–15 per lane — this week's LinkedIn winners   ← weekly scan (Saturdays)
 ```
+
+Emerging holds spec-lites deconstructed from posts that performed in the last 7 days. Every
+Saturday the maintainer's viral scan replaces its contents and rolls the outgoing batch into the
+matching Virio lane as "Recent finds" (replacing the prior week's), so Virio carries the proven
+core plus a rotating recent cohort. Lanes are quality-gated — a thin or empty week is normal.
 
 Library updates reach you automatically — no plugin update needed. `library/VERSION` is stamped per release, and on each run the engine fetches the marketplace's remote `VERSION` (one small file); if it's newer than your seeded copy, it pulls the changed specs and merges them in silently (new specs added, unpinned examples refreshed; your pins and edits are never touched). Offline, it uses your local copy. So when the maintainer pushes new formats to the marketplace repo, everyone picks them up on their next run.
 

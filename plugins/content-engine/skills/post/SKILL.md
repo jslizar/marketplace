@@ -19,16 +19,17 @@ The resolved type threads through everything below as `<lane>` (abm | tofu | mof
 
 ## Step 1 — pick the library
 
-The engine reads formats from `content-library/<library>/<lane>/`. Two libraries ship with the plugin:
+The engine reads formats from `content-library/<library>/<lane>/`. Three libraries ship with the plugin:
 
-- **Virio** — corpus-mined library (from `viral_posts_all` for funnel lanes; the curated ABM post bank for the abm lane), kept fresh by the scheduled refresh task.
+- **Virio** — corpus-mined library (from `viral_posts_all` for funnel lanes; the curated ABM post bank for the abm lane), kept fresh by the scheduled refresh task. Each lane holds the 15 curated specs plus up to 15 "Recent finds" — last week's Emerging batch, rolled in weekly (`cohort: rolled` in the spec frontmatter, listed in a separate index section).
 - **Millie's list** — the curated bank from `Viral_Content_Bank.xlsx`; no auto-refresh, updated only when a new bank ships. Note: Millie's has no bofu formats (her BOFU tab is all ABM) — if the user picks Millie's + bofu, say so and offer Virio bofu or Millie's abm instead.
+- **Emerging** — this week's proven posts: spec-lites deconstructed from LinkedIn winners of the last 7 days, refreshed every Saturday by the maintainer's viral scan. The live-signal option — freshest, least proven over time. Lanes are quality-gated and can run thin (or empty between install and the next scan) — if the picked lane is short, say so and offer Virio.
 
-Resolution: if the user named a library ("use Millie's list", "from Virio") → use it. Otherwise ALWAYS ask — one question, two options, with a one-line description of each. Never silently default.
+Resolution: if the user named a library ("use Millie's list", "from Virio", "emerging", "what's working this week") → use it. Otherwise ALWAYS ask — one question, three options, with a one-line description of each. Never silently default.
 
 ### Library seeding and auto-refresh (no plugin update required)
 
-On first run (no `content-library/` in the working folder), seed BOTH libraries by copying `${CLAUDE_PLUGIN_ROOT}/library/` into `content-library/`, including `library/VERSION`.
+On first run (no `content-library/` in the working folder), seed ALL THREE libraries by copying `${CLAUDE_PLUGIN_ROOT}/library/` into `content-library/`, including `library/VERSION`.
 
 On EVERY run (including the first, right after seeding), auto-refresh from the marketplace so the user never has to update the plugin to get new formats:
 
@@ -70,4 +71,4 @@ Cost is one index file for the single lane in use. The VERSION check handles bul
 - If the user enters mid-pipeline (e.g. "draft a MOFU post for Acme in the gated-playbook format from Millie's list"), skip completed stages — a named format skips the formats stage and the format pick; a named type skips Step 0; a named library skips Step 1.
 - Surface intermediate outputs compactly: formats as a short table (name, archetype, engagement, why it works), angles as a ranked list with the format each pairs with.
 - Every stage that produces a file saves into the user's working folder, never into the plugin directory.
-- Data boundaries are hard: funnel-lane discovery reads ONLY `viral_posts_all` in Supabase — never `viral_posts` (the user's personal-content bank). ABM-lane discovery uses the curated ABM bank and Apify. Millie's library is never auto-refreshed from any corpus.
+- Data boundaries are hard: funnel-lane discovery reads ONLY `viral_posts_all` in Supabase — never `viral_posts` (the user's personal-content bank). ABM-lane discovery uses the curated ABM bank and Apify. Millie's library is never auto-refreshed from any corpus. Emerging is written only by the maintainer's weekly viral scan — pipeline runs never add to it; deconstructing a new post mid-run specs into Virio, not Emerging.

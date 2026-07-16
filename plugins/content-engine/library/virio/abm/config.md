@@ -14,5 +14,6 @@ Would the named target be glad this post exists? The post's engine must be a spe
 
 - Repo target: ~15 format specs.
 - Freshness window: 14 days — specs with source examples older than this are flagged stale.
-- Source: the user's curated ABM post bank, maintained by the scheduled refresh task. Discovery beyond the library: Apify (LinkedIn/X post-search actors, maxItems ≤ 50) and web search, ABM markers only.
+- Source: the `abm_posts` bank (Supabase `jacob-content`), maintained by the scheduled refresh task (runs as a local Claude Code cron — `scripts/library-refresh/run.sh`, not a desktop task).
+- Top-up path: when `abm_posts` can't sustain 2 fresh matches for a spec, or its newest `posted_at` is older than 60 days, the refresh task scouts new posts via Apify (LinkedIn/X post-search actors, maxItems ≤ 50, ABM markers only) and INSERTs keepers back into `abm_posts` (dedupe on `post_url`/`provider_urn`; winner bars: engagement outlier AND ABM mechanic), then re-queries. Never updates or deletes existing rows.
 - Example turnover: owned by the scheduled refresh task. Each spec carries exactly 2 source examples; pinned examples are never auto-replaced.
