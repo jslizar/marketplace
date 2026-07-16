@@ -11,7 +11,7 @@ preset) and `/content-engine:funnel` (asks or infers TOFU/MOFU/BOFU). The
 pipeline:
 
 1. **Post type** — resolves abm / tofu / mofu / bofu from your prompt, or asks one question if unclear.
-2. **Library** — asks which format library to pull from: **Virio** (corpus-mined; refreshed on the maintainer's machine and delivered to you automatically — see below), **Millie's list** (curated from `Viral_Content_Bank.xlsx`), or **Emerging** (this week's LinkedIn winners, refreshed every Saturday by the maintainer's viral scan). Always asks unless you name one.
+2. **Library** — asks which format libraries to pull from (**multi-select** — pick one, two, or all three): **Virio** (corpus-mined; refreshed on the maintainer's machine and delivered to you automatically — see below), **Millie's list** (curated from `Viral_Content_Bank.xlsx`), and/or **Emerging** (this week's LinkedIn winners, refreshed every Saturday by the maintainer's viral scan). Multiple selections pool into one candidate set — formats compete on fit and each carries its source-library label. Always asks unless you name them.
 3. **Formats → format pick** (scout) — the 3 best-fitting specs, presented as cards.
 4. **Client context** (client) — one shared `clients/` store for all lanes. A named client is resolved via Virio first (`content_publishers_list`) — it never web-guesses who they are when Virio knows them.
 5. **Angles** (angles) — ranked format × subject × why-now options.

@@ -7,8 +7,8 @@
     {
       "name": "content-engine",
       "source": "./plugins/content-engine",
-      "description": "Unified LinkedIn content engine: one pipeline for ABM, TOFU, MOFU, and BOFU posts, pulling viral formats from selectable libraries (Virio corpus or Millie's curated list). Resolves named clients via Virio first (content_publishers_list) — no web-guessing who they are. Pick a winning draft and it generates a paste-ready Claude graphic prompt. Library auto-refreshes and self-heals each run. Requires the Virio MCP connector.",
-      "version": "0.6.1"
+      "description": "Unified LinkedIn content engine: one pipeline for ABM, TOFU, MOFU, and BOFU posts, pulling viral formats from selectable libraries (Virio corpus, Millie's curated list, and the weekly Emerging scan — multi-select, pooled). Resolves named clients via Virio first. Pick a winning draft and it generates a paste-ready Claude graphic prompt. Library auto-refreshes and self-heals each run. Requires the Virio MCP connector.",
+      "version": "0.7.0"
     },
     {
       "name": "copy-post",
