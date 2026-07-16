@@ -1,6 +1,6 @@
 ---
 name: interview-kit
-description: Prep and run a client content interview end to end. Use when the user says "prepare for a content interview with [name]", "prep the interview for [client]", "research [name] for the interview", "run a content interview", "interview questions for [client]", "first content interview", "next content interview", or wants question banks by funnel stage for interviewing a client's Face of Content. Researches the FOC in Virio (their strategy, tone, ICPs, banned topics) plus their recent LinkedIn posts, then builds a tailored question set instead of a generic one. Produces the interview brief, the live question flow, and capture guidance; the transcript hands off to idea-inventory.
+description: Prep and run a client content interview end to end. Use when the user says "prepare for a content interview with [name]", "prep the interview for [client]", "research [name] for the interview", "run a content interview", "interview questions for [client]", "first content interview", "next content interview", or wants question banks by funnel stage for interviewing a client's Face of Content. Researches the FOC in Virio (strategy, tone, ICPs, banned topics), pulls the account's Notion context (past meetings, content pillars, strategy docs), and reads their recent LinkedIn posts, then builds a tailored question set instead of a generic one — cutting what's already on file and what earlier interviews already covered. Produces the interview brief, the live question flow, and capture guidance; the transcript hands off to idea-inventory.
 ---
 
 # Content interview kit
@@ -22,23 +22,34 @@ Operate under the assumption that you are interviewing an extremely interesting 
 - **ICPs** — each persona's titles, company size, funding, location, description
 - **Provenance** — who last set each section and when. Stale or agent-set sections are exactly what the interview should re-confirm.
 
-**3. Read what they've already said.** Use `read_linkedin_uri` on their LinkedIn profile to pull recent posts. Note the topics they've already covered, the stories they've already told, and what performed. The interview mines new ground; it does not re-run their greatest hits.
+**3. Pull the account's Notion context.** Notion is where the account's meetings, pillars, and strategy live — it is the richest prep source after Virio, and the only one that knows what earlier interviews already covered. Read-only: search and fetch only, NEVER create, update, or comment on a Notion page from this skill. Search each data source with `notion-search` (`data_source_url`), then `notion-fetch` the pages that matter. Match the account by the company name from the Virio record or the request (Notion account names use exact casing).
 
-**4. Account context** (only if HubSpot or Attio is connected). Search the company for industry, size, deals, and named accounts.
+- **Accounts DB** `collection://dd9f23d5-af4c-40ff-b5ab-ebedb4a64ffd` — the account card: ICP summary, tone profile, Face of Content, status.
+- **Strategy DB** `collection://38350369-c22f-815a-ba22-000bc1c510ae` — fetch the account's **Content Pillars** and **Client Context** pages in full (its editorial spine: pillars, dos/don'ts, hard constraints, approval chain), plus any Content/GTM Strategy docs.
+- **Meetings DB** `collection://634a0a1f-f9fd-4ef1-b0d9-7dd6c04c07d1` — fetch (a) any past meeting of Type **Content Interview** — this is what earlier interviews already mined, and (b) the 2–3 most recent syncs/ad-hocs for live wires: launches, wins, challenges, and stories the FOC mentioned in passing.
+- If a hardcoded data-source query fails (workspace changed), fall back to a plain `notion-search` across the workspace for "<client> content pillars" and "<client> meeting" before giving up.
 
-**5. Write the interview brief**, then the question set:
+**4. Read what they've already said.** Use `read_linkedin_uri` on their LinkedIn profile to pull recent posts. Note the topics they've already covered, the stories they've already told, and what performed. The interview mines new ground; it does not re-run their greatest hits.
 
-- **Already on file — validate, don't re-ask.** Anything strategy/tone/ICPs already answer. Read it back for confirmation instead of asking cold ("Your tone is on file as casual and punchy, no em-dashes. Still right?") rather than "How would you describe your tone of voice?"
-- **Gaps to fill.** Sections that are empty, thin, or stale per provenance. These are the interview's priority — spend the time here.
-- **Never ask.** Everything in `bannedTopics` plus the dismissed topics in `customInstructions`.
+**5. Account context** (only if HubSpot or Attio is connected). Search the company for industry, size, deals, and named accounts.
+
+**6. Write the interview brief**, then the question set:
+
+- **Already on file — validate, don't re-ask.** Anything strategy/tone/ICPs (Virio) or pillars/strategy docs (Notion) already answer. Read it back for confirmation instead of asking cold ("Your tone is on file as casual and punchy, no em-dashes. Still right?") rather than "How would you describe your tone of voice?"
+- **Already mined — don't re-ask.** The stories and questions covered in past **Content Interview** meetings. List them so interview #2+ builds on that ground instead of rerunning it. New questions should DEEPEN a known pillar, not rediscover it.
+- **Gaps to fill.** Sections empty, thin, or stale per provenance; pillars still marked Draft or lacking proof. These are the interview's priority — spend the time here.
+- **Fresh probes from recent meetings.** The best interview material: "you mentioned X on last week's sync — is there a story there?" Current and specific beats generic.
+- **Never ask.** Everything in `bannedTopics` plus the dismissed topics in `customInstructions`, and anything a pillar's Don'ts rule out.
 - **ICP-derived questions.** For each persona, the questions that audience actually wants answered. This is the backbone of interview #2 and beyond.
-- **The tailored set.** Start from the funnel-stage banks below, CUT every question the record already answers, and ADD specific probes that name their real topics, posts, and competitors.
+- **The tailored set.** Start from the funnel-stage banks below, CUT every question the record already answers, and ADD specific probes that name their real topics, pillars, posts, and competitors.
 
 Save the brief to `clients/<slug>/interview-prep.md`.
 
-**Hard rule:** the brief states only what Virio, LinkedIn, or CRM actually returned. Never invent a fact, a stat, or a POV for the FOC. "Unknown" beats invented — an unknown becomes an interview question, which is the whole point.
+**Conflict rule:** Virio settings are authoritative for tone and banned topics; Notion is authoritative for pillars, meeting history, and account status. If they disagree, note the discrepancy in the brief — don't silently pick one.
 
-**No connector, or FOC not in Virio:** say which, then run the generic flow — the question banks below plus whatever web research you can do on the person and company. The skill works with zero connectors; it is just sharper with them.
+**Hard rule:** the brief states only what Virio, Notion, LinkedIn, or CRM actually returned. Never invent a fact, a stat, or a POV for the FOC. "Unknown" beats invented — an unknown becomes an interview question, which is the whole point.
+
+**Missing connector or account:** if Virio, Notion, or the account isn't reachable, say which in one line, then continue with whatever sources ARE available (down to the generic question banks below plus web research). The skill works with zero connectors; each one you have makes it sharper.
 
 ## Prep — the rest
 
@@ -121,6 +132,8 @@ The banks are raw material, not a script. After prep research, cut every questio
 The goal of every subsequent interview is to keep mining for content ideas the ICP would find interesting while sharpening the FOC's unique POV as a thought leader.
 
 Topic discovery has many possible approaches, but it boils down to understanding the psyche of the FOC's audience and answering the questions already in their heads. Before the call, build (or refresh) a deep read of that audience — the icp-avatar skill produces exactly this, and it should start from the ICP personas the prep research pulled from Virio rather than from a blank page — and turn it into a list of questions the ICP would want answered. Bring those to the interview and validate them with the FOC.
+
+Ground #2+ in what #1 already covered. The prep research pulls past **Content Interview** meetings from Notion for exactly this: read them first, then the new questions extend the pillars and stories already established instead of re-mining them. If a pillar is still marked Draft or has no proof on record, that gap is the interview's job.
 
 ## Capture guidance — during the interview
 

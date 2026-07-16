@@ -43,8 +43,8 @@
     {
       "name": "content-interview",
       "source": "./plugins/content-interview",
-      "description": "Client content-intake pipeline: prep an interview by researching the FOC in Virio (strategy, tone, ICPs, banned topics) and their recent posts, run the tailored interview, build a deep emotional ICP avatar, mine the transcript into 20+ tagged post concepts, and draft to hook-lever writing standards. Feeds content-engine downstream; Virio connector recommended, works without it.",
-      "version": "1.1.0"
+      "description": "Client content-intake pipeline: prep an interview by researching the FOC in Virio (strategy, tone, ICPs, banned topics), the account's Notion context (past meetings, content pillars, strategy docs), and their recent posts, run the tailored interview, build a deep emotional ICP avatar, mine the transcript into 20+ tagged post concepts, and draft to hook-lever writing standards. Feeds content-engine downstream; Virio + Notion connectors recommended, works without them.",
+      "version": "1.2.0"
     },
     {
       "name": "linkedin-strategy",
