@@ -1,6 +1,6 @@
 {
   "name": "content-engine",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "description": "Unified LinkedIn content engine: one pipeline for ABM, TOFU, MOFU, and BOFU posts, pulling viral formats from selectable libraries (Virio corpus or Millie's curated list). Resolves named clients via Virio first (no web-guessing who they are). Pick a winning draft and it generates a paste-ready Claude graphic prompt. Self-heals a stale local library. Merges the former abm-engine and funnel-engine plugins.",
   "author": {
     "name": "Jacob Lizarraga"

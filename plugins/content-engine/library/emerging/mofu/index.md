@@ -1,11 +1,18 @@
 # Emerging — mofu index
 
 > 🔎 This week's proven posts, refreshed every Saturday by the weekly viral scan.
-> Scan week: 2026-07-16 · 2/15 cleared the bar (quality-gated, never padded).
+> Scan week: 2026-07-16 · 9/15 cleared the bar across two passes (quality-gated, never padded).
+> Second pass: 7 keepers deconstructed into 4 spec-lites — Justin Welsh's three same-skeleton
+> manifestos share patience-compounding-manifesto; Andreas Horn's two variants share
+> failure-modes-mirror.
 
 | Format | Archetype | Top example | Peak engagement | Scanned |
 |---|---|---|---|---|
+| patience-compounding-manifesto | proof-backed-manifesto | Justin Welsh | 8,349 | 2026-07-16 |
 | proof-backed-permission-manifesto | proof-backed-manifesto | Justin Welsh | 8,032 | 2026-07-16 |
+| curiosity-gap-newsletter-teaser | curiosity-gap-teaser | Justin Welsh | 624 | 2026-07-16 |
+| failure-modes-mirror | framework-walkthrough | Andreas Horn | 561 | 2026-07-16 |
+| curated-hiring-list | curated-resource-list | Ben Lang | 415 | 2026-07-16 |
 | process-peek-walkthrough | framework-walkthrough | Jason W. Ramsey | 409 | 2026-07-16 |
 
 _Populated by the weekly viral-scan task. Entries are spec-lites deconstructed from posts that
