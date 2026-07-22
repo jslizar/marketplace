@@ -7,8 +7,8 @@
     {
       "name": "content-engine",
       "source": "./plugins/content-engine",
-      "description": "Unified LinkedIn content engine: one pipeline for ABM, TOFU, MOFU, and BOFU posts, pulling viral formats from selectable libraries (Virio corpus, Millie's curated list, and the weekly Emerging scan — multi-select, pooled). Resolves named clients via Virio first. Pick a winning draft and it generates a paste-ready Claude graphic prompt. Library auto-refreshes and self-heals each run. Requires the Virio MCP connector.",
-      "version": "0.7.0"
+      "description": "Unified LinkedIn content engine: one pipeline for ABM, TOFU, MOFU, and BOFU posts, pulling viral formats from selectable libraries (Virio corpus, Millie's curated list, and the weekly Emerging scan \u2014 multi-select, pooled). Resolves named clients via Virio first. Pick a winning draft and it generates a paste-ready Claude graphic prompt. Library auto-refreshes and self-heals each run. Requires the Virio MCP connector.",
+      "version": "0.8.0"
     },
     {
       "name": "copy-post",
@@ -31,7 +31,7 @@
     {
       "name": "dm-master",
       "source": "./plugins/dm-master",
-      "description": "LinkedIn outreach ghostwriting: profile analysis, tone read, and register-matched connection notes, DMs, follow-ups, call asks, and rejection comebacks — written as the client, never inventing a profile detail.",
+      "description": "LinkedIn outreach ghostwriting: profile analysis, tone read, and register-matched connection notes, DMs, follow-ups, call asks, and rejection comebacks \u2014 written as the client, never inventing a profile detail.",
       "version": "1.0.0"
     },
     {
@@ -49,13 +49,13 @@
     {
       "name": "linkedin-strategy",
       "source": "./plugins/linkedin-strategy",
-      "description": "LinkedIn performance advisor grounded in research on 226K posts: performance states, image and timing strategy, reaction mechanics, topic selection, and 2026 feed mechanics — answers 'why is my engagement down' with findings, not vibes.",
+      "description": "LinkedIn performance advisor grounded in research on 226K posts: performance states, image and timing strategy, reaction mechanics, topic selection, and 2026 feed mechanics \u2014 answers 'why is my engagement down' with findings, not vibes.",
       "version": "1.0.0"
     },
     {
       "name": "wartime-advisor",
       "source": "./plugins/wartime-advisor",
-      "description": "Strategic work and leadership advisor grounded in Horowitz's Peacetime/Wartime CEO framework and Grove's strategic inflection points, plus a skill × culture-fit talent 2x2. Direct, pushes back, diagnoses before advising.",
+      "description": "Strategic work and leadership advisor grounded in Horowitz's Peacetime/Wartime CEO framework and Grove's strategic inflection points, plus a skill \u00d7 culture-fit talent 2x2. Direct, pushes back, diagnoses before advising.",
       "version": "1.0.0"
     },
     {

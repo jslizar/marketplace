@@ -29,6 +29,31 @@ pipeline:
 | angles | Ranked angles from format × context × moment |
 | draft | Ship-ready candidates with de-slop + QA gate |
 | graphic-prompt | Turn the chosen post into a Claude graphic-build prompt (also `/content-engine:graphic`) |
+| creators | Discover and mine LinkedIn creators into per-client strategy cards (also `/content-engine:creators`) |
+
+## Creator mining (side door)
+
+`/content-engine:creators` mines creator strategies without running the
+posting pipeline. Three modes, detected from your request:
+
+- **Discover** — "find influencers for [client]": derives niche keywords from
+  the client's context.md, discovers creators from the Supabase corpus (plus
+  an Apify top-up when the corpus runs thin), filters out competitors,
+  inactives, and one-hit wonders, and presents a ranked longlist. You pick
+  the shortlist (default 5).
+- **Single-link** — "copy this person's strategy" + a LinkedIn profile URL:
+  skips discovery, mines that person.
+- **List** — paste creator names/handles: resolves each to a profile, you
+  confirm, then it mines each one.
+
+Every mined creator gets a strategy card at
+`clients/<slug>/creators/<creator-slug>.md` — their 15 most recent posts, top
+viral posts (verbatim hooks + full text), and a strategy read (cadence,
+format mix, hook patterns, pillars, tone) with a client-specific "how to copy
+this" section — plus a roster `index.md`. Cards feed the copy-post plugin
+(style profiles via style-library) and scout (format specs); the skill offers
+those handoffs after mining. It is research, not a pipeline stage — it never
+drafts posts and never scores creators for outreach.
 
 ## Libraries
 
@@ -61,4 +86,4 @@ Millie's BOFU is empty by design — her Bottom of Funnel tab is all ABM-style p
 
 ## Data boundaries
 
-Funnel-lane discovery reads only `viral_posts_all` (Supabase, project `jacob-content`). ABM-lane discovery uses the curated ABM bank + Apify. Millie's library is never auto-refreshed.
+Funnel-lane discovery reads only `viral_posts_all` (Supabase, project `jacob-content`). ABM-lane discovery uses the curated ABM bank + Apify. Millie's library is never auto-refreshed. Creator mining reads `viral_posts_all` and `outlier` read-only — it never writes to the corpus, and never touches `viral_posts`.
