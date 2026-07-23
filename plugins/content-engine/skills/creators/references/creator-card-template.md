@@ -8,7 +8,7 @@ run_id: <YYYY-MM-DD-<client>-creators-NN>
 command: </content-engine:creators | null>
 skills: [<from run-log resolver>]
 plugins: [<from run-log resolver>]
-connectors: [<from run-log resolver — virio|supabase|apify|exa, whichever actually answered>]
+connectors: [<from run-log resolver — supabase|apify|exa, whichever actually answered>]
 sources: [<queries run + URLs actually read>]
 creator: <Creator Name>
 creator_slug: <kebab-full-name>
@@ -27,8 +27,8 @@ Up: [Creator roster](index.md)
 ## Profile
 
 <Name, headline, company, followers, profile URL — each with its source
-(virio profile | corpus row | web). `[unverified]` where no source answered.
-Never estimated.>
+(apify author metadata | corpus row | web). `[unverified]` where no source
+answered. Never estimated.>
 
 ## Metrics snapshot
 

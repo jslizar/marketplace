@@ -36,12 +36,11 @@ Detect the mode from the request, in this order:
 1. **Single-link** — the request contains one or more `linkedin.com/in/` URLs
    → skip discovery, mine those profiles.
 2. **List** — the request contains a pasted list of creator names or handles
-   (no profile URLs) → skip discovery. Resolve each name to a profile via the
-   Virio MCP `read_linkedin_uri` (bare username or best-guess URL), falling
-   back to web search (`<name> LinkedIn site:linkedin.com`). Present a
-   resolution table — name given, profile found, headline, URL — and **STOP:
-   the user confirms before any mining.** Wrong-person mining wastes the whole
-   budget.
+   (no profile URLs) → skip discovery. Resolve each name to a LinkedIn
+   profile URL via web search (`<name> LinkedIn site:linkedin.com`), checking
+   the headline against any context the user gave. Present a resolution
+   table — name given, profile found, headline, URL — and **STOP: the user
+   confirms before any mining.** Wrong-person mining wastes the whole budget.
 3. **Discover** — neither → run the full discovery pipeline below.
 
 Client: resolve the slug from the request against existing `clients/` folders.
@@ -159,38 +158,40 @@ requires an explicit budget warning and confirmation. STOP.
 
 ## Mining — every mode converges here
 
-Per shortlisted creator:
+One Apify run covers both the profile and the recent posts — pinned actor
+`harvestapi/linkedin-post-search`, batching ≤ 3 creators per run:
 
-1. **Profile** — Virio `read_linkedin_uri` with the profile URL,
-   `mode=profile` → name, headline, company, follower count. Followers absent
-   → `[unverified]`.
-2. **15 most recent posts** — Virio `read_linkedin_uri` on the profile URL
-   (default mode returns the recent-posts feed; ask `limit: 20`, keep the 15
-   newest by `posted_at`). The feed returns full engagement per post
-   (reactions, comments, reposts, text, date). Live feed rows have no `hook`
-   field — the hook is the first line of `post_text`. Skip rows with empty
-   `post_text`.
+```json
+{"authorUrls": ["https://www.linkedin.com/in/<a>/", "https://www.linkedin.com/in/<b>/"],
+ "maxPosts": 15, "profileScraperMode": "main"}
+```
 
-   **Staleness check (learned the hard way):** the Virio feed can be a
-   cached snapshot months old — it returned an Aug-2025 "newest" post for a
-   daily poster in Jul-2026. If the newest feed post is older than ~45 days
-   (or older than the creator's corpus `last_seen`), treat the feed as stale
-   and pull the recent 15 from Apify instead. Same fallback if the feed runs
-   short or Virio is down:
+Two validated gotchas (2026-07-22), do not regress:
 
-   ```json
-   {"authorUrls": ["https://www.linkedin.com/in/<a>/", "https://www.linkedin.com/in/<b>/"],
-    "maxPosts": 15, "profileScraperMode": "short"}
-   ```
+- **Do NOT pass `sortBy` or `postedLimit` with `authorUrls`** — the run
+  succeeds but returns 0 items. Author feeds come back recent-first; sort
+  client-side on the returned dates if needed.
+- `profileScraperMode: "main"` embeds the FULL author profile in every post
+  item (~50KB each). Never read the dataset raw — fetch with projected
+  fields: one call with `limit: 1` and
+  `fields: "author.name,author.headline,author.followerCount,author.about,author.location.linkedinText"`
+  per creator for the profile, then one call with
+  `fields: "linkedinUrl,content,postedAt.date,engagement.likes,engagement.comments,engagement.shares,type"`
+  for the posts.
 
-   **Do NOT pass `sortBy` or `postedLimit` with `authorUrls`** — the run
-   succeeds but returns 0 items (validated 2026-07-22). Author feeds come
-   back recent-first; sort client-side on the returned dates if needed.
-   Batch ≤ 3 authors per run so the run stays under maxItems ≤ 50.
+Per shortlisted creator, from that run:
+
+1. **Profile** — `author.followerCount` (live), `author.headline`,
+   `author.about`, `author.location.linkedinText`, current company from
+   `author.experience` if needed. Any field the scrape doesn't return →
+   web-search fallback, else `[unverified]`.
+2. **15 most recent posts** — the post items: URL, full text, date, likes,
+   comments, shares. The hook is the first line of `content`. Skip rows with
+   empty `content`.
 
    Label engagement by source and never mix them in one stat: Apify reports
-   `likes` (undercounts LinkedIn's full reaction total); Virio feed and the
-   corpus report `total_reactions`.
+   `likes` (undercounts LinkedIn's full reaction total); the corpus reports
+   `total_reactions`.
 3. **Top viral posts (up to 5)** — union of two verified sources, deduped on
    `post_url`, top 5 by engagement:
    - Corpus lookup, run against BOTH `viral_posts_all` and `outlier`:
@@ -244,12 +245,11 @@ NOT to copy, mapped to the client's actual pillar names from context.md.
 
 ## Budget
 
-- Apify: ≤ 6 actor runs per session total (≤ 2 discovery + mining top-ups),
-  maxItems ≤ 50 each, `fetch-actor-details` once per session before the first
-  call. If the shortlist would blow the budget, STOP and ask — split across
-  sessions or shrink the list.
+- Apify: ≤ 6 actor runs per session total (≤ 2 discovery + mining runs at
+  ≤ 3 creators each), maxItems ≤ 50 each, `fetch-actor-details` once per
+  session before the first call. If the shortlist would blow the budget,
+  STOP and ask — split across sessions or shrink the list.
 - Supabase: SELECT-only, result sets capped as shown above.
-- Virio `read_linkedin_uri`: one profile call + one feed call per creator.
 
 ## Degradation order
 
@@ -259,12 +259,11 @@ was skipped.
 1. **Supabase down** → skip corpus discovery and corpus viral lookup;
    discover mode becomes Apify-only; "Top viral" limited to live-sample
    outliers, labeled "(live sample only — corpus unavailable)".
-2. **Virio down** → Apify `authorUrls` covers recent posts; profile details
-   from web search; followers `[unverified]`.
-3. **Apify down** → Virio + corpus only; the recent-15 may run short — say
-   so; discovery limited to corpus.
-4. **Everything live down** → corpus-only cards stamped "STALE — corpus data
-   only, last seen <date>"; ask before proceeding.
+2. **Apify down** → corpus-only cards: no recent-15 (say so plainly),
+   virals from corpus rows, profile from web search with followers
+   `[unverified]`, card stamped "STALE — corpus data only, last seen
+   <date>"; ask before proceeding.
+3. **Both down** → nothing verifiable to mine; stop and say so.
 
 ## Handoffs — offers, never auto-run
 
