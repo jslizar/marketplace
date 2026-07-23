@@ -54,10 +54,15 @@ Every mined creator gets a strategy card at
 `clients/<slug>/creators/<creator-slug>.md` — their 15 most recent posts, top
 viral posts (verbatim hooks + full text), and a strategy read (cadence,
 format mix, hook patterns, pillars, tone) with a client-specific "how to copy
-this" section — plus a roster `index.md`. Cards feed the copy-post plugin
-(style profiles via style-library) and scout (format specs); the skill offers
-those handoffs after mining. It is research, not a pipeline stage — it never
-drafts posts and never scores creators for outreach.
+this" section — plus a roster `index.md`. After the cards, you select what
+to copy (whole creators, specific posts, or patterns) and the skill compiles
+`clients/<slug>/creators/strategy.md`: the complete copy-this strategy —
+post strategy mapped to the client's pillars, a posting schedule reconciled
+with their cadence, example posts verbatim, and a library of posts to copy.
+Cards and strategy feed the copy-post plugin (style profiles via
+style-library) and scout (format specs); the skill offers those handoffs.
+It is research, not a pipeline stage — it never drafts posts and never
+scores creators for outreach.
 
 ## Libraries
 

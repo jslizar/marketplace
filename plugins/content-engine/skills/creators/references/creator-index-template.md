@@ -35,6 +35,11 @@ reason — so the next run doesn't resurface them and the filters stay auditable
 | <name> | inactive — <n> posts in last 90d |
 | <name> | duplicate of <name> |
 
+## Strategy
+
+<Link to [strategy.md](strategy.md) once compiled, with its date. "Not
+compiled yet" until then.>
+
 ## Handoffs done
 
 <Which creators got compiled into style profiles or format specs, with links —

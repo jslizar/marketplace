@@ -128,6 +128,10 @@ and Postgres sorts nulls FIRST on `desc` — always wrap in `coalesce(..., 0)`.
 And keep `having count(*) >= 2`: one viral post is a fluke, not a strategy —
 a creator must show up more than once to be a strategy source.
 
+Vocabulary guard: these rows are **creators**, never "formats" or "viral
+formats" — that's scout's word for its format specs mined from the same
+table. Say "found N creators in the corpus," never "pulled N viral formats."
+
 ### Live top-up (Apify) — only if the corpus yields < 8 candidates
 
 Pinned actor: `harvestapi/linkedin-post-search` (id `buIWk2uOUzTmcLsuB`).
@@ -279,10 +283,43 @@ was skipped.
    <date>"; ask before proceeding.
 3. **Both down** → nothing verifiable to mine; stop and say so.
 
+## Select what to copy (STOP)
+
+After cards are saved, show the summary table, then ask what to copy into
+the client's strategy. The user picks any mix of:
+
+- **whole creators** — their full playbook,
+- **specific posts** — rows from the recent-15 and top-viral tables,
+- **specific patterns** — a hook style, a cadence, a format, a CTA habit.
+
+STOP — the user selects. "Nothing yet" exits cleanly with the cards on disk.
+
+## Compile the client strategy
+
+Turn the selection into one deliverable:
+`clients/<slug>/creators/strategy.md` per
+`references/creator-strategy-template.md` — the complete copy-this strategy:
+
+- **Post strategy** — each chosen pattern mapped to the client's actual
+  pillars and voice rules from context.md: what we're copying, from whom,
+  why it fits, and what we're explicitly NOT copying (off-voice, off-ICP,
+  breaks a Canon constraint).
+- **Posting schedule** — a concrete weekly grid reconciling the chosen
+  creators' cadence with the client's own cadence from context.md. Never
+  prescribe a creator's volume the client can't sustain (a daily
+  solopreneur's schedule is not a 3-posts/week B2B client's schedule).
+- **Example posts** — the selected winners, full text verbatim, each
+  annotated with the one transferable move.
+- **Library of posts to copy** — one table of every selected post: hook,
+  creator, engagement, URL, what to steal from it.
+
+Save via `run-log`; link it from the roster index. Re-compiling an existing
+strategy.md: show a diff summary and ask first — same rule as the cards.
+
 ## Handoffs — offers, never auto-run
 
-After cards are saved, show the summary table, then offer as a plain
-question:
+After the strategy doc (or instead of it, if the user picked nothing),
+offer as a plain question:
 
 1. **Compile <creator> into a reusable style profile** — copy the card's
    full-text winning posts into `styles/<creator-slug>/examples/` and run the
@@ -291,7 +328,7 @@ question:
    (`${CLAUDE_PLUGIN_ROOT}/skills/scout/SKILL.md`) to deconstruct chosen post
    URLs into specs for `content-library/virio/<lane>/` (never Emerging).
 3. **Draft in their style for <client>** — run copy-post with a winning post
-   as the example.
+   as the example, guided by strategy.md.
 4. **Mine more creators / refresh a card** — rerun this skill.
 
 "None" exits cleanly.
