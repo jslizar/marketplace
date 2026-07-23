@@ -43,21 +43,35 @@ Detect the mode from the request, in this order:
    confirms before any mining.** Wrong-person mining wastes the whole budget.
 3. **Discover** — neither → run the full discovery pipeline below.
 
-Client: resolve the slug from the request against existing `clients/` folders.
-If no client is named, ask one question and stop. All output is client-scoped
-— the same creator mined for two clients gets two cards, because "how to copy
+Client: resolve from the request, **Virio first** — the client roster lives
+in Virio, not the local folder. For a named client, check the Virio MCP
+`content_publishers_list` (same rule as the client skill); treat local
+`clients/<slug>/` folders as working copies, not the roster — a teammate's
+machine may have none. If no client is named, pull the publisher list from
+Virio, merge in any local `clients/` folders, present that as the choice,
+and stop. Only when the Virio connector is unavailable does the local folder
+list stand alone (say so when it happens). All output is client-scoped — the
+same creator mined for two clients gets two cards, because "how to copy
 this" is client-specific.
+
+Division of labor, do not cross it: Virio resolves clients and supplies
+their context (publishers, strategy, tone, ICP). It is NEVER used to scrape
+posts or profiles — Apify owns all scraping (its profile feed proved to be a
+stale cache).
 
 ## Step 1 — ground on context.md
 
 - **Discover mode requires `clients/<slug>/context.md`** — niche keywords
   derive from its ICP and Pillars, and the competitor filter derives from its
-  Canon/ICP. If it's missing or stale, say so and offer to build it first
-  (read `${CLAUDE_PLUGIN_ROOT}/skills/client/SKILL.md` and follow it). Never
-  web-guess an ICP to search on.
+  Canon/ICP. If it's missing or stale, build it first via the client skill
+  (read `${CLAUDE_PLUGIN_ROOT}/skills/client/SKILL.md` and follow it — it
+  pulls the client's strategy, tone, and ICP from Virio content settings, so
+  any Virio publisher works even with an empty local folder). Never web-guess
+  an ICP to search on.
 - **Single-link and list modes:** context.md is optional. If missing, warn in
   one line that competitor flagging and the "How to copy this" section will be
-  generic, offer the client skill, and proceed if the user says go.
+  generic, offer to build it via the client skill, and proceed if the user
+  says go.
 
 ## Discover mode
 

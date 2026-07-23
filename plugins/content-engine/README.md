@@ -40,7 +40,11 @@ posting pipeline. Three modes, detected from your request:
   the client's context.md, discovers creators from the Supabase corpus (plus
   an Apify top-up when the corpus runs thin), filters out competitors,
   inactives, and one-hit wonders, and presents a ranked longlist. You pick
-  the shortlist (default 5).
+  the shortlist (default 5). Clients resolve via Virio first
+  (`content_publishers_list`), like the rest of the engine — local `clients/`
+  folders are working copies, not the roster; a missing context.md is built
+  from Virio content settings via the client skill. Virio is context-only:
+  all post/profile scraping is Apify.
 - **Single-link** — "copy this person's strategy" + a LinkedIn profile URL:
   skips discovery, mines that person.
 - **List** — paste creator names/handles: resolves each to a profile, you
