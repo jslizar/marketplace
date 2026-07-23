@@ -29,6 +29,17 @@ pipeline, and the posting pipeline never triggers it.
 - Never write into the plugin directory. All output goes to the working
   folder (`clients/<slug>/creators/`).
 
+## Presenting decisions — every STOP
+
+The full content of a decision is presented IN THE CHAT, as plain markdown,
+BEFORE the question is asked — the user must be able to read everything they
+are deciding on without interacting with anything. Never hide the content
+behind a card, a collapsed reveal, or the question widget's options (same
+rule as the post skill's candidate presentation). Then ask with a PLAIN
+question whose option labels are short handles only — "Approve as-is",
+"Wider net", "A — <creator name>" — never the content itself. A question
+asked without its content in the chat above it is a bug.
+
 ## Step 0 — mode + client
 
 Detect the mode from the request, in this order:
@@ -38,9 +49,10 @@ Detect the mode from the request, in this order:
 2. **List** — the request contains a pasted list of creator names or handles
    (no profile URLs) → skip discovery. Resolve each name to a LinkedIn
    profile URL via web search (`<name> LinkedIn site:linkedin.com`), checking
-   the headline against any context the user gave. Present a resolution
-   table — name given, profile found, headline, URL — and **STOP: the user
-   confirms before any mining.** Wrong-person mining wastes the whole budget.
+   the headline against any context the user gave. Print the resolution
+   table in the chat — name given, profile found, headline, URL — then ask
+   for confirmation with short labels. **STOP: the user confirms before any
+   mining.** Wrong-person mining wastes the whole budget.
 3. **Discover** — neither → run the full discovery pipeline below.
 
 Client: resolve from the request, **Virio first** — the client roster lives
@@ -90,8 +102,11 @@ possible, map keywords onto the corpus tag vocabulary (real tags, by volume):
 `partnerships`, `remote_work`, `saas`, `ecommerce`. Keywords that don't map to
 a tag still work via the text match below.
 
-Present the keyword list (tags + free-text terms). The user approves or edits.
-STOP.
+Print the full keyword list in the chat: corpus tags and free-text terms as
+a bulleted list, each with a one-line source rationale ("from ICP persona:
+…", "from pillar: …"). Then ask approve / edit with short option labels
+("Approve as-is", "Niche-only", "Wider net") — the keywords themselves live
+in the chat above, never only inside the options. STOP.
 
 ### Corpus discovery
 
@@ -169,10 +184,12 @@ Light ranking — a sort order, not a scoring product. Score /10:
 - **Activity 0–2** — posts per 90 days
 - **Relevance 0–1** — keyword/pillar overlap in their matching posts
 
-Present the ranked longlist as one table: rank, name, headline, matching
-posts, outliers, avg engagement, last seen, source (corpus / live / both).
-The user picks the shortlist — **default 5** (mining budget). More than 8
-requires an explicit budget warning and confirmation. STOP.
+Print the ranked longlist in the chat as one markdown table: rank, name,
+headline, matching posts, outliers, avg engagement, last seen, source
+(corpus / live / both). Then ask which to shortlist with short option
+labels (names only — the evidence stays in the table above). The user picks
+the shortlist — **default 5** (mining budget). More than 8 requires an
+explicit budget warning and confirmation. STOP.
 
 ## Mining — every mode converges here
 
@@ -285,8 +302,11 @@ was skipped.
 
 ## Select what to copy (STOP)
 
-After cards are saved, show the summary table, then ask what to copy into
-the client's strategy. The user picks any mix of:
+After cards are saved, print the selectable menu in the chat: the carded
+creators with scores, each creator's top posts (hook, engagement, URL), and
+the named patterns worth copying (hook styles, cadence, formats, CTA
+habits) — everything pickable, visible in the chat. Then ask what to copy
+into the client's strategy. The user picks any mix of:
 
 - **whole creators** — their full playbook,
 - **specific posts** — rows from the recent-15 and top-viral tables,
@@ -336,7 +356,9 @@ offer as a plain question:
 ## Rules
 
 - Stop at every marked decision point — keywords, longlist pick, list-mode
-  resolution, card overwrite. The user chooses; you recommend.
+  resolution, select-what-to-copy, card/strategy overwrite. The user
+  chooses; you recommend. Every stop follows "Presenting decisions": content
+  in the chat first, short-label question second.
 - No pipeline coupling: never trigger the post orchestrator, and never let a
   card substitute for a format spec or a style profile — it feeds them.
 - Purpose guard: if the user asks for outreach scoring, tiers, or outreach
